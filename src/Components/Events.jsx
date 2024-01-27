@@ -7,7 +7,7 @@ export default function Events() {
       <div className="card relative w-[90%] h-[40rem] border-2 rounded-lg overflow-hidden shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px]">
         <div className="image_container w-full overflow-hidden">
           <img
-            src="../../public/events/double.webp"
+            src="../../events/double.webp"
             className="w-full hover:scale-110 duration-300"
             alt=""
           />
