@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 export default function Events() {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6 w-4/5 mx-auto py-20">
-      <div className="card relative w-[90%] max-h-fit border-2 rounded-lg overflow-hidden shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px]">
-        <div className="image_container w-full overflow-hidden">
+      <div className="card relative w-[90%] max-h-fit border-2 rounded-2xl overflow-hidden shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px]">
+        <div className="image_container w-full overflow-hidden rounded-bl-[20%] rounded-br-[50%]">
           <img
             src="../../public/events/helloieee.webp"
             className="w-full hover:scale-110 duration-300"
@@ -35,8 +35,8 @@ export default function Events() {
           Date: 14th September, 2022
         </div>
       </div>
-      <div className="card relative w-[90%] h-[42rem] border-2 rounded-lg overflow-hidden shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px]">
-        <div className="image_container w-full overflow-hidden">
+      <div className="card relative w-[90%] h-[42rem] border-2 rounded-2xl overflow-hidden shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px]">
+        <div className="image_container w-full overflow-hidden rounded-bl-[20%] rounded-br-[50%]">
           <img
             src="../../public/events/elevatex2.webp"
             className="w-full hover:scale-110 duration-300"
@@ -67,8 +67,8 @@ export default function Events() {
           Date: 31st July - 22nd August, 2021
         </div>
       </div>
-      <div className="card relative w-[90%] h-[42rem] border-2 rounded-lg overflow-hidden shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px]">
-        <div className="image_container w-full overflow-hidden">
+      <div className="card relative w-[90%] h-[42rem] border-2 rounded-2xl overflow-hidden shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px]">
+        <div className="image_container w-full overflow-hidden rounded-bl-[20%] rounded-br-[50%]">
           <img
             src="../../events/double.webp"
             className="w-full hover:scale-110 duration-300"
@@ -99,8 +99,8 @@ export default function Events() {
         </div>
       </div>
 
-      <div className="card relative w-[90%] h-[42rem] border-2 rounded-lg overflow-hidden shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px]">
-        <div className="image_container w-full overflow-hidden">
+      <div className="card relative w-[90%] h-[42rem] border-2 rounded-2xl overflow-hidden shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px]">
+        <div className="image_container w-full overflow-hidden rounded-bl-[20%] rounded-br-[50%]">
           <img
             src="../../public/events/pass-the-mic.webp"
             className="w-full hover:scale-110 duration-300"
