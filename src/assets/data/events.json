@@ -1,0 +1,83 @@
+[
+    {
+        "id": 1,
+        "name": "Hello IEEE",
+        "description": "Unrivaled and unparalleled, Hello-IEEE stands true to its name: Introducing the myriad boons of IEEE to young enthusiasts yet to blossom into leaders of tomorrow and seamlessly bridging the gap between industry and academia through its unique array of events.",
+        "img": "../../events/helloieee.webp",
+        "link": "https://ieee-jaduniv.in/hello-IEEE/",
+        "date": "14th September, 2022"
+    },
+    {
+        "id": 2,
+        "name": "ElevateX 2.0",
+        "description": "ElevateX 2.0 is the second edition of elevateX an all-in-one mentoring session by IEEE JU SB members. Be it research or industry, be it competitive coding, or soft skill development, we have tracks tailor-made for your needs, complete with doubt-clearing, quick contests, real-world problems and webinars by field experts.",
+        "img": "../../events/elevatex2.webp",
+        "link": "https://ieee-jaduniv.in/hello-IEEE/",
+        "date": "31st July - 22nd August, 2021"
+    },
+    {
+        "id": 3,
+        "name": "Double // Slash",
+        "description": "“DoubleSlash - Code.Commit.Create” was a monumental 48-hour long Hackathon organized by the IEEE Jadavpur University Student Branch, IEEE Young Professionals Kolkata section and IEEE Computer Society Kolkata section. This was the first event in 2021.",
+        "img": "../../events/double.webp",
+        "link": "https://ieee-jaduniv.in/hello-IEEE/",
+        "date": "9th - 11th July, 2021"
+    },
+    {
+        "id": 4,
+        "name": "Pass the Mic",
+        "description": "A five week specially curated podcast series, organized by IEEE Student Branch, Pass the Mic aimed at providing the audience a with an in-depth understanding of some of the most intriguing topics, with an assorted lineup of some pioneers in the field.",
+        "img": "../../events/pass-the-mic.webp",
+        "link": "https://ieee-jaduniv.in/hello-IEEE/",
+        "date": "18th December, 2020"
+    },
+    {
+        "id": 5,
+        "name": "Projection",
+        "description": "Projection is an one-on-one mentorship research program for 2nd year and 3rd year undergraduate students led by multiple experts across industries.",
+        "img": "../../events/projection.webp",
+        "link": "https://projection.ieee-jaduniv.in/",
+        "date": "29th May, 2020"
+    },
+    {
+        "id": 6,
+        "name": "ElevateX",
+        "description": "ElevateX is an all-in-one mentoring session by IEEE JU SB members. Be it research or industry, be it competitive coding, electronics or soft skill development, we have tracks tailor-made for your needs, complete with doubt-clearing, quick contests, real-world problems and webinars by field experts.",
+        "img": "../../events/elevateX.webp",
+        "link": "https://ieee-jaduniv.in/ElevateX/",
+        "date": "9th April, 2020"
+    },
+    {
+        "id": 7,
+        "name": "Tech X",
+        "description": "TechX Congress is the Eastern Indian Techno-Management Leadership Summit hosted by the IEEE computer society SYP MGAB in collaboration with two of India’s premier IEEE student chapters - Jadavpur University and NIT Durgapur",
+        "img": "../../events/techx.webp",
+        "link": "https://ieee-jaduniv.in/techX/",
+        "date": "28 Feb - 1 Mar, 2020"
+
+    },
+    {
+        "id": 8,
+        "name": "ML Accelerator Summit",
+        "description": "The Machine Learning Accelerator Summit is a tiny step to help students, engineers and tech enthusiasts live the AI dream.",
+        "img": "../../events/mla.webp",
+        "link": "https://ieee-jaduniv.in/mla/index.html",
+        "date": "October 20, 2019"
+    },
+    {
+        "id": 9,
+        "name": "Rewired 1.0",
+        "description": "Rewired 1.0 conducted by the IEEE Jadavpur University Student Branch was a Hands-on workshop mainly focused to attract students to learn about the intricacies of Electronics. It was mainly focused to attract students to learn Electronics and understand the practical aspects of it.",
+        "img": "../../events/rewired.webp",
+        "link": "https://www.facebook.com/379102212921998/posts/487814142050804/?sfnsn=wiwspwa&extid=RNLRXMv5ShbE6f7Y",
+        "date": "1 September, 2019"
+    },
+    {
+        "id": 10,
+        "name": "Think AI",
+        "description": "Think AI, organized by IEEE Computer Society Student Chapter, sought to provide exposure in fields of Machine Learning and AI, through interactive sessions with speakers and hands- on implementation of Machine Learning algorithms.",
+        "img": "../../events/thinkAI.webp",
+        "link": "https://ieee-jaduniv.in/thinkai/index.html",
+        "date": "19 - 20 April, 2019"
+    }
+]
