@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Chapters() {
   return (
-    <div className="py-10 md:h-[900px] bg-[url('/chapters/chapters-bg.jpg')] bg-no-repeat bg-cover font-Josefin">
+    <div className="py-10 pt-[90px] md:h-[900px] bg-[url('/chapters/chapters-bg.jpg')] bg-no-repeat bg-cover font-Josefin">
       {/* HEADER */}
       <h1 className="text-4xl text-sky-950 text-center font-extrabold">
         STUDENT BRANCH CHAPTERS
