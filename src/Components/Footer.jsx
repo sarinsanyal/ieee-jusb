@@ -7,7 +7,7 @@ import { BsTwitterX } from "react-icons/bs";
 export default function Footer() {
   return (
     <div>
-      <footer className="bg-sky-950 text-white">
+      <footer className="bg-sky-950 text-white font-Josefin">
         <div className="mx-auto w-full max-w-screen-xl p-16 py-6 lg:py-8">
           <div className="grid grid-cols-1 sm:gap-6 sm:grid-cols-4">
             <div className='mt-8'>
