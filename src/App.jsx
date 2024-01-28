@@ -6,7 +6,6 @@ import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
 import Team from './Components/Team';
 import Events from './Components/Events';
-import Advisors from './Components/Advisors';
 
 function App() {
 
@@ -18,7 +17,6 @@ function App() {
           <Route path='/' element={<Home/>}/>
           <Route path='/team' element={<Team/>}/>
           <Route path='/events' element={<Events/>}/>
-          <Route path='/advisors' element={<Advisors/>}/>
         </Routes>
         <Footer/>
       </BrowserRouter>

@@ -18,7 +18,7 @@ export default function About() {
           slowly grown, met new people, evolved as a group and built around us, a community of like-minded individuals who
           are driven by a passion for learning and giving back to society...</p>
           <br />
-          <a href="https://www.ieee.org"><button type="button" className="text-white font-semibold bg-blue-900 px-5 py-2.5 me-2 mb-2 rounded transition-colors duration-150 ease-in-out hover:bg-blue-700 drop-shadow-md">More about IEEE</button></a>
+          <a href="https://www.ieee.org" target='blank'><button type="button" className="text-white font-semibold bg-blue-900 px-5 py-2.5 me-2 mb-2 rounded transition-colors duration-150 ease-in-out hover:bg-blue-700 drop-shadow-md">More about IEEE</button></a>
       </div>
     </div>
   )

@@ -35,10 +35,7 @@ export default function Navbar() {
           else{return ""}}}>Home</NavHashLink>
         <HashLink to={"/#about"} activeClassName='active'>About</HashLink>
         <HashLink to={'/#chapters'} >Chapters</HashLink>
-        <NavLink to={'/advisor'} 
-          className={({isActive})=>{
-          if(isActive){ return "active"}
-          else{return ""}}}>Advisors</NavLink>
+        <HashLink to={'/#advisors'} >Advisors</HashLink>
         <NavLink to={'/events'} 
           className={({isActive})=>{
           if(isActive){ return "active"}
