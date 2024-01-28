@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function About() {
   return (
-    <div className="bg-sky-950 text-white py-10">
+    <div className="bg-sky-950 text-white py-10 pt-[90px] font-Josefin">
       <div className="flex justify-center">
         <h2 className="text-4xl font-extrabold">ABOUT US</h2>
       </div>
@@ -18,7 +18,7 @@ export default function About() {
           slowly grown, met new people, evolved as a group and built around us, a community of like-minded individuals who
           are driven by a passion for learning and giving back to society...</p>
           <br />
-          <a href="https://www.ieee.org"><button type="button" className="text-white font-semibold bg-blue-900 px-5 py-2.5 me-2 mb-2 rounded transition-colors duration-150 ease-in-out hover:bg-blue-700">More about IEEE</button></a>
+          <a href="https://www.ieee.org"><button type="button" className="text-white font-semibold bg-blue-900 px-5 py-2.5 me-2 mb-2 rounded transition-colors duration-150 ease-in-out hover:bg-blue-700 drop-shadow-md">More about IEEE</button></a>
       </div>
     </div>
   )
