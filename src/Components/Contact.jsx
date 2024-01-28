@@ -3,7 +3,7 @@ import { MdOutlineEmail } from "react-icons/md";
 
 export default function Contact() {
   return (
-    <div className="py-10 pt-[90px]">
+    <div className="py-10 pt-[90px] font-Josefin">
       {/* HEADER */}
       <h1 className="text-4xl text-sky-950 text-center font-extrabold">
         CONTACT US
