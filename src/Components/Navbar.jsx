@@ -28,7 +28,7 @@ export default function Navbar() {
         {navOpen ? <IoMdClose size={30}/> : <RxHamburgerMenu size={30}/>}
       </button>
 
-      <div className={`flex md:flex-row flex-col uppercase font-semibold font-Josefin text-sm my-auto md:mx-2 gap-4 md:w-auto nav-mobile ${navOpen?"animate-[width] duration-500 w-[50%]":"w-0 animate-[width] duration-500 overflow-hidden"}`}>
+      <div className={`flex md:flex-row flex-col uppercase font-semibold font-Josefin text-sm my-auto md:mx-2 gap-4 md:w-auto nav-mobile ${navOpen?"-md:animate-[width] duration-500 w-[50%]":"w-0 -md:animate-[width] duration-500 overflow-hidden"}`}>
         <NavHashLink to={'/#'} 
           className={({isActive})=>{
           if(isActive){ return "active"}
