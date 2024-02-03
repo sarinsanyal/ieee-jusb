@@ -596,7 +596,7 @@ export default function Team() {
         Tech Team
       </h2>
 
-      <div className="card_container w-full screen grid items-center justify-center grid-cols-1 md:grid-cols-4 gap-x-4 gap-y-12 px-12 mb-4 content-center">
+      <div className="card_container w-full grid grid-cols-1 md:grid-cols-4 content-center gap-x-4 gap-y-12 px-12 mb-4">
         {tech.map((member) => (
           <div
             className="card w-[90%] h-[28rem] flex flex-col justify-between gap-4"
@@ -624,7 +624,7 @@ export default function Team() {
         Design Team
       </h2>
 
-      <div className="card_container w-full screen grid items-center justify-center grid-cols-1 md:grid-cols-4 gap-x-4 gap-y-12 px-12 mb-4 place-self-center">
+      <div className="card_container w-full grid items-center justify-center grid-cols-1 md:grid-cols-4 gap-x-4 gap-y-12 px-12 mb-4 place-self-center">
         {design.map((member) => (
           <div
             className="card w-[90%] h-[28rem] flex flex-col justify-between gap-4"
@@ -653,7 +653,7 @@ export default function Team() {
         Content Team
       </h2>
 
-      <div className="card_container w-full screen grid items-center justify-center grid-cols-1 md:grid-cols-4 gap-x-4 gap-y-12 px-12 mb-4">
+      <div className="card_container w-full grid items-center justify-center grid-cols-1 md:grid-cols-4 gap-x-4 gap-y-12 px-12 mb-4">
         {content.map((member) => (
           <div
             className="card w-[90%] h-[28rem] flex flex-col justify-between gap-4"
@@ -682,7 +682,7 @@ export default function Team() {
         PR Team
       </h2>
 
-      <div className="card_container w-full screen grid items-center justify-center grid-cols-1 md:grid-cols-4 gap-x-4 gap-y-12 px-12 mb-4">
+      <div className="card_container w-full grid items-center justify-center grid-cols-1 md:grid-cols-4 gap-x-4 gap-y-12 px-12 mb-4">
         {pr.map((member) => (
           <div
             className="card w-[90%] h-[28rem] flex flex-col justify-between gap-4"
@@ -711,7 +711,7 @@ export default function Team() {
         Logistics Team
       </h2>
 
-      <div className="card_container w-full screen grid items-center justify-center grid-cols-1 md:grid-cols-4 gap-x-4 gap-y-12 px-12 mb-4">
+      <div className="card_container w-full grid items-center justify-center grid-cols-1 md:grid-cols-4 gap-x-4 gap-y-12 px-12 mb-4">
         {logistics.map((member) => (
           <div
             className="card w-[90%] h-[28rem] flex flex-col justify-between gap-4"
