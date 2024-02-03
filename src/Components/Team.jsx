@@ -8,67 +8,67 @@ export default function Team() {
       id: 1,
       name: "Subhadip De",
       por: "Chairperson",
-      image: "../../public/teams/Subhadip De.webp",
+      image: "../../teams/Subhadip De.webp",
     },
     {
       id: 2,
       name: "Souvik Saha",
       por: "Vice-Chairperson",
-      image: "../../public/teams/Souvik Saha.webp",
+      image: "../../teams/Souvik Saha.webp",
     },
     {
       id: 3,
       name: "Dipayan Bhattacharya",
       por: "Secretary",
-      image: "../../public/teams/Dipayan Bhattacharyya.webp",
+      image: "../../teams/Dipayan Bhattacharyya.webp",
     },
     {
       id: 4,
       name: "Ashutosh Jha",
       por: "Treasurer",
-      image: "../../public/teams/Ashutosh Jha.webp",
+      image: "../../teams/Ashutosh Jha.webp",
     },
     {
       id: 5,
       name: "Nazmus Saqib",
       por: "Webmaster",
-      image: "../../public/teams/dummy.webp",
+      image: "../../teams/dummy.webp",
     },
     {
       id: 6,
       name: "Akash Bag",
       por: "Tech Lead",
-      image: "../../public/teams/akash.webp",
+      image: "../../teams/akash.webp",
     },
     {
       id: 7,
       name: "Debajoti Chakraborty",
       por: "Design Lead",
-      image: "../../public/teams/Debajoti.webp",
+      image: "../../teams/Debajoti.webp",
     },
     {
       id: 8,
       name: "Adrija Mukherjee",
       por: "Content Lead",
-      image: "../../public/teams/Adrija.webp",
+      image: "../../teams/Adrija.webp",
     },
     {
       id: 9,
       name: "Sayandeep Sarkar",
       por: "PR Lead",
-      image: "../../public/teams/Sayandeep.webp",
+      image: "../../teams/Sayandeep.webp",
     },
     {
       id: 10,
       name: "Souvik Kirtania",
       por: "Logistic Lead",
-      image: "../../public/teams/dummy.webp",
+      image: "../../teams/dummy.webp",
     },
     {
       id: 11,
       name: "Somenath Garai",
       por: "Sponsorship Lead",
-      image: "../../public/teams/Somenath Garai.webp",
+      image: "../../teams/Somenath Garai.webp",
     },
   ];
 
@@ -76,39 +76,39 @@ export default function Team() {
     {
       id: 1,
       name: "Abhinandan Roy",
-      image: "../../public/teams/Abhinandan.webp",
+      image: "../../teams/Abhinandan.webp",
     },
     {
       id: 2,
       name: "Sayan Sah",
-      image: "../../public/teams/dummy.webp",
+      image: "../../teams/dummy.webp",
     },
     {
       id: 3,
       name: "Shakya Majumdar",
-      image: "../../public/teams/Shakya.webp",
+      image: "../../teams/Shakya.webp",
     },
     {
       id: 4,
       name: "Parijat Majumdar",
-      image: "../../public/teams/Parijat.webp",
+      image: "../../teams/Parijat.webp",
     },
     {
       id: 5,
       name: "Reejul Chattaraj",
-      image: "../../public/teams/Reejul.webp",
+      image: "../../teams/Reejul.webp",
     },
   ];
   const design = [
     {
       id: 1,
       name: "Anirban Das",
-      image: "../../public/teams/Anirban.webp",
+      image: "../../teams/Anirban.webp",
     },
     {
       id: 2,
       name: "Sadiq Siraj Ibrahim",
-      image: "../../public/teams/Sadiq.webp",
+      image: "../../teams/Sadiq.webp",
     },
   ];
 
@@ -116,37 +116,37 @@ export default function Team() {
     {
       id: 1,
       name: "Adway Paul",
-      image: "../../public/teams/dummy.webp",
+      image: "../../teams/dummy.webp",
     },
     {
       id: 2,
       name: "Architava Bhattacharya",
-      image: "../../public/teams/Architava.webp",
+      image: "../../teams/Architava.webp",
     },
     {
       id: 3,
       name: "Debjyoti Nandi",
-      image: "../../public/teams/Debjyoti Nandi.webp",
+      image: "../../teams/Debjyoti Nandi.webp",
     },
     {
       id: 4,
       name: "Haimi Jha",
-      image: "../../public/teams/haimi.webp",
+      image: "../../teams/haimi.webp",
     },
     {
       id: 5,
       name: "Sakshya Mukherjee",
-      image: "../../public/teams/Shakshya.webp",
+      image: "../../teams/Shakshya.webp",
     },
     {
       id: 6,
       name: "Shankha Bhattacharya",
-      image: "../../public/teams/shankha-bhattacharya.webp",
+      image: "../../teams/shankha-bhattacharya.webp",
     },
     {
       id: 7,
       name: "Sumedha Ghosh Chowdhury",
-      image: "../../public/teams/sumedha.webp",
+      image: "../../teams/sumedha.webp",
     },
   ];
 
@@ -154,17 +154,17 @@ export default function Team() {
     {
       id: 1,
       name: "Arka Roy",
-      image: "../../public/teams/Arka.webp",
+      image: "../../teams/Arka.webp",
     },
     {
       id: 2,
       name: "Arpan Saha",
-      image: "../../public/teams/arpan.webp",
+      image: "../../teams/arpan.webp",
     },
     {
       id: 3,
       name: "Arya Pandit",
-      image: "../../public/teams/Arya.webp",
+      image: "../../teams/Arya.webp",
     },
   ];
 
@@ -172,27 +172,27 @@ export default function Team() {
     {
       id: 1,
       name: "Ayush Shankar",
-      image: "../../public/teams/ayush-shankar.webp",
+      image: "../../teams/ayush-shankar.webp",
     },
     {
       id: 2,
       name: "Jyotishko Dey",
-      image: "../../public/teams/Jyotishko.webp",
+      image: "../../teams/Jyotishko.webp",
     },
     {
       id: 3,
       name: "Lokesh Bihani",
-      image: "../../public/teams/lokesh-bihani.webp",
+      image: "../../teams/lokesh-bihani.webp",
     },
     {
       id: 4,
       name: "Md Shahzaman",
-      image: "../../public/teams/Md Shahzaman.webp",
+      image: "../../teams/Md Shahzaman.webp",
     },
     {
       id: 5,
       name: "Tuhin Mallick",
-      image: "../../public/teams/Tuhin.webp",
+      image: "../../teams/Tuhin.webp",
     },
   ];
 
@@ -241,7 +241,7 @@ export default function Team() {
             <div className="card w-[90%] h-[32rem] flex flex-col justify-between gap-4">
               <div className="relative w-full h-[20rem] rounded-lg hover:scale-105 duration-300 overflow-hidden">
                 <img
-                  src="../../public/teams/Rajarshi Mukherjee.webp"
+                  src="../../teams/Rajarshi Mukherjee.webp"
                   className="w-full h-full object-cover"
                   alt=""
                 />
@@ -262,7 +262,7 @@ export default function Team() {
             <div className="card w-[90%] h-[32rem] flex flex-col justify-between gap-4">
               <div className="relative w-full h-[20rem] rounded-lg hover:scale-105 duration-300 overflow-hidden">
                 <img
-                  src="../../public/teams/disha.webp"
+                  src="../../teams/disha.webp"
                   className="w-full h-full object-cover"
                   alt=""
                 />
@@ -283,7 +283,7 @@ export default function Team() {
             <div className="card w-[90%] h-[32rem] flex flex-col justify-between gap-4">
               <div className="relative w-full h-[20rem] rounded-lg hover:scale-105 duration-300 overflow-hidden">
                 <img
-                  src="../../public/teams/dummy.webp"
+                  src="../../teams/dummy.webp"
                   className="w-full h-full object-cover"
                   alt=""
                 />
@@ -313,7 +313,7 @@ export default function Team() {
             <div className="card w-[90%] h-[32rem] flex flex-col justify-between gap-4">
               <div className="relative w-full h-[20rem] rounded-lg hover:scale-105 duration-300 overflow-hidden">
                 <img
-                  src="../../public/teams/Subham Sinha.webp"
+                  src="../../teams/Subham Sinha.webp"
                   className="w-full h-full object-cover"
                   alt=""
                 />
@@ -334,7 +334,7 @@ export default function Team() {
             <div className="card w-[90%] h-[32rem] flex flex-col justify-between gap-4">
               <div className="relative w-full h-[20rem] rounded-lg hover:scale-105 duration-300 overflow-hidden">
                 <img
-                  src="../../public/teams/Arka.webp"
+                  src="../../teams/Arka.webp"
                   className="w-full h-full object-cover"
                   alt=""
                 />
@@ -355,7 +355,7 @@ export default function Team() {
             <div className="card w-[90%] h-[32rem] flex flex-col justify-between gap-4">
               <div className="relative w-full h-[20rem] rounded-lg hover:scale-105 duration-300 overflow-hidden">
                 <img
-                  src="../../public/teams/Shakshya.webp"
+                  src="../../teams/Shakshya.webp"
                   className="w-full h-full object-cover"
                   alt=""
                 />
@@ -385,7 +385,7 @@ export default function Team() {
             <div className="card w-[90%] h-[32rem] flex flex-col justify-between gap-4">
               <div className="relative w-full h-[20rem] rounded-lg hover:scale-105 duration-300 overflow-hidden">
                 <img
-                  src="../../public/teams/dummy.webp"
+                  src="../../teams/dummy.webp"
                   className="w-full h-full object-cover"
                   alt=""
                 />
@@ -406,7 +406,7 @@ export default function Team() {
             <div className="card w-[90%] h-[32rem] flex flex-col justify-between gap-4">
               <div className="relative w-full h-[20rem] rounded-lg hover:scale-105 duration-300 overflow-hidden">
                 <img
-                  src="../../public/teams/Trisha Samanta.webp"
+                  src="../../teams/Trisha Samanta.webp"
                   className="w-full h-full object-cover"
                   alt=""
                 />
@@ -427,7 +427,7 @@ export default function Team() {
             <div className="card w-[90%] h-[32rem] flex flex-col justify-between gap-4">
               <div className="relative w-full h-[20rem] rounded-lg hover:scale-105 duration-300 overflow-hidden">
                 <img
-                  src="../../public/teams/haimi.webp"
+                  src="../../teams/haimi.webp"
                   className="w-full h-full object-cover"
                   alt=""
                 />
@@ -457,7 +457,7 @@ export default function Team() {
             <div className="card w-[90%] h-[32rem] flex flex-col justify-between gap-4">
               <div className="relative w-full h-[20rem] rounded-lg hover:scale-105 duration-300 overflow-hidden">
                 <img
-                  src="../../public/teams/Jyotishko.webp"
+                  src="../../teams/Jyotishko.webp"
                   className="w-full h-full object-cover"
                   alt=""
                 />
@@ -478,7 +478,7 @@ export default function Team() {
             <div className="card w-[90%] h-[32rem] flex flex-col justify-between gap-4">
               <div className="relative w-full h-[20rem] rounded-lg hover:scale-105 duration-300 overflow-hidden">
                 <img
-                  src="../../public/teams/dummy.webp"
+                  src="../../teams/dummy.webp"
                   className="w-full h-full object-cover"
                   alt=""
                 />
@@ -499,7 +499,7 @@ export default function Team() {
             <div className="card w-[90%] h-[32rem] flex flex-col justify-between gap-4">
               <div className="relative w-full h-[20rem] rounded-lg hover:scale-105 duration-300 overflow-hidden">
                 <img
-                  src="../../public/teams/Sadiq.webp"
+                  src="../../teams/Sadiq.webp"
                   className="w-full h-full object-cover"
                   alt=""
                 />
@@ -529,7 +529,7 @@ export default function Team() {
             <div className="card w-[90%] h-[32rem] flex flex-col justify-between gap-4">
               <div className="relative w-full h-[20rem] rounded-lg hover:scale-105 duration-300 overflow-hidden">
                 <img
-                  src="../../public/teams/ayush-shankar.webp"
+                  src="../../teams/ayush-shankar.webp"
                   className="w-full h-full object-cover"
                   alt=""
                 />
@@ -550,7 +550,7 @@ export default function Team() {
             <div className="card w-[90%] h-[32rem] flex flex-col justify-between gap-4">
               <div className="relative w-full h-[20rem] rounded-lg hover:scale-105 duration-300 overflow-hidden">
                 <img
-                  src="../../public/teams/Abhinandan.webp"
+                  src="../../teams/Abhinandan.webp"
                   className="w-full h-full object-cover"
                   alt=""
                 />
@@ -571,7 +571,7 @@ export default function Team() {
             <div className="card w-[90%] h-[32rem] flex flex-col justify-between gap-4">
               <div className="relative w-full h-[20rem] rounded-lg hover:scale-105 duration-300 overflow-hidden">
                 <img
-                  src="../../public/teams/sumedha.webp"
+                  src="../../teams/sumedha.webp"
                   className="w-full h-full object-cover rotate-90"
                   alt=""
                 />
