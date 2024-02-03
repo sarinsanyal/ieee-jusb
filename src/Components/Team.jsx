@@ -204,7 +204,7 @@ export default function Team() {
       <h2 className="relative text-center font-Josefin text-4xl font-semibold">
         Executive Committee
       </h2>
-      <div className="card_container w-full screen grid items-center justify-center grid-cols-1 md:grid-cols-4 gap-x-4 gap-y-12 px-12">
+      <div className="card_container w-full grid items-center justify-center grid-cols-1 md:grid-cols-4 gap-x-4 gap-y-12 px-12">
         {excom.map((member) => (
           <div
             className="card w-[90%] h-[32rem] flex flex-col justify-between gap-4"
@@ -213,7 +213,7 @@ export default function Team() {
             <div className="relative w-full h-[20rem] rounded-lg hover:scale-105 duration-300 overflow-hidden">
               <img
                 src={`${member.image}`}
-                className="w-full object-cover"
+                className="w-full h-full object-cover"
                 alt=""
               />
             </div>
@@ -232,17 +232,17 @@ export default function Team() {
         ))}
       </div>
 
-      <div className="relative w-full h-fit my-12">
+      <div className="relative w-full h-fit my-12 flex flex-col gap-4">
         <h2 className="relative text-center font-Josefin text-4xl font-semibold">
           IAS Chapter
         </h2>
         <div className="relative w-full h-fit px-12 flex flex-row">
-          <div className="card_container relative w-full h-fit grid grid-cols-1 lg:grid-cols-3 justify-center items-center">
+          <div className="card_container relative w-full h-fit grid grid-cols-1 lg:grid-cols-3 justify-center items-center gap-4">
             <div className="card w-[90%] h-[32rem] flex flex-col justify-between gap-4">
               <div className="relative w-full h-[20rem] rounded-lg hover:scale-105 duration-300 overflow-hidden">
                 <img
                   src="../../public/teams/Rajarshi Mukherjee.webp"
-                  className="w-full object-cover"
+                  className="w-full h-full object-cover"
                   alt=""
                 />
               </div>
@@ -263,7 +263,7 @@ export default function Team() {
               <div className="relative w-full h-[20rem] rounded-lg hover:scale-105 duration-300 overflow-hidden">
                 <img
                   src="../../public/teams/disha.webp"
-                  className="w-full object-cover"
+                  className="w-full h-full object-cover"
                   alt=""
                 />
               </div>
@@ -284,7 +284,7 @@ export default function Team() {
               <div className="relative w-full h-[20rem] rounded-lg hover:scale-105 duration-300 overflow-hidden">
                 <img
                   src="../../public/teams/dummy.webp"
-                  className="w-full object-cover"
+                  className="w-full h-full object-cover"
                   alt=""
                 />
               </div>
@@ -304,17 +304,17 @@ export default function Team() {
         </div>
       </div>
 
-      <div className="relative w-full h-fit my-12">
+      <div className="relative w-full h-fit my-12 flex flex-col gap-4">
         <h2 className="relative text-center font-Josefin text-4xl font-semibold">
           CS Chapter
         </h2>
         <div className="relative w-full h-fit px-12 flex flex-row">
-          <div className="card_container relative w-full h-fit grid grid-cols-1 lg:grid-cols-3 justify-center items-center">
+          <div className="card_container relative w-full h-fit grid grid-cols-1 lg:grid-cols-3 justify-center items-center gap-4">
             <div className="card w-[90%] h-[32rem] flex flex-col justify-between gap-4">
               <div className="relative w-full h-[20rem] rounded-lg hover:scale-105 duration-300 overflow-hidden">
                 <img
                   src="../../public/teams/Subham Sinha.webp"
-                  className="w-full object-cover"
+                  className="w-full h-full object-cover"
                   alt=""
                 />
               </div>
@@ -335,7 +335,7 @@ export default function Team() {
               <div className="relative w-full h-[20rem] rounded-lg hover:scale-105 duration-300 overflow-hidden">
                 <img
                   src="../../public/teams/Arka.webp"
-                  className="w-full object-cover"
+                  className="w-full h-full object-cover"
                   alt=""
                 />
               </div>
@@ -356,7 +356,7 @@ export default function Team() {
               <div className="relative w-full h-[20rem] rounded-lg hover:scale-105 duration-300 overflow-hidden">
                 <img
                   src="../../public/teams/Shakshya.webp"
-                  className="w-full object-cover"
+                  className="w-full h-full object-cover"
                   alt=""
                 />
               </div>
@@ -376,17 +376,17 @@ export default function Team() {
         </div>
       </div>
 
-      <div className="relative w-full h-fit my-12">
+      <div className="relative w-full h-fit my-12 flex flex-col gap-4">
         <h2 className="relative text-center font-Josefin text-4xl font-semibold">
           WIE Section
         </h2>
         <div className="relative w-full h-fit px-12 flex flex-row">
-          <div className="card_container relative w-full h-fit grid grid-cols-1 lg:grid-cols-3 justify-center items-center">
+          <div className="card_container relative w-full h-fit grid grid-cols-1 lg:grid-cols-3 justify-center items-center gap-4">
             <div className="card w-[90%] h-[32rem] flex flex-col justify-between gap-4">
               <div className="relative w-full h-[20rem] rounded-lg hover:scale-105 duration-300 overflow-hidden">
                 <img
                   src="../../public/teams/dummy.webp"
-                  className="w-full object-cover"
+                  className="w-full h-full object-cover"
                   alt=""
                 />
               </div>
@@ -407,7 +407,7 @@ export default function Team() {
               <div className="relative w-full h-[20rem] rounded-lg hover:scale-105 duration-300 overflow-hidden">
                 <img
                   src="../../public/teams/Trisha Samanta.webp"
-                  className="w-full object-cover"
+                  className="w-full h-full object-cover"
                   alt=""
                 />
               </div>
@@ -428,7 +428,7 @@ export default function Team() {
               <div className="relative w-full h-[20rem] rounded-lg hover:scale-105 duration-300 overflow-hidden">
                 <img
                   src="../../public/teams/haimi.webp"
-                  className="w-full object-cover"
+                  className="w-full h-full object-cover"
                   alt=""
                 />
               </div>
@@ -448,17 +448,17 @@ export default function Team() {
         </div>
       </div>
 
-      <div className="relative w-full h-fit my-12">
+      <div className="relative w-full h-fit my-12 flex flex-col gap-4">
         <h2 className="relative text-center font-Josefin text-4xl font-semibold">
           COMSOC Society
         </h2>
         <div className="relative w-full h-fit px-12 flex flex-row">
-          <div className="card_container relative w-full h-fit grid grid-cols-1 lg:grid-cols-3 justify-center items-center">
+          <div className="card_container relative w-full h-fit grid grid-cols-1 lg:grid-cols-3 justify-center items-center gap-4">
             <div className="card w-[90%] h-[32rem] flex flex-col justify-between gap-4">
               <div className="relative w-full h-[20rem] rounded-lg hover:scale-105 duration-300 overflow-hidden">
                 <img
                   src="../../public/teams/Jyotishko.webp"
-                  className="w-full object-cover"
+                  className="w-full h-full object-cover"
                   alt=""
                 />
               </div>
@@ -479,7 +479,7 @@ export default function Team() {
               <div className="relative w-full h-[20rem] rounded-lg hover:scale-105 duration-300 overflow-hidden">
                 <img
                   src="../../public/teams/dummy.webp"
-                  className="w-full object-cover"
+                  className="w-full h-full object-cover"
                   alt=""
                 />
               </div>
@@ -500,7 +500,7 @@ export default function Team() {
               <div className="relative w-full h-[20rem] rounded-lg hover:scale-105 duration-300 overflow-hidden">
                 <img
                   src="../../public/teams/Sadiq.webp"
-                  className="w-full object-cover"
+                  className="w-full h-full object-cover"
                   alt=""
                 />
               </div>
@@ -520,17 +520,17 @@ export default function Team() {
         </div>
       </div>
 
-      <div className="relative w-full h-fit my-12">
+      <div className="relative w-full h-fit my-12 flex flex-col gap-4">
         <h2 className="relative text-center font-Josefin text-4xl font-semibold">
           PES Society
         </h2>
         <div className="relative w-full h-fit px-12 flex flex-row">
-          <div className="card_container relative w-full h-fit grid grid-cols-1 lg:grid-cols-3 justify-center items-center">
+          <div className="card_container relative w-full h-fit grid grid-cols-1 lg:grid-cols-3 justify-center items-center gap-4">
             <div className="card w-[90%] h-[32rem] flex flex-col justify-between gap-4">
               <div className="relative w-full h-[20rem] rounded-lg hover:scale-105 duration-300 overflow-hidden">
                 <img
                   src="../../public/teams/ayush-shankar.webp"
-                  className="w-full object-cover"
+                  className="w-full h-full object-cover"
                   alt=""
                 />
               </div>
@@ -551,7 +551,7 @@ export default function Team() {
               <div className="relative w-full h-[20rem] rounded-lg hover:scale-105 duration-300 overflow-hidden">
                 <img
                   src="../../public/teams/Abhinandan.webp"
-                  className="w-full object-cover"
+                  className="w-full h-full object-cover"
                   alt=""
                 />
               </div>
@@ -572,7 +572,7 @@ export default function Team() {
               <div className="relative w-full h-[20rem] rounded-lg hover:scale-105 duration-300 overflow-hidden">
                 <img
                   src="../../public/teams/sumedha.webp"
-                  className="w-full object-cover rotate-90"
+                  className="w-full h-full object-cover rotate-90"
                   alt=""
                 />
               </div>
@@ -590,6 +590,150 @@ export default function Team() {
             </div>
           </div>
         </div>
+      </div>
+
+      <h2 className="relative text-center font-Josefin text-4xl font-semibold">
+        Tech Team
+      </h2>
+
+      <div className="card_container w-full screen grid items-center justify-center grid-cols-1 md:grid-cols-4 gap-x-4 gap-y-12 px-12">
+        {tech.map((member) => (
+          <div
+            className="card w-[90%] h-[28rem] flex flex-col justify-between gap-4"
+            key={member.id}
+          >
+            <div className="relative w-full h-[20rem] rounded-lg hover:scale-105 duration-300 overflow-hidden">
+              <img
+                src={`${member.image}`}
+                className="w-full h-full object-cover"
+                alt=""
+              />
+            </div>
+            <p className="text-center font-Josefin font-medium text-3xl">
+              {member.name}
+            </p>
+            <div className="flex flex-row justify-center items-center gap-12 text-3xl">
+              <FaInstagram className="relative cursor-pointer" />
+              <FaLinkedinIn className="relative cursor-pointer" />
+              <FaXTwitter className="relative cursor-pointer" />
+            </div>
+          </div>
+        ))}
+      </div>
+      <h2 className="relative text-center font-Josefin text-4xl font-semibold">
+        Design Team
+      </h2>
+
+      <div className="card_container w-full screen grid items-center justify-center grid-cols-1 md:grid-cols-4 gap-x-4 gap-y-12 px-12">
+        {design.map((member) => (
+          <div
+            className="card w-[90%] h-[28rem] flex flex-col justify-between gap-4"
+            key={member.id}
+          >
+            <div className="relative w-full h-[20rem] rounded-lg hover:scale-105 duration-300 overflow-hidden">
+              <img
+                src={`${member.image}`}
+                className="w-full h-full object-cover"
+                alt=""
+              />
+            </div>
+            <p className="text-center font-Josefin font-medium text-3xl">
+              {member.name}
+            </p>
+            <div className="flex flex-row justify-center items-center gap-12 text-3xl">
+              <FaInstagram className="relative cursor-pointer" />
+              <FaLinkedinIn className="relative cursor-pointer" />
+              <FaXTwitter className="relative cursor-pointer" />
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <h2 className="relative text-center font-Josefin text-4xl font-semibold">
+        Content Team
+      </h2>
+
+      <div className="card_container w-full screen grid items-center justify-center grid-cols-1 md:grid-cols-4 gap-x-4 gap-y-12 px-12">
+        {content.map((member) => (
+          <div
+            className="card w-[90%] h-[28rem] flex flex-col justify-between gap-4"
+            key={member.id}
+          >
+            <div className="relative w-full h-[20rem] rounded-lg hover:scale-105 duration-300 overflow-hidden">
+              <img
+                src={`${member.image}`}
+                className="w-full h-full object-cover"
+                alt=""
+              />
+            </div>
+            <p className="text-center font-Josefin font-medium text-3xl">
+              {member.name}
+            </p>
+            <div className="flex flex-row justify-center items-center gap-12 text-3xl">
+              <FaInstagram className="relative cursor-pointer" />
+              <FaLinkedinIn className="relative cursor-pointer" />
+              <FaXTwitter className="relative cursor-pointer" />
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <h2 className="relative text-center font-Josefin text-4xl font-semibold">
+        PR Team
+      </h2>
+
+      <div className="card_container w-full screen grid items-center justify-center grid-cols-1 md:grid-cols-4 gap-x-4 gap-y-12 px-12">
+        {pr.map((member) => (
+          <div
+            className="card w-[90%] h-[28rem] flex flex-col justify-between gap-4"
+            key={member.id}
+          >
+            <div className="relative w-full h-[20rem] rounded-lg hover:scale-105 duration-300 overflow-hidden">
+              <img
+                src={`${member.image}`}
+                className="w-full h-full object-cover"
+                alt=""
+              />
+            </div>
+            <p className="text-center font-Josefin font-medium text-3xl">
+              {member.name}
+            </p>
+            <div className="flex flex-row justify-center items-center gap-12 text-3xl">
+              <FaInstagram className="relative cursor-pointer" />
+              <FaLinkedinIn className="relative cursor-pointer" />
+              <FaXTwitter className="relative cursor-pointer" />
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <h2 className="relative text-center font-Josefin text-4xl font-semibold">
+        Logistics Team
+      </h2>
+
+      <div className="card_container w-full screen grid items-center justify-center grid-cols-1 md:grid-cols-4 gap-x-4 gap-y-12 px-12">
+        {logistics.map((member) => (
+          <div
+            className="card w-[90%] h-[28rem] flex flex-col justify-between gap-4"
+            key={member.id}
+          >
+            <div className="relative w-full h-[20rem] rounded-lg hover:scale-105 duration-300 overflow-hidden">
+              <img
+                src={`${member.image}`}
+                className="w-full h-full object-cover"
+                alt=""
+              />
+            </div>
+            <p className="text-center font-Josefin font-medium text-3xl">
+              {member.name}
+            </p>
+            <div className="flex flex-row justify-center items-center gap-12 text-3xl">
+              <FaInstagram className="relative cursor-pointer" />
+              <FaLinkedinIn className="relative cursor-pointer" />
+              <FaXTwitter className="relative cursor-pointer" />
+            </div>
+          </div>
+        ))}
       </div>
     </section>
   );
