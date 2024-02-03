@@ -7,7 +7,7 @@ import PageWrapper from "./PageWrapper";
 export default function Events() {
     return (
         <PageWrapper>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full md:w-4/5 px-4 py-20">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full md:w-4/5 mx-auto px-4 py-20">
             {items.map((item) => (
                 <div className="card relative w-[90%] h-[44rem] border-2 rounded-2xl overflow-hidden shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px]" key={item.id}>
                     <div className="image_container w-full overflow-hidden rounded-bl-[20%] rounded-br-[50%]">
