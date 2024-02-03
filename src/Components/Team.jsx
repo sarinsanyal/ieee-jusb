@@ -110,6 +110,11 @@ export default function Team() {
       name: "Sadiq Siraj Ibrahim",
       image: "../../teams/Sadiq.webp",
     },
+    {
+      id: 3,
+      name: "Saklin Haque",
+      image: "../../teams/dummy.webp",
+    },
   ];
 
   const content = [
@@ -196,545 +201,194 @@ export default function Team() {
     },
   ];
 
+  const iasChapter = [
+    {
+      id: 1,
+      name: "Disha Das",
+      por: "Chairperson",
+      image: "../../teams/disha.webp",
+    },
+    {
+      id: 2,
+      name: "Rajarshi Mukherjee",
+      por: "Vice-Chairperson",
+      image: "../../teams/Rajarshi Mukherjee.webp",
+    },
+    {
+      id: 3,
+      name: "Azfar Hasan",
+      por: "Secretary",
+      image: "../../teams/dummy.webp",
+    },
+  ];
+  const csChapter = [
+    {
+      id: 1,
+      name: "Arka Roy",
+      por: "Chairperson",
+      image: "../../teams/Arka.webp",
+    },
+    {
+      id: 2,
+      name: "Subham Sinha",
+      por: "Vice-Chairperson",
+      image: "../../teams/Subham Sinha.webp",
+    },
+    {
+      id: 3,
+      name: "Sakshya Mukherjee",
+      por: "Secretary",
+      image: "../../teams/Shakshya.webp",
+    },
+  ];
+  const wieSection = [
+    {
+      id: 1,
+      name: "Trisha Samanta",
+      por: "Chairperson",
+      image: "../../teams/Trisha Samanta.webp",
+    },
+    {
+      id: 2,
+      name: "Akansha Singh",
+      por: "Vice-Chairperson",
+      image: "../../teams/dummy.webp",
+    },
+    {
+      id: 3,
+      name: "Haima Jha",
+      por: "Secretary",
+      image: "../../teams/haimi.webp",
+    },
+  ];
+  const comsoc = [
+    {
+      id: 1,
+      name: "Adway Paul",
+      por: "Chairperson",
+      image: "../../teams/Abhinandan.webp",
+    },
+    {
+      id: 2,
+      name: "Jyotishko Dey",
+      por: "Vice-Chairperson",
+      image: "../../teams/Jyotishko.webp",
+    },
+    {
+      id: 3,
+      name: "Sadiq Siraj Ibrahim",
+      por: "Secretary",
+      image: "../../teams/Sadiq.webp",
+    },
+  ];
+  const PES = [
+    {
+      id: 1,
+      name: "Abhinandan Roy",
+      por: "Chairperson",
+      image: "../../teams/disha.webp",
+    },
+    {
+      id: 2,
+      name: "Ayush Shankar",
+      por: "Vice-Chairperson",
+      image: "../../teams/ayush-shankar.webp",
+    },
+    {
+      id: 3,
+      name: "Sumedha Ghosh Chowdhury",
+      por: "Secretary",
+      image: "../../teams/sumedha.webp",
+    },
+  ];
+
+  const Branch = [
+    {
+      name: "Executive Committee",
+      data: excom,
+    },
+    {
+      name: "IAS Chapter",
+      data: iasChapter,
+    },
+    {
+      name: "CS Chapter",
+      data: csChapter,
+    },
+    {
+      name: "WIE Section",
+      data: wieSection,
+    },
+    {
+      name: "COMSOC Society",
+      data: comsoc,
+    },
+    {
+      name: "PES",
+      data: PES,
+    },
+    {
+      name: "Tech Team",
+      data: tech,
+    },
+    {
+      name: "Design Team",
+      data: design,
+    },
+    {
+      name: "PR Team",
+      data: pr,
+    },
+    {
+      name: "Content Team",
+      data: content,
+    },
+    {
+      name: "Logistics Team",
+      data: logistics,
+    },
+  ];
+
   return (
-    <section className="relative h-fit w-full flex flex-col gap-6 py-4">
-      <h1 className="relative text-center font-Josefin text-4xl font-bold py-4">
+    <section className="relative h-fit w-full flex flex-col gap-5 py-4">
+      <h1 className="relative text-center font-Josefin text-4xl font-bold py-3">
         Our Team
       </h1>
-      <h2 className="relative text-center font-Josefin text-4xl font-semibold">
-        Executive Committee
-      </h2>
-      <div className="card_container w-full grid items-center justify-center grid-cols-1 md:grid-cols-4 gap-x-4 gap-y-12 px-12">
-        {excom.map((member) => (
-          <div
-            className="card w-[90%] h-[32rem] flex flex-col justify-between gap-4"
-            key={member.id}
-          >
-            <div className="relative w-full h-[20rem] rounded-lg hover:scale-105 duration-300 overflow-hidden">
-              <img
-                src={`${member.image}`}
-                className="w-full h-full object-cover"
-                alt=""
-              />
-            </div>
-            <p className="text-center font-Josefin font-medium text-3xl">
-              {member.name}
-            </p>
-            <p className="relative uppercase font-bold font-Josefin text-2xl text-center">
-              {member.por}
-            </p>
-            <div className="flex flex-row justify-center items-center gap-12 text-3xl">
-              <FaInstagram className="relative cursor-pointer" />
-              <FaLinkedinIn className="relative cursor-pointer" />
-              <FaXTwitter className="relative cursor-pointer" />
-            </div>
+      {Branch?.map((branch) => (
+        <div>
+          <h2 className="relative text-center font-Josefin text-4xl font-semibold p-5">
+            {branch.name}
+          </h2>
+          <div className={`w-[100%] flex flex-wrap items-center justify-between gap-y-12 px-20 mx-auto`}>
+            {branch?.data?.map((member) => (
+              <div
+                className="card w-[17rem] h-[32rem] flex flex-col justify-evenly mx-auto"
+                key={member.id}
+              >
+                <div className="relative w-[80%] h-[20rem] text-center rounded-2xl hover:scale-105 duration-300 overflow-hidden mx-auto">
+                  <img
+                    src={`${member.image}`}
+                    className="w-full h-full object-cover"
+                    alt=""
+                  />
+                </div>
+                <p className="text-center font-Josefin font-bold text-[1.5rem]">
+                  {member.name}
+                </p>
+                {member.por && <p className="relative uppercase font-medium font-Josefin text-lg text-center">
+                  {member.por}
+                </p>}
+                <div className="flex flex-row justify-center items-center gap-8 text-2xl">
+                  <FaInstagram className="relative cursor-pointer" />
+                  <FaLinkedinIn className="relative cursor-pointer" />
+                  <FaXTwitter className="relative cursor-pointer" />
+                </div>
+              </div>
+            ))}
           </div>
-        ))}
-      </div>
-
-      <div className="relative w-full h-fit my-12 flex flex-col gap-4">
-        <h2 className="relative text-center font-Josefin text-4xl font-semibold">
-          IAS Chapter
-        </h2>
-        <div className="relative w-full h-fit px-12 flex flex-row">
-          <div className="card_container relative w-full h-fit grid grid-cols-1 lg:grid-cols-3 justify-center items-center gap-4">
-            <div className="card w-[90%] h-[32rem] flex flex-col justify-between gap-4">
-              <div className="relative w-full h-[20rem] rounded-lg hover:scale-105 duration-300 overflow-hidden">
-                <img
-                  src="../../teams/Rajarshi Mukherjee.webp"
-                  className="w-full h-full object-cover"
-                  alt=""
-                />
-              </div>
-              <p className="text-center font-Josefin font-medium text-3xl">
-                Rajarshi Mukherjee
-              </p>
-              <p className="relative uppercase font-bold font-Josefin text-2xl text-center">
-                Vice-Chairperson
-              </p>
-              <div className="flex flex-row justify-center items-center gap-12 text-3xl">
-                <FaInstagram className="relative cursor-pointer" />
-                <FaLinkedinIn className="relative cursor-pointer" />
-                <FaXTwitter className="relative cursor-pointer" />
-              </div>
-            </div>
-
-            <div className="card w-[90%] h-[32rem] flex flex-col justify-between gap-4">
-              <div className="relative w-full h-[20rem] rounded-lg hover:scale-105 duration-300 overflow-hidden">
-                <img
-                  src="../../teams/disha.webp"
-                  className="w-full h-full object-cover"
-                  alt=""
-                />
-              </div>
-              <p className="text-center font-Josefin font-medium text-3xl">
-                Disha Das
-              </p>
-              <p className="relative uppercase font-bold font-Josefin text-2xl text-center">
-                Chairperson
-              </p>
-              <div className="flex flex-row justify-center items-center gap-12 text-3xl">
-                <FaInstagram className="relative cursor-pointer" />
-                <FaLinkedinIn className="relative cursor-pointer" />
-                <FaXTwitter className="relative cursor-pointer" />
-              </div>
-            </div>
-
-            <div className="card w-[90%] h-[32rem] flex flex-col justify-between gap-4">
-              <div className="relative w-full h-[20rem] rounded-lg hover:scale-105 duration-300 overflow-hidden">
-                <img
-                  src="../../teams/dummy.webp"
-                  className="w-full h-full object-cover"
-                  alt=""
-                />
-              </div>
-              <p className="text-center font-Josefin font-medium text-3xl">
-                Azfar Hasan
-              </p>
-              <p className="relative uppercase font-bold font-Josefin text-2xl text-center">
-                Secretary
-              </p>
-              <div className="flex flex-row justify-center items-center gap-12 text-3xl">
-                <FaInstagram className="relative cursor-pointer" />
-                <FaLinkedinIn className="relative cursor-pointer" />
-                <FaXTwitter className="relative cursor-pointer" />
-              </div>
-            </div>
           </div>
-        </div>
-      </div>
+      ))}
 
-      <div className="relative w-full h-fit my-12 flex flex-col gap-4">
-        <h2 className="relative text-center font-Josefin text-4xl font-semibold">
-          CS Chapter
-        </h2>
-        <div className="relative w-full h-fit px-12 flex flex-row">
-          <div className="card_container relative w-full h-fit grid grid-cols-1 lg:grid-cols-3 justify-center items-center gap-4">
-            <div className="card w-[90%] h-[32rem] flex flex-col justify-between gap-4">
-              <div className="relative w-full h-[20rem] rounded-lg hover:scale-105 duration-300 overflow-hidden">
-                <img
-                  src="../../teams/Subham Sinha.webp"
-                  className="w-full h-full object-cover"
-                  alt=""
-                />
-              </div>
-              <p className="text-center font-Josefin font-medium text-3xl">
-                Subham Sinha
-              </p>
-              <p className="relative uppercase font-bold font-Josefin text-2xl text-center">
-                Vice-Chairperson
-              </p>
-              <div className="flex flex-row justify-center items-center gap-12 text-3xl">
-                <FaInstagram className="relative cursor-pointer" />
-                <FaLinkedinIn className="relative cursor-pointer" />
-                <FaXTwitter className="relative cursor-pointer" />
-              </div>
-            </div>
-
-            <div className="card w-[90%] h-[32rem] flex flex-col justify-between gap-4">
-              <div className="relative w-full h-[20rem] rounded-lg hover:scale-105 duration-300 overflow-hidden">
-                <img
-                  src="../../teams/Arka.webp"
-                  className="w-full h-full object-cover"
-                  alt=""
-                />
-              </div>
-              <p className="text-center font-Josefin font-medium text-3xl">
-                Arka Roy
-              </p>
-              <p className="relative uppercase font-bold font-Josefin text-2xl text-center">
-                Chairperson
-              </p>
-              <div className="flex flex-row justify-center items-center gap-12 text-3xl">
-                <FaInstagram className="relative cursor-pointer" />
-                <FaLinkedinIn className="relative cursor-pointer" />
-                <FaXTwitter className="relative cursor-pointer" />
-              </div>
-            </div>
-
-            <div className="card w-[90%] h-[32rem] flex flex-col justify-between gap-4">
-              <div className="relative w-full h-[20rem] rounded-lg hover:scale-105 duration-300 overflow-hidden">
-                <img
-                  src="../../teams/Shakshya.webp"
-                  className="w-full h-full object-cover"
-                  alt=""
-                />
-              </div>
-              <p className="text-center font-Josefin font-medium text-3xl">
-                Sakshya Mukherjee
-              </p>
-              <p className="relative uppercase font-bold font-Josefin text-2xl text-center">
-                Secretary
-              </p>
-              <div className="flex flex-row justify-center items-center gap-12 text-3xl">
-                <FaInstagram className="relative cursor-pointer" />
-                <FaLinkedinIn className="relative cursor-pointer" />
-                <FaXTwitter className="relative cursor-pointer" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="relative w-full h-fit my-12 flex flex-col gap-4">
-        <h2 className="relative text-center font-Josefin text-4xl font-semibold">
-          WIE Section
-        </h2>
-        <div className="relative w-full h-fit px-12 flex flex-row">
-          <div className="card_container relative w-full h-fit grid grid-cols-1 lg:grid-cols-3 justify-center items-center gap-4">
-            <div className="card w-[90%] h-[32rem] flex flex-col justify-between gap-4">
-              <div className="relative w-full h-[20rem] rounded-lg hover:scale-105 duration-300 overflow-hidden">
-                <img
-                  src="../../teams/dummy.webp"
-                  className="w-full h-full object-cover"
-                  alt=""
-                />
-              </div>
-              <p className="text-center font-Josefin font-medium text-3xl">
-                Akansha Singh
-              </p>
-              <p className="relative uppercase font-bold font-Josefin text-2xl text-center">
-                Vice-Chairperson
-              </p>
-              <div className="flex flex-row justify-center items-center gap-12 text-3xl">
-                <FaInstagram className="relative cursor-pointer" />
-                <FaLinkedinIn className="relative cursor-pointer" />
-                <FaXTwitter className="relative cursor-pointer" />
-              </div>
-            </div>
-
-            <div className="card w-[90%] h-[32rem] flex flex-col justify-between gap-4">
-              <div className="relative w-full h-[20rem] rounded-lg hover:scale-105 duration-300 overflow-hidden">
-                <img
-                  src="../../teams/Trisha Samanta.webp"
-                  className="w-full h-full object-cover"
-                  alt=""
-                />
-              </div>
-              <p className="text-center font-Josefin font-medium text-3xl">
-                Trisha Samanta
-              </p>
-              <p className="relative uppercase font-bold font-Josefin text-2xl text-center">
-                Chairperson
-              </p>
-              <div className="flex flex-row justify-center items-center gap-12 text-3xl">
-                <FaInstagram className="relative cursor-pointer" />
-                <FaLinkedinIn className="relative cursor-pointer" />
-                <FaXTwitter className="relative cursor-pointer" />
-              </div>
-            </div>
-
-            <div className="card w-[90%] h-[32rem] flex flex-col justify-between gap-4">
-              <div className="relative w-full h-[20rem] rounded-lg hover:scale-105 duration-300 overflow-hidden">
-                <img
-                  src="../../teams/haimi.webp"
-                  className="w-full h-full object-cover"
-                  alt=""
-                />
-              </div>
-              <p className="text-center font-Josefin font-medium text-3xl">
-                Haima Jha
-              </p>
-              <p className="relative uppercase font-bold font-Josefin text-2xl text-center">
-                Secretary
-              </p>
-              <div className="flex flex-row justify-center items-center gap-12 text-3xl">
-                <FaInstagram className="relative cursor-pointer" />
-                <FaLinkedinIn className="relative cursor-pointer" />
-                <FaXTwitter className="relative cursor-pointer" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="relative w-full h-fit my-12 flex flex-col gap-4">
-        <h2 className="relative text-center font-Josefin text-4xl font-semibold">
-          COMSOC Society
-        </h2>
-        <div className="relative w-full h-fit px-12 flex flex-row">
-          <div className="card_container relative w-full h-fit grid grid-cols-1 lg:grid-cols-3 justify-center items-center gap-4">
-            <div className="card w-[90%] h-[32rem] flex flex-col justify-between gap-4">
-              <div className="relative w-full h-[20rem] rounded-lg hover:scale-105 duration-300 overflow-hidden">
-                <img
-                  src="../../teams/Jyotishko.webp"
-                  className="w-full h-full object-cover"
-                  alt=""
-                />
-              </div>
-              <p className="text-center font-Josefin font-medium text-3xl">
-                Jyotisko Dey
-              </p>
-              <p className="relative uppercase font-bold font-Josefin text-2xl text-center">
-                Vice-Chairperson
-              </p>
-              <div className="flex flex-row justify-center items-center gap-12 text-3xl">
-                <FaInstagram className="relative cursor-pointer" />
-                <FaLinkedinIn className="relative cursor-pointer" />
-                <FaXTwitter className="relative cursor-pointer" />
-              </div>
-            </div>
-
-            <div className="card w-[90%] h-[32rem] flex flex-col justify-between gap-4">
-              <div className="relative w-full h-[20rem] rounded-lg hover:scale-105 duration-300 overflow-hidden">
-                <img
-                  src="../../teams/dummy.webp"
-                  className="w-full h-full object-cover"
-                  alt=""
-                />
-              </div>
-              <p className="text-center font-Josefin font-medium text-3xl">
-                Adway Paul
-              </p>
-              <p className="relative uppercase font-bold font-Josefin text-2xl text-center">
-                Chairperson
-              </p>
-              <div className="flex flex-row justify-center items-center gap-12 text-3xl">
-                <FaInstagram className="relative cursor-pointer" />
-                <FaLinkedinIn className="relative cursor-pointer" />
-                <FaXTwitter className="relative cursor-pointer" />
-              </div>
-            </div>
-
-            <div className="card w-[90%] h-[32rem] flex flex-col justify-between gap-4">
-              <div className="relative w-full h-[20rem] rounded-lg hover:scale-105 duration-300 overflow-hidden">
-                <img
-                  src="../../teams/Sadiq.webp"
-                  className="w-full h-full object-cover"
-                  alt=""
-                />
-              </div>
-              <p className="text-center font-Josefin font-medium text-3xl">
-                Sadiq Siraj Ibrahim
-              </p>
-              <p className="relative uppercase font-bold font-Josefin text-2xl text-center">
-                Secretary
-              </p>
-              <div className="flex flex-row justify-center items-center gap-12 text-3xl">
-                <FaInstagram className="relative cursor-pointer" />
-                <FaLinkedinIn className="relative cursor-pointer" />
-                <FaXTwitter className="relative cursor-pointer" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="relative w-full h-fit my-12 flex flex-col gap-4">
-        <h2 className="relative text-center font-Josefin text-4xl font-semibold">
-          PES Society
-        </h2>
-        <div className="relative w-full h-fit px-12 flex flex-row">
-          <div className="card_container relative w-full h-fit grid grid-cols-1 lg:grid-cols-3 justify-center items-center gap-4">
-            <div className="card w-[90%] h-[32rem] flex flex-col justify-between gap-4">
-              <div className="relative w-full h-[20rem] rounded-lg hover:scale-105 duration-300 overflow-hidden">
-                <img
-                  src="../../teams/ayush-shankar.webp"
-                  className="w-full h-full object-cover"
-                  alt=""
-                />
-              </div>
-              <p className="text-center font-Josefin font-medium text-3xl">
-                Ayush Shankar
-              </p>
-              <p className="relative uppercase font-bold font-Josefin text-2xl text-center">
-                Vice-Chairperson
-              </p>
-              <div className="flex flex-row justify-center items-center gap-12 text-3xl">
-                <FaInstagram className="relative cursor-pointer" />
-                <FaLinkedinIn className="relative cursor-pointer" />
-                <FaXTwitter className="relative cursor-pointer" />
-              </div>
-            </div>
-
-            <div className="card w-[90%] h-[32rem] flex flex-col justify-between gap-4">
-              <div className="relative w-full h-[20rem] rounded-lg hover:scale-105 duration-300 overflow-hidden">
-                <img
-                  src="../../teams/Abhinandan.webp"
-                  className="w-full h-full object-cover"
-                  alt=""
-                />
-              </div>
-              <p className="text-center font-Josefin font-medium text-3xl">
-                Abhinandan Roy
-              </p>
-              <p className="relative uppercase font-bold font-Josefin text-2xl text-center">
-                Chairperson
-              </p>
-              <div className="flex flex-row justify-center items-center gap-12 text-3xl">
-                <FaInstagram className="relative cursor-pointer" />
-                <FaLinkedinIn className="relative cursor-pointer" />
-                <FaXTwitter className="relative cursor-pointer" />
-              </div>
-            </div>
-
-            <div className="card w-[90%] h-[32rem] flex flex-col justify-between gap-4">
-              <div className="relative w-full h-[20rem] rounded-lg hover:scale-105 duration-300 overflow-hidden">
-                <img
-                  src="../../teams/sumedha.webp"
-                  className="w-full h-full object-cover rotate-90"
-                  alt=""
-                />
-              </div>
-              <p className="text-center font-Josefin font-medium text-3xl">
-                Sumedha Ghosh Chowdhury
-              </p>
-              <p className="relative uppercase font-bold font-Josefin text-2xl text-center">
-                Secretary
-              </p>
-              <div className="flex flex-row justify-center items-center gap-12 text-3xl">
-                <FaInstagram className="relative cursor-pointer" />
-                <FaLinkedinIn className="relative cursor-pointer" />
-                <FaXTwitter className="relative cursor-pointer" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <h2 className="relative text-center font-Josefin text-4xl font-semibold">
-        Tech Team
-      </h2>
-
-      <div className="card_container w-full grid grid-cols-1 md:grid-cols-4 content-center gap-x-4 gap-y-12 px-12 mb-4">
-        {tech.map((member) => (
-          <div
-            className="card w-[90%] h-[28rem] flex flex-col justify-between gap-4"
-            key={member.id}
-          >
-            <div className="relative w-full h-[20rem] rounded-lg hover:scale-105 duration-300 overflow-hidden">
-              <img
-                src={`${member.image}`}
-                className="w-full h-full object-cover"
-                alt=""
-              />
-            </div>
-            <p className="text-center font-Josefin font-medium text-3xl">
-              {member.name}
-            </p>
-            <div className="flex flex-row justify-center items-center gap-12 text-3xl">
-              <FaInstagram className="relative cursor-pointer" />
-              <FaLinkedinIn className="relative cursor-pointer" />
-              <FaXTwitter className="relative cursor-pointer" />
-            </div>
-          </div>
-        ))}
-      </div>
-      <h2 className="relative text-center font-Josefin text-4xl font-semibold">
-        Design Team
-      </h2>
-
-      <div className="card_container w-full grid items-center justify-center grid-cols-1 md:grid-cols-4 gap-x-4 gap-y-12 px-12 mb-4 place-self-center">
-        {design.map((member) => (
-          <div
-            className="card w-[90%] h-[28rem] flex flex-col justify-between gap-4"
-            key={member.id}
-          >
-            <div className="relative w-full h-[20rem] rounded-lg hover:scale-105 duration-300 overflow-hidden">
-              <img
-                src={`${member.image}`}
-                className="w-full h-full object-cover"
-                alt=""
-              />
-            </div>
-            <p className="text-center font-Josefin font-medium text-3xl">
-              {member.name}
-            </p>
-            <div className="flex flex-row justify-center items-center gap-12 text-3xl">
-              <FaInstagram className="relative cursor-pointer" />
-              <FaLinkedinIn className="relative cursor-pointer" />
-              <FaXTwitter className="relative cursor-pointer" />
-            </div>
-          </div>
-        ))}
-      </div>
-
-      <h2 className="relative text-center font-Josefin text-4xl font-semibold">
-        Content Team
-      </h2>
-
-      <div className="card_container w-full grid items-center justify-center grid-cols-1 md:grid-cols-4 gap-x-4 gap-y-12 px-12 mb-4">
-        {content.map((member) => (
-          <div
-            className="card w-[90%] h-[28rem] flex flex-col justify-between gap-4"
-            key={member.id}
-          >
-            <div className="relative w-full h-[20rem] rounded-lg hover:scale-105 duration-300 overflow-hidden">
-              <img
-                src={`${member.image}`}
-                className="w-full h-full object-cover"
-                alt=""
-              />
-            </div>
-            <p className="text-center font-Josefin font-medium text-3xl">
-              {member.name}
-            </p>
-            <div className="flex flex-row justify-center items-center gap-12 text-3xl">
-              <FaInstagram className="relative cursor-pointer" />
-              <FaLinkedinIn className="relative cursor-pointer" />
-              <FaXTwitter className="relative cursor-pointer" />
-            </div>
-          </div>
-        ))}
-      </div>
-
-      <h2 className="relative text-center font-Josefin text-4xl font-semibold">
-        PR Team
-      </h2>
-
-      <div className="card_container w-full grid items-center justify-center grid-cols-1 md:grid-cols-4 gap-x-4 gap-y-12 px-12 mb-4">
-        {pr.map((member) => (
-          <div
-            className="card w-[90%] h-[28rem] flex flex-col justify-between gap-4"
-            key={member.id}
-          >
-            <div className="relative w-full h-[20rem] rounded-lg hover:scale-105 duration-300 overflow-hidden">
-              <img
-                src={`${member.image}`}
-                className="w-full h-full object-cover"
-                alt=""
-              />
-            </div>
-            <p className="text-center font-Josefin font-medium text-3xl">
-              {member.name}
-            </p>
-            <div className="flex flex-row justify-center items-center gap-12 text-3xl">
-              <FaInstagram className="relative cursor-pointer" />
-              <FaLinkedinIn className="relative cursor-pointer" />
-              <FaXTwitter className="relative cursor-pointer" />
-            </div>
-          </div>
-        ))}
-      </div>
-
-      <h2 className="relative text-center font-Josefin text-4xl font-semibold">
-        Logistics Team
-      </h2>
-
-      <div className="card_container w-full grid items-center justify-center grid-cols-1 md:grid-cols-4 gap-x-4 gap-y-12 px-12 mb-4">
-        {logistics.map((member) => (
-          <div
-            className="card w-[90%] h-[28rem] flex flex-col justify-between gap-4"
-            key={member.id}
-          >
-            <div className="relative w-full h-[20rem] rounded-lg hover:scale-105 duration-300 overflow-hidden">
-              <img
-                src={`${member.image}`}
-                className="w-full h-full object-cover"
-                alt=""
-              />
-            </div>
-            <p className="text-center font-Josefin font-medium text-3xl">
-              {member.name}
-            </p>
-            <div className="flex flex-row justify-center items-center gap-12 text-3xl">
-              <FaInstagram className="relative cursor-pointer" />
-              <FaLinkedinIn className="relative cursor-pointer" />
-              <FaXTwitter className="relative cursor-pointer" />
-            </div>
-          </div>
-        ))}
-      </div>
-    </section>
+      </section>
   );
 }
