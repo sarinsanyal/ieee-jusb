@@ -355,14 +355,16 @@ export default function Team() {
         Our Team
       </h1>
       {Branch?.map((branch) => (
-        <div>
+        <div key={branch.name}>
           <h2 className="relative text-center font-Josefin text-4xl font-semibold p-5">
             {branch.name}
           </h2>
-          <div className={`w-[100%] flex flex-wrap items-center justify-between gap-y-12 px-20 mx-auto`}>
+          <div
+            className={`w-[100%] flex flex-wrap items-center justify-between gap-y-12 px-5 mx-auto`}
+          >
             {branch?.data?.map((member) => (
               <div
-                className="card w-[17rem] h-[32rem] flex flex-col justify-evenly mx-auto"
+                className="card w-[20rem] h-[32rem] flex flex-col justify-evenly mx-auto"
                 key={member.id}
               >
                 <div className="relative w-[80%] h-[20rem] text-center rounded-2xl hover:scale-105 duration-300 overflow-hidden mx-auto">
@@ -375,9 +377,11 @@ export default function Team() {
                 <p className="text-center font-Josefin font-bold text-[1.5rem]">
                   {member.name}
                 </p>
-                {member.por && <p className="relative uppercase font-medium font-Josefin text-lg text-center">
-                  {member.por}
-                </p>}
+                {member.por && (
+                  <p className="relative uppercase font-medium font-Josefin text-lg text-center">
+                    {member.por}
+                  </p>
+                )}
                 <div className="flex flex-row justify-center items-center gap-8 text-2xl">
                   <FaInstagram className="relative cursor-pointer" />
                   <FaLinkedinIn className="relative cursor-pointer" />
@@ -386,9 +390,8 @@ export default function Team() {
               </div>
             ))}
           </div>
-          </div>
+        </div>
       ))}
-
-      </section>
+    </section>
   );
 }
