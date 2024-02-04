@@ -266,7 +266,7 @@ export default function Team() {
       id: 1,
       name: "Adway Paul",
       por: "Chairperson",
-      image: "../../teams/Abhinandan.webp",
+      image: "../../teams/dummy.webp",
     },
     {
       id: 2,
@@ -286,7 +286,7 @@ export default function Team() {
       id: 1,
       name: "Abhinandan Roy",
       por: "Chairperson",
-      image: "../../teams/disha.webp",
+      image: "../../teams/Abhinandan.webp",
     },
     {
       id: 2,
