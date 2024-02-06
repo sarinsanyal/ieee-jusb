@@ -1,7 +1,27 @@
-import React from "react";
+import React, { useState } from "react";
 import { MdOutlineEmail } from "react-icons/md";
 
 export default function Contact() {
+  const [data,setData]=useState({});
+  const handleChange=(e)=>{
+    setData({...data,[e.target.id]:e.target.value});
+    console.log(data);
+
+
+  }
+  const sendMessage=async (e)=>{
+    e.preventDefault();
+    const res=await fetch("https://ieee-web-backend.onrender.com/data",{
+      method:"POST",
+      // mode:"cors",
+      headers:{
+        "Content-Type":"application/json"
+      },
+      body:JSON.stringify(data)
+    });
+    alert(res);
+  };
+
   return (
     <div className="py-10 pt-[90px] font-Josefin">
       {/* HEADER */}
@@ -41,33 +61,42 @@ export default function Contact() {
           {/* FORM */}
 
           <div className="md:w-2/3 p-10 bg-gradient-to-bl from-white via-slate-300 to-slate-300 rounded-sm drop-shadow-xl">
-            <form action="" className="flex flex-col gap-5">
+            <form onSubmit={sendMessage} className="flex flex-col gap-5">
               <div className="flex gap-5">
                 <input
+                  onChange={handleChange}
+                  id="name"
                   type="text"
                   placeholder="Your Name"
                   className="w-1/2 p-3 rounded-lg border-2 border-black"
                 />
                 <input
+                  onChange={handleChange}
+                  id="email"
                   type="text"
                   placeholder="Your Email"
                   className="w-1/2 p-3 rounded-lg border-2 border-black"
                 />
               </div>
               <input
+                onChange={handleChange}
+                id="subject"
                 type="text"
                 placeholder="Subject"
                 className="w-full p-3 rounded-lg border-2 border-black"
               />
               <textarea
+                onChange={handleChange}
                 name="message"
                 placeholder="Messsage"
-                id=""
+                id="message"
                 cols="30"
-                rows="10"
+                rows="8"
                 className="w-full p-3 rounded-lg border-2 border-black"
               ></textarea>
+              <button type="submit" className="text-white font-semibold bg-blue-900 px-5 py-2.5 mb-2 rounded transition-colors duration-150 ease-in-out hover:bg-blue-700 drop-shadow-md mx-auto w-36">Submit</button>
             </form>
+            
           </div>
 
           {/* ADDRESS */}
