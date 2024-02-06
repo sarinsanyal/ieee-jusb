@@ -5,22 +5,22 @@ export default function Contact() {
   const [data,setData]=useState({});
   const handleChange=(e)=>{
     setData({...data,[e.target.id]:e.target.value});
-    console.log(data);
 
 
   }
-  const sendMessage=async (e)=>{
+  const sendMessage= async (e)=>{
     e.preventDefault();
-    const res=await fetch("https://ieee-web-backend.onrender.com/api/data",{
+    fetch("https://ieee-web-backend.onrender.com/api/data",{
       method:"POST",
       mode:"cors",
       headers:{
         "Content-Type":"application/json",
-        "Access-Control-Allow-Origin": "https://ieee-web-backend.onrender.com/",
       },
       body:JSON.stringify(data)
     });
-    alert(res);
+    const msg= await res.json();
+    // console.log(msg.message);
+    alert(msg.message);
   };
 
   return (
