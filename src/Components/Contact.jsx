@@ -13,7 +13,7 @@ export default function Contact() {
     e.preventDefault();
     const res=await fetch("https://ieee-web-backend.onrender.com/data",{
       method:"POST",
-      // mode:"cors",
+      mode:"cors",
       headers:{
         "Content-Type":"application/json"
       },
