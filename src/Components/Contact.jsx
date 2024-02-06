@@ -11,7 +11,7 @@ export default function Contact() {
   }
   const sendMessage=async (e)=>{
     e.preventDefault();
-    const res=await fetch("https://ieee-web-backend.onrender.com/data",{
+    const res=await fetch("https://ieee-web-backend.onrender.com/api/data",{
       method:"POST",
       mode:"cors",
       headers:{
