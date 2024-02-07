@@ -32,7 +32,7 @@ export default function Team() {
       id: 5,
       name: "Nazmus Saqib",
       por: "Webmaster",
-      image: "../../teams/dummy.webp",
+      image: "../../teams/Nazmus Saqib.webp",
     },
     {
       id: 6,
@@ -90,11 +90,16 @@ export default function Team() {
     },
     {
       id: 4,
+      name: "Shamoyita Datta",
+      image : "../../teams/Shamoyita.webp",
+    },
+    {
+      id: 5,
       name: "Parijat Majumdar",
       image: "../../teams/Parijat.webp",
     },
     {
-      id: 5,
+      id: 6,
       name: "Reejul Chattaraj",
       image: "../../teams/Reejul.webp",
     },
