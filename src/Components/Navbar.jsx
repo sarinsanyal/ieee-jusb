@@ -95,9 +95,15 @@ export default function Navbar() {
             to={routes.to}
             className={`${
               location.pathname === routes.to ? "text-sky-800 font-bold" : ""
-            } hover:text-sky-700 duration-300`}
+            } hover:text-sky-700 duration-300 group`}
           >
             {routes.id}
+            {location.pathname === routes.to && (
+              <div className="r w-[30%] sm:w-[90%] h-[2px] mx-auto bg-sky-700"></div>
+            )}
+            {!(location.pathname === routes.to) && (
+              <div className="r w-0 sm:group-hover:w-[90%] duration-500 h-[2px] mx-auto bg-sky-700"></div>
+            )}
           </HashLink>
         ))}
       </div>
