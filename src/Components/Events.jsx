@@ -1,10 +1,14 @@
 // import React from "react";
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 
 import items from "../assets/data/events.json";
 import PageWrapper from "./PageWrapper";
 
 export default function Events() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
     return (
         <PageWrapper>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full md:w-4/5 mx-auto px-4 py-20">

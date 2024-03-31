@@ -1,8 +1,12 @@
 import { FaInstagram } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import { useEffect } from "react";
 
 export default function Team() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const excom = [
     {
       id: 1,
@@ -91,7 +95,7 @@ export default function Team() {
     {
       id: 4,
       name: "Shamoyita Datta",
-      image : "../../teams/Shamoyita.webp",
+      image: "../../teams/Shamoyita.webp",
     },
     {
       id: 5,

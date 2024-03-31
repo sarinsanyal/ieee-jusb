@@ -90,15 +90,15 @@ export default function Navbar() {
         <NavLink to={"/#contact"}>Contact</NavLink> */}
 
         {routes.map((routes) => (
-          <a
+          <HashLink
             key={routes.id}
-            href={routes.to}
+            to={routes.to}
             className={`${
               location.pathname === routes.to ? "text-sky-800 font-bold" : ""
             } hover:text-sky-700 duration-300`}
           >
             {routes.id}
-          </a>
+          </HashLink>
         ))}
       </div>
     </motion.div>
