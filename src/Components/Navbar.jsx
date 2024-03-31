@@ -23,6 +23,25 @@ let routes = [
 export default function Navbar() {
   const location = useLocation();
 
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768); // Set the breakpoint according to your design
+    };
+
+    // Initial check
+    handleResize();
+
+    // Event listener for window resize
+    window.addEventListener("resize", handleResize);
+
+    // Clean up
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   const [navOpen, setNavOpen] = useState(false);
   // const [themeDark, setThemeDark] = useState(false);
   let [activeTab, setActiveTab] = useState(routes[0].id);
@@ -46,7 +65,7 @@ export default function Navbar() {
         visible: { y: 0 },
         hidden: { y: "-100%" },
       }}
-      animate={hidden ? "hidden" : "visible"}
+      animate={hidden && !isMobile ? "hidden" : "visible"}
       transition={{ duration: 0.35, ease: "easeInOut" }}
       className="sticky z-10 w-full top-0 flex flex-row justify-between pl-2 lg:px-4 drop-shadow-lg bg-gradient-to-r from-white to-cyan-100 h-[80px] font-Josefin"
     >

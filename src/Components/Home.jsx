@@ -5,7 +5,7 @@ import Chapters from './Chapters'
 import Sponsors from './Sponsors'
 // import Advisors from './Advisors'
 import PageWrapper from './PageWrapper'
-import Recruit from './Recruit'
+import Recruit from './recruitment/Recruit'
 
 export default function Home() {
   return (

@@ -1,4 +1,4 @@
-import RecruitCard from "./RecruitCard";
+import RecruitCard from "../RecruitCard";
 
 export default function Recruit() {
   return (
@@ -20,35 +20,35 @@ export default function Recruit() {
           content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, cum
           numquam culpa repudiandae sunt veritatis mollitia eos assumenda
           reiciendis. Eaque."
-          link="/tech-recruit"
+          link="/design-recruit"
         />
         <RecruitCard
           title="Content Team"
           content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, cum
           numquam culpa repudiandae sunt veritatis mollitia eos assumenda
           reiciendis. Eaque."
-          link="/tech-recruit"
+          link="/content-recruit"
         />
         <RecruitCard
           title="PR Team"
           content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, cum
           numquam culpa repudiandae sunt veritatis mollitia eos assumenda
           reiciendis. Eaque."
-          link="/tech-recruit"
+          link="/pr-recruit"
         />
         <RecruitCard
           title="Logistics Team"
           content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, cum
           numquam culpa repudiandae sunt veritatis mollitia eos assumenda
           reiciendis. Eaque."
-          link="/tech-recruit"
+          link="/logistic-recruit"
         />
         <RecruitCard
           title="Sponsorship Team"
           content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, cum
           numquam culpa repudiandae sunt veritatis mollitia eos assumenda
           reiciendis. Eaque."
-          link="/tech-recruit"
+          link="/sponsor-recruit"
         />
       </div>
     </div>
