@@ -3,6 +3,7 @@ import Team from "./Team";
 import Events from "./Events";
 import Home from "./Home";
 import { AnimatePresence } from "framer-motion";
+import Tech from "./Tech";
 
 const AnimatedRoutes = () => {
   const location = useLocation();
@@ -12,6 +13,7 @@ const AnimatedRoutes = () => {
         <Route path="/" element={<Home />} />
         <Route path="/team" element={<Team />} />
         <Route path="/events/" element={<Events />} />
+        <Route path="/tech-recruit" element={<Tech/>} />
       </Routes>
     </AnimatePresence>
   );
