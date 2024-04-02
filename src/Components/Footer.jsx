@@ -2,6 +2,7 @@ import React from 'react'
 import jusb_logo from '../assets/img/jusb_logo.webp'
 import { FaInstagram, FaFacebook, FaTwitter, FaLinkedin, FaHeart } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
+import { Link } from 'react-router-dom';
 
 
 export default function Footer() {
@@ -33,10 +34,10 @@ export default function Footer() {
                 <li><a href="/#" className="transition-colors duration-150 ease-in-out hover:text-blue-700">Home</a></li>
                 <li><a href="/#about" className="transition-colors duration-150 ease-in-out hover:text-blue-700">About Us</a></li>
                 <li><a href="/#chapters" className="transition-colors duration-150 ease-in-out hover:text-blue-700">Branch Chapters</a></li>
-                <li><a href="/advisors" className="transition-colors duration-150 ease-in-out hover:text-blue-700">Advisors</a></li>
-                <li><a href="/events" className="transition-colors duration-150 ease-in-out hover:text-blue-700">Events</a></li>
+                {/* <li><a href="/advisors" className="transition-colors duration-150 ease-in-out hover:text-blue-700">Advisors</a></li> */}
+                <li><Link to="/events" className="transition-colors duration-150 ease-in-out hover:text-blue-700">Events</Link></li>
                 <li><a href="/#sponsors" className="transition-colors duration-150 ease-in-out hover:text-blue-700">Collaborators</a></li>
-                <li><a href="/team" className="transition-colors duration-150 ease-in-out hover:text-blue-700">Team</a></li>
+                <li><Link to="/team" className="transition-colors duration-150 ease-in-out hover:text-blue-700">Team</Link></li>
               </ul>
             </div>
             <div>
