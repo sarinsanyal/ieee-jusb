@@ -10,9 +10,7 @@ const Content = () => {
       <h1 className="text-[2rem] lg:text-[3rem] font-extrabold">
         IEEE JUSB Content Team Recruitment 2024
       </h1>
-      <p className="font-bold block">
-            * Submission Deadline : 17/04/2024
-      </p>
+
       <div className="flex flex-col gap-6 px-4 md:px-2 py-4 w-full md:w-[80%] lg:w-[55%]">
         <ol className="list-decimal flex flex-col justify-center items-center gap-4">
           <li className="r marker:text-xl marker:font-bold">
@@ -53,7 +51,11 @@ const Content = () => {
                 <br />
                 Write event report for ML Accelerator 3.0 [necessary information
                 attached] <br />
-                Website: <a href="https://ieee-ju.github.io/MLAS-3.0/" target="_blank">https://ieee-ju.github.io/MLAS-3.0/</a> <br />
+                Website:{" "}
+                <a href="https://ieee-ju.github.io/MLAS-3.0/" target="_blank">
+                  https://ieee-ju.github.io/MLAS-3.0/
+                </a>{" "}
+                <br />
                 [Description: The event incorporated talk sessions and hands-on
                 workshops to provide a comprehensive introduction to Machine
                 Learning and Deep Learning, aiming to equip participants with a
@@ -112,9 +114,12 @@ const Content = () => {
           <p className="font-bold block w-full">BONUS TASK </p>
           <p>Give an idea sketch for an Instagram reel for TechX(short)</p>
           <p className="w-full">
-            [ Hint :Techx, organized by IEEE JUSB, is a multi-day out-of-station
+            [Hint :Techx, organized by IEEE JUSB, is a multi-day out-of-station
             event featuring workshops, seminars, and more.It is the flagship
             event of JUSB and is held in a resort outside Kolkata]
+          </p>
+          <p className="font-bold text-red-700 my-4 block">
+            Submission Deadline : 17/04/2024
           </p>
         </div>
       </div>
