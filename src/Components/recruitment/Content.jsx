@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 const Content = () => {
   useEffect(() => {
@@ -52,7 +53,11 @@ const Content = () => {
                 Write event report for ML Accelerator 3.0 [necessary information
                 attached] <br />
                 Website:{" "}
-                <a href="https://ieee-ju.github.io/MLAS-3.0/" target="_blank">
+                <a
+                  href="https://ieee-ju.github.io/MLAS-3.0/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   https://ieee-ju.github.io/MLAS-3.0/
                 </a>{" "}
                 <br />
@@ -121,6 +126,13 @@ const Content = () => {
           <p className="font-bold text-red-700 my-4 block">
             Submission Deadline : 17/04/2024
           </p>
+          <Link
+            to="https://docs.google.com/forms/d/e/1FAIpQLScN4ed-wKJlaYi1B1Gcvl-Vm-MzX-DN3lPixt8DlpwCd75s0w/viewform?usp=sf_link"
+            target="_blank"
+            className="r text-white rounded-lg bg-sky-600 text-center w-full md:w-fit mx-auto px-4 py-2"
+          >
+            Submit
+          </Link>
         </div>
       </div>
     </div>

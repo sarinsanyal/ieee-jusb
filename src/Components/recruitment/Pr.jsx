@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 const Pr = () => {
   useEffect(() => {
@@ -46,6 +47,13 @@ const Pr = () => {
             Special preferences given to those students who have good skills in
             Excel
           </p>
+          <Link
+            to="https://forms.gle/cmCvhtmPh4ynq1Vg8"
+            target="_blank"
+            className="r text-white rounded-lg bg-sky-600 text-center w-full md:w-fit mx-auto px-4 py-2"
+          >
+            Submit
+          </Link>
         </div>
       </div>
     </div>

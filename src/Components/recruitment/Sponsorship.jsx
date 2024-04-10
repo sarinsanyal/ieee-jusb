@@ -10,30 +10,47 @@ const Sponsorship = () => {
         IEEE JUSB Sponsorship Team Recruitment 2024
       </h1>
       <div className="flex flex-col gap-6 px-4 md:px-2 py-4 md:w-[80%] lg:w-[55%]">
-        <ol className="list-decimal flex flex-col justify-center items-center gap-4">
+        <ol className="flex flex-col justify-center items-center gap-4">
           <li className="r marker:text-xl marker:font-bold">
-            <h1 className="text-2xl font-bold mb-4">
-              Social Media Audit and Strategy Development
-            </h1>
             <div className="relative">
               <p className="">
-                Conduct a comprehensive audit for IEEE JUSB to present ML
-                Accelerator Summit 3.0 through a PowerPoint or poster. Develop a
-                strategic plan for optimizing the IEEE's social media channels
-                to enhance brand visibility, engagement, and reputation
-                management.
+                A Techno-Management Fest is being conducted at Jadavpur
+                University. For the same, being a member of the sponsorship
+                team, you have to bring in sponsors.
               </p>
+            </div>
+          </li>
+          <li className="r marker:text-xl marker:font-bold">
+            <div className="relative">
+              <p className="">
+                The first step in bringing in sponsors, is identifying the set
+                of companies that may be potential sponsors. Keeping that it
+                mind, you are to do the needed research, and bring in the names
+                and details of the set of companies. Include details like what
+                the company's goal is, and how it aligns with us. In addition,
+                bring in their contact details, like mail-id and phone numbers
+                wherever possible.
+              </p>
+            </div>
+          </li>
+          <li className="marker:text-xl marker:font-bold w-full">
+            <div className="relative">
+              <p className="w-full font-bold">
+                This is a non-exhaustive assignment, so your efforts will be
+                valued.
+              </p>
+            </div>
+          </li>
+          <li className="marker:text-xl marker:font-bold w-full">
+            <div className="relative">
+              <p className="font-bold italic">All the best!</p>
             </div>
           </li>
         </ol>
         <div className="flex flex-col gap-4">
           <p className="font-bold block">
-            You have to choose any one task from the above and complete it by
+            Submission deadline:
             <span className="text-red-800"> 17/04/2024</span>
-          </p>
-          <p className="font-bold block">
-            Special preferences given to those students who have good skills in
-            Excel
           </p>
         </div>
       </div>

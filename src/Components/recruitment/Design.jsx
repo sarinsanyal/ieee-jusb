@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 const Design = () => {
   useEffect(() => {
@@ -121,7 +122,8 @@ const Design = () => {
             <div className="relative w-[90%] mx-auto">
               <ol className="list-disc flex flex-col gap-2">
                 <li>
-                  Submission Deadline : <span className="font-bold">23/04/2024</span>
+                  Submission Deadline :{" "}
+                  <span className="font-bold">23/04/2024</span>
                 </li>
                 <li>
                   Save your design as given format{" "}
@@ -149,6 +151,13 @@ const Design = () => {
             and innovative content, fostering creativity and ensuring unique
             solutions tailored to the specific objectives at hand.
           </p>
+          <Link
+            to="https://docs.google.com/forms/d/e/1FAIpQLSeqcfXk4BOK1NKfVfHPhkPZ95iCJDNiKFh70iIpzuv1Yy1s-w/viewform?usp=sf_link"
+            target="_blank"
+            className="r text-white rounded-lg bg-sky-600 text-center w-full md:w-fit mx-auto px-4 py-2"
+          >
+            Submit
+          </Link>
         </div>
       </div>
     </div>

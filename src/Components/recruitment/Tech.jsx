@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 const Tech = () => {
   useEffect(() => {
@@ -160,6 +161,13 @@ const Tech = () => {
           <p className="font-bold text-red-800 my-4 block">
             Submission Deadline : 23/04/2024
           </p>
+          <Link
+            to="https://forms.gle/pMnHpRniYVPsKhcW8"
+            target="_blank"
+            className="r text-white rounded-lg bg-sky-600 text-center w-full md:w-fit mx-auto px-4 py-2"
+          >
+            Submit
+          </Link>
         </div>
       </div>
     </div>
