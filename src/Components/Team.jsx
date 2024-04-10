@@ -12,7 +12,7 @@ export default function Team() {
       id: 1,
       name: "Subhadip De",
       por: "Chairperson",
-      image: "../../teams/Subhadip De.webp",
+      image: "../../teams/SubhadipDe.webp",
     },
     {
       id: 2,
@@ -42,7 +42,7 @@ export default function Team() {
       id: 6,
       name: "Akash Bag",
       por: "Tech Lead",
-      image: "../../teams/akash.webp",
+      image: "../../teams/AkashBag.webp",
     },
     {
       id: 7,
