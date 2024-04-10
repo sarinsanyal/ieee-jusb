@@ -51,12 +51,12 @@ const Design = () => {
                   affiliations, and brief bios. (Get the details of speakers
                   from
                   <a
-                    href="https://doubleslash.ieee-jaduniv.inindex.html#speakers"
+                    href="https://doubleslash.ieee-jaduniv.in/#speakers"
                     target="_blank"
                     rel="noreferrer"
                     className="pl-2 text-sky-700"
                   >
-                    https://doubleslash.ieee-jaduniv.inindex.html#speakers
+                    https://doubleslash.ieee-jaduniv.in/#speakers
                   </a>
                   )
                 </li>
