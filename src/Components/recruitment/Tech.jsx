@@ -38,12 +38,12 @@ const Tech = () => {
                 (Implementing backend functionality to handle event registration
                 and feedback storage will give you an extra edge)(Refer to
                 <a
-                  href="https://ieee-jaduniv.in/techX"
+                  href="https://ieee-ju.github.io/techX"
                   target="_blank"
                   rel="noreferrer"
                   className="px-2 text-sky-700"
                 >
-                  https://ieee-jaduniv.in/techX
+                  https://ieee-ju.github.io/techX
                 </a>{" "}
                 in order to get an idea of IEEE event websites)
               </p>
