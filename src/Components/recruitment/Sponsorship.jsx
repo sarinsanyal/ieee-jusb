@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 const Sponsorship = () => {
   useEffect(() => {
@@ -52,6 +53,13 @@ const Sponsorship = () => {
             Submission deadline:
             <span className="text-red-800"> 17/04/2024</span>
           </p>
+          <Link
+            to="https://forms.gle/2zn3wqbD2uZJPxebA"
+            target="_blank"
+            className="r text-white rounded-lg bg-sky-600 text-center w-full md:w-fit mx-auto px-4 py-2"
+          >
+            Submit
+          </Link>
         </div>
       </div>
     </div>
