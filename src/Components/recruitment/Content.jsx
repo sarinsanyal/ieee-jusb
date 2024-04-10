@@ -10,6 +10,9 @@ const Content = () => {
       <h1 className="text-[2rem] lg:text-[3rem] font-extrabold">
         IEEE JUSB Content Team Recruitment 2024
       </h1>
+      <p className="font-bold block">
+            * Submission Deadline : 17/04/2024
+      </p>
       <div className="flex flex-col gap-6 px-4 md:px-2 py-4 w-full md:w-[80%] lg:w-[55%]">
         <ol className="list-decimal flex flex-col justify-center items-center gap-4">
           <li className="r marker:text-xl marker:font-bold">
@@ -106,7 +109,7 @@ const Content = () => {
           </li>
         </ol>
         <div className="flex flex-col gap-2 w-full">
-          <p className="font-bold block w-full">BONUS TASK</p>
+          <p className="font-bold block w-full">BONUS TASK </p>
           <p>Give an idea sketch for an Instagram reel for TechX(short)</p>
           <p className="w-full">
             [ Hint :Techx, organized by IEEE JUSB, is a multi-day out-of-station
