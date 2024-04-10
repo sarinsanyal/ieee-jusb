@@ -4,7 +4,7 @@
         "name": "Hello IEEE",
         "description": "Unrivaled and unparalleled, Hello-IEEE stands true to its name: Introducing the myriad boons of IEEE to young enthusiasts yet to blossom into leaders of tomorrow and seamlessly bridging the gap between industry and academia through its unique array of events.",
         "img": "../../events/helloieee.webp",
-        "link": "https://ieee-jaduniv.in/hello-IEEE/",
+        "link": "https://ieee-ju.github.io/hello-IEEE/",
         "date": "14th September, 2022"
     },
     {
@@ -28,7 +28,7 @@
         "name": "Pass the Mic",
         "description": "A five week specially curated podcast series, organized by IEEE Student Branch, Pass the Mic aimed at providing the audience a with an in-depth understanding of some of the most intriguing topics, with an assorted lineup of some pioneers in the field.",
         "img": "../../events/pass-the-mic.webp",
-        "link": "https://ieee-jaduniv.in/ptm/",
+        "link": "https://ieee-ju.github.io/ptm/",
         "date": "18th December, 2020"
     },
     {
@@ -44,7 +44,7 @@
         "name": "ElevateX",
         "description": "ElevateX is an all-in-one mentoring session by IEEE JU SB members. Be it research or industry, be it competitive coding, electronics or soft skill development, we have tracks tailor-made for your needs, complete with doubt-clearing, quick contests, real-world problems and webinars by field experts.",
         "img": "../../events/elevateX.webp",
-        "link": "https://ieee-jaduniv.in/ElevateX/",
+        "link": "https://ieee-ju.github.io/ElevateX/",
         "date": "9th April, 2020"
     },
     {
@@ -52,7 +52,7 @@
         "name": "Tech X",
         "description": "TechX Congress is the Eastern Indian Techno-Management Leadership Summit hosted by the IEEE computer society SYP MGAB in collaboration with two of India’s premier IEEE student chapters - Jadavpur University and NIT Durgapur",
         "img": "../../events/techx.webp",
-        "link": "https://ieee-jaduniv.in/techX/",
+        "link": "https://ieee-ju.github.io/techX/",
         "date": "28 Feb - 1 Mar, 2020"
 
     },
@@ -61,7 +61,7 @@
         "name": "ML Accelerator Summit",
         "description": "The Machine Learning Accelerator Summit is a tiny step to help students, engineers and tech enthusiasts live the AI dream.",
         "img": "../../events/mla.webp",
-        "link": "https://ieee-jaduniv.in/mla/index.html",
+        "link": "https://ieee-ju.github.io/mla/index.html",
         "date": "October 20, 2019"
     },
     {
@@ -77,7 +77,7 @@
         "name": "Think AI",
         "description": "Think AI, organized by IEEE Computer Society Student Chapter, sought to provide exposure in fields of Machine Learning and AI, through interactive sessions with speakers and hands- on implementation of Machine Learning algorithms.",
         "img": "../../events/thinkAI.webp",
-        "link": "https://ieee-jaduniv.in/thinkai/index.html",
+        "link": "https://ieee-ju.github.io/thinkai/index.html",
         "date": "19 - 20 April, 2019"
     }
 ]
