@@ -13,7 +13,7 @@ const Design = () => {
       <div className="flex flex-col gap-6 px-4 md:px-2 py-4 md:w-[80%] lg:w-[60%]">
         <ol className="flex flex-col justify-center items-center gap-8 w-full">
           <li className="marker:font-bold w-full">
-            <h1 className="text-2xl font-bold mb-4 w-full">Tasks.md</h1>
+            <h1 className="text-2xl font-bold mb-4 w-full">Tasks</h1>
             <div className="relative w-[90%]">
               <ol className="flex flex-col gap-2">
                 <li className="font-bold">
@@ -117,9 +117,12 @@ const Design = () => {
             </div>
           </li>
           <li className="marker:font-bold">
-            <h1 className="text-2xl font-bold mb-4">SubmissionRules.md</h1>
+            <h1 className="text-2xl font-bold mb-4">Submission Rules</h1>
             <div className="relative w-[90%] mx-auto">
               <ol className="list-disc flex flex-col gap-2">
+                <li>
+                  Submission Deadline : <span className="font-bold">23/04/2024</span>
+                </li>
                 <li>
                   Save your design as given format{" "}
                   <span className="font-bold">

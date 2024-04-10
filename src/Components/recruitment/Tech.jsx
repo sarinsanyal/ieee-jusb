@@ -9,6 +9,9 @@ const Tech = () => {
       <h1 className="text-[2rem] lg:text-[3rem] font-extrabold">
         IEEE JUSB Tech Team Recruitment 2024
       </h1>
+      <p className="font-bold block">
+            * Submission Deadline : 23/04/2024
+      </p>
       <div className="flex flex-col gap-6 px-4 md:px-2 py-4 md:w-[80%] lg:w-[60%]">
         <ol className="list-decimal flex flex-col justify-center items-center gap-4">
           <li className="r marker:text-xl marker:font-bold">
@@ -130,7 +133,11 @@ const Tech = () => {
         </ol>
         <div className="flex flex-col gap-2">
           <p>
-            <span className="font-bold">Note:</span> Any technology stack can be
+            <span className="font-bold">Note:
+            <span className="font-bold">
+               &nbsp;Choose any one of the above tasks.
+            </span>
+            </span> Any technology stack can be
             used for these tasks(Although{" "}
             <span className="font-bold">
               once selected, the candidate will have to learn React.js/Next.js
