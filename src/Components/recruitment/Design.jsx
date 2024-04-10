@@ -35,12 +35,12 @@ const Design = () => {
                   Design an instagram post describing one of the tracks of IEEE
                   TECHX Congress 2024. (Get the details of tracks from
                   <a
-                    href="https://ieee-jaduniv.in/techX/#sch"
+                    href="https://ieee-ju.github.io/techX/#sch"
                     target="_blank"
                     rel="noreferrer"
                     className="pl-2 text-sky-700"
                   >
-                    https://ieee-jaduniv.in/techX/#sch
+                    https://ieee-ju.github.io/techX/#sch
                   </a>
                   )
                 </li>
@@ -74,12 +74,12 @@ const Design = () => {
                   register, team, sponsors and contact, ensuring clarity in
                   layout and functionality. (Take reference from{" "}
                   <a
-                    href="https://ieee-jaduniv.in/techX"
+                    href="https://ieee-ju.github.io/techX"
                     target="_blank"
                     rel="noreferrer"
                     className="pl-2 text-sky-700"
                   >
-                    https://ieee-jaduniv.in/techX
+                    https://ieee-ju.github.io/techX
                   </a>
                   )
                 </li>

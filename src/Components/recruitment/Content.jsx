@@ -50,7 +50,7 @@ const Content = () => {
                 <br />
                 Write event report for ML Accelerator 3.0 [necessary information
                 attached] <br />
-                Website: https://ieee-jaduniv.in/MLAS-3.0/ <br />
+                Demo Website: https://ieee-ju.github.io/MLAS-3.0/ <br />
                 [Description: The event incorporated talk sessions and hands-on
                 workshops to provide a comprehensive introduction to Machine
                 Learning and Deep Learning, aiming to equip participants with a
