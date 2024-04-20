@@ -51,7 +51,7 @@ const Sponsorship = () => {
         <div className="flex flex-col gap-4">
           <p className="font-bold block">
             Submission deadline:
-            <span className="text-red-800"> 17/04/2024</span>
+            <span className="text-red-800"> 20/04/2024</span>
           </p>
           <Link
             to="https://forms.gle/2zn3wqbD2uZJPxebA"

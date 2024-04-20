@@ -124,7 +124,7 @@ const Content = () => {
             event of JUSB and is held in a resort outside Kolkata]
           </p>
           <p className="font-bold text-red-700 my-4 block">
-            Submission Deadline : 17/04/2024
+            Submission Deadline : 20/04/2024
           </p>
           <Link
             to="https://docs.google.com/forms/d/e/1FAIpQLScN4ed-wKJlaYi1B1Gcvl-Vm-MzX-DN3lPixt8DlpwCd75s0w/viewform?usp=sf_link"
