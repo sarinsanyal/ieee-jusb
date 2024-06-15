@@ -5,7 +5,6 @@ import Chapters from './Chapters'
 import Sponsors from './Sponsors'
 // import Advisors from './Advisors'
 import PageWrapper from './PageWrapper'
-import Recruit from './recruitment/Recruit'
 
 export default function Home() {
   return (
@@ -15,7 +14,6 @@ export default function Home() {
       <section id="about"><About/></section>
       <section id="chapters"><Chapters/></section>
       {/* <section id="advisors"><Advisors/></section> */}
-      <section id='recruit'><Recruit/></section>
       <section id='sponsors'><Sponsors/></section>
       <section id="contact"><Contact/></section>
     </div>
