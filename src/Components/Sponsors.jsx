@@ -19,7 +19,7 @@ import yplogo from '../assets/sponsors/webp/yplogo.webp'
 
 export default function Sponsors() {
   return (
-    <div className='py-[90px] bg-[rgba(0,0,0,0.15)] dark:bg-gradient-to-b from-[#002238] to-[#002238ca] text-center'>
+    <div className='py-[90px] bg-[rgba(0,0,0,0.15)] dark:bg-gradient-to-b from-[#002238] via-[#042f49f9] to-[#042f49ca] text-center'>
       <h1 className="font-Josefin font-bold text-white text-4xl uppercase drop-shadow-md my-4">Past Sponsors</h1>
       <div className='bg-white w-24 h-1 mx-auto'/>
       <div className="flex flex-row flex-wrap mt-16 gap-8 md:gap-16 justify-center mx-8">

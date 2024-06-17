@@ -78,7 +78,7 @@ export default function Navbar() {
       }}
       animate={hidden && !isMobile ? "hidden" : "visible"}
       transition={{ duration: 0.35, ease: "easeInOut" }}
-      className="sticky z-10 w-full top-0 flex flex-row justify-between pl-2 lg:px-4 drop-shadow-lg bg-gradient-to-r from-white to-cyan-100 dark:from-black dark:to-slate-950 transition-all h-[80px] font-Josefin"
+      className="sticky z-10 w-full top-0 flex flex-row justify-between pl-2 lg:px-4 drop-shadow-lg bg-gradient-to-r from-white to-cyan-100 dark:from-slate-900 dark:to-[#001b2d] transition-all h-[80px] font-Josefin"
     >
       <img src={logo} alt="IEE-JUSB" className="w-[200px] my-auto" />
 

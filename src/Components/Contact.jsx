@@ -24,12 +24,12 @@ export default function Contact() {
   };
 
   return (
-    <div className="py-10 pt-[90px] font-Josefin">
+    <div className="py-10 pt-[90px] font-Josefin dark:bg-[#002238]">
       {/* HEADER */}
-      <h1 className="text-4xl text-sky-950 text-center font-extrabold">
+      <h1 className="text-4xl text-sky-950 dark:text-[#4cc9ffd4] text-center font-extrabold">
         CONTACT US
       </h1>
-      <hr className="w-28 h-1 mx-auto mt-3 bg-sky-950 border-0"></hr>
+      <hr className="w-28 h-1 mx-auto mt-3 bg-sky-950 dark:bg-[#4cc9ffd4] border-0"></hr>
 
       <div className="px-5 md:px-20 mt-20">
         <div className="md:flex">
@@ -43,8 +43,8 @@ export default function Contact() {
           </div>
 
           {/* INFORMATION SECTION */}
-          <div className="md:w-2/3 h-[400px] bg-[#2B83B924] grid place-items-center">
-            <div className="text-center">
+          <div className="md:w-2/3 h-[400px] bg-[#2b82b934] grid place-items-center">
+            <div className="text-center dark:text-[#4cc9ffb3]">
               <h1 className="text-4xl font-bold">JADAVPUR UNIVERSITY</h1>
               <br />
               <p className="text-xl">
