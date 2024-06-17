@@ -107,6 +107,66 @@ export default function Team() {
       name: "Reejul Chattaraj",
       image: "../../teams/Reejul.webp",
     },
+    {
+      id: 7,
+      name: "Rahul Pandey",
+      image: "",
+    },
+    {
+      id: 8,
+      name: "Nilangshu Bhattacharyya",
+      image: "",
+    },
+    {
+      id: 9,
+      name: "Abhishek Bhattacharjee",
+      image: "",
+    },
+    {
+      id: 10,
+      name: "Arka Dutta",
+      image: "",
+    },
+    {
+      id: 11,
+      name: "Ahnik Purkait",
+      image: "",
+    },
+    {
+      id: 12,
+      name: "Wrick Pal",
+      image: "",
+    },
+    {
+      id: 13,
+      name: "Aindree Chatterjee",
+      image: "",
+    },
+    {
+      id: 14,
+      name: "Soham Saha",
+      image: "",
+    },
+    {
+      id: 15,
+      name: "Trishit Debsharma",
+      image: "",
+    },
+    {
+      id: 16,
+      name: "Abhirup Guha Roy",
+      image: "",
+    },
+    {
+      id: 17,
+      name: "Somnath Chattaraj",
+      image: "",
+    },
+    {
+      id: 18,
+      name: "Kushaj Mallick",
+      image: "",
+    },
   ];
   const design = [
     {
