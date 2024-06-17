@@ -1,6 +1,6 @@
 import React from 'react'
 import jusb_logo from '../assets/img/jusb_logo.webp'
-import { FaInstagram, FaFacebook, FaTwitter, FaLinkedin, FaHeart } from "react-icons/fa";
+import {FaQuoteLeft, FaVoicemail,FaInstagram, FaFacebook, FaTwitter, FaLinkedin, FaHeart } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 import { Link } from 'react-router-dom';
 
@@ -41,6 +41,7 @@ export default function Footer() {
               </ul>
             </div>
             <div>
+
               <h5 className="text-xl font-extrabold mt-4 mb-1">Socials</h5>
               <div className="mt-3 flex flex-row sm:flex-col gap-4 sm:gap-2">
                 <a href="https://twitter.com/IeeeJadavpur" target='blank'><BsTwitterX className="my-2 h-8 w-8 transition-colors duration-150 ease-in-out hover:text-blue-700" /></a>
@@ -61,3 +62,4 @@ export default function Footer() {
     </div>
   )
 }
+
