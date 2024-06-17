@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import logo from "../assets/RAW Logo.png";
 import { Link, NavLink, useLocation } from "react-router-dom";
 import { HashLink, NavHashLink } from "react-router-hash-link";
@@ -43,7 +43,18 @@ export default function Navbar() {
   }, []);
 
   const [navOpen, setNavOpen] = useState(false);
-  // const [themeDark, setThemeDark] = useState(false);
+
+  const rootEle = document.querySelector("#root");
+  'themeDark' in localStorage||localStorage.setItem('themeDark',window.matchMedia('(prefers-color-scheme: dark)').matches);
+  const [themeDark, setThemeDark] = useState((localStorage.getItem('themeDark'))==='true');
+  themeDark?rootEle.classList.add('dark'):rootEle.classList.remove('dark');
+  
+  useEffect(()=>{ //handling theme button click
+    (rootEle.classList.contains('dark')&&!themeDark)&&rootEle.classList.remove('dark');
+    (!(rootEle.classList.contains('dark'))&&themeDark)&&rootEle.classList.add('dark');
+    localStorage.setItem('themeDark',themeDark);
+  },[themeDark]);
+
   let [activeTab, setActiveTab] = useState(routes[0].id);
 
   const { scrollY } = useScroll();
@@ -67,20 +78,20 @@ export default function Navbar() {
       }}
       animate={hidden && !isMobile ? "hidden" : "visible"}
       transition={{ duration: 0.35, ease: "easeInOut" }}
-      className="sticky z-10 w-full top-0 flex flex-row justify-between pl-2 lg:px-4 drop-shadow-lg bg-gradient-to-r from-white to-cyan-100 h-[80px] font-Josefin"
+      className="sticky z-10 w-full top-0 flex flex-row justify-between pl-2 lg:px-4 drop-shadow-lg bg-gradient-to-r from-white to-cyan-100 dark:from-black dark:to-slate-950 transition-all h-[80px] font-Josefin"
     >
       <img src={logo} alt="IEE-JUSB" className="w-[200px] my-auto" />
 
-      {/* <div className="absolute top-[90vh] right-2 h-[34px] w-[34px] rounded-full border-2 border-slate-200 bg-slate-300 shadow-xl">
+      <div className="absolute top-[90vh] right-2 h-[34px] w-[34px] rounded-full border-2 border-slate-200 bg-slate-300 shadow-xl">
         <button
           className="m-auto"
           onClick={() => {
             setThemeDark(!themeDark);
           }}
         >
-          {themeDark ? <HiMoon size={30} /> : <CiLight size={30} />}
+          {!themeDark ? <HiMoon size={30} /> : <CiLight size={30} />}
         </button>
-      </div> */}
+      </div>
 
       <button
         className="md:hidden absolute right-0 top-0 m-6"
@@ -88,11 +99,11 @@ export default function Navbar() {
           setNavOpen(!navOpen);
         }}
       >
-        {navOpen ? <IoMdClose size={30} /> : <RxHamburgerMenu size={30} />}
+        {navOpen ? <IoMdClose size={30} color={themeDark?"#075985":"black"} /> : <RxHamburgerMenu size={30} color={themeDark?"#075985":"black"} />}
       </button>
 
       <div
-        className={`flex md:flex-row flex-col uppercase font-semibold font-Josefin text-sm my-auto md:mx-2 gap-4 md:w-auto nav-mobile ${
+        className={`flex md:flex-row flex-col uppercase font-semibold font-Josefin text-sm my-auto md:mx-2 gap-4 md:w-auto ${themeDark? "nav-mobile-dark" : "nav-mobile"} ${
           navOpen
             ? "-md:animate-[width] duration-500 w-[50%]"
             : "w-0 -md:animate-[width] duration-500 overflow-hidden"
@@ -114,14 +125,14 @@ export default function Navbar() {
             to={routes.to}
             className={`${
               location.pathname === routes.to ? "text-sky-800 font-bold" : ""
-            } hover:text-sky-700 duration-300 group`}
+            } hover:text-sky-700 dark:text-sky-600 dark:hover:text-sky-400 duration-300 group`}
           >
             {routes.id}
             {location.pathname === routes.to && (
               <div className="r w-[30%] sm:w-[90%] h-[2px] mx-auto bg-sky-700"></div>
             )}
             {!(location.pathname === routes.to) && (
-              <div className="r w-0 sm:group-hover:w-[90%] duration-500 h-[2px] mx-auto bg-sky-700"></div>
+              <div className="r w-0 sm:group-hover:w-[90%] duration-500 h-[2px] mx-auto bg-sky-700 dark:bg-sky-400"></div>
             )}
           </HashLink>
         ))}
