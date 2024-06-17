@@ -110,62 +110,62 @@ export default function Team() {
     {
       id: 7,
       name: "Rahul Pandey",
-      image: "",
+      image: "../../teams/Rahul.webp",
     },
     {
       id: 8,
       name: "Nilangshu Bhattacharyya",
-      image: "",
+      image: "../../teams/Nilangshu.webp",
     },
     {
       id: 9,
       name: "Abhishek Bhattacharjee",
-      image: "",
+      image: "../../teams/Abhishek.webp",
     },
     {
       id: 10,
       name: "Arka Dutta",
-      image: "",
+      image: "../../teams/ArkaDutta.webp",
     },
     {
       id: 11,
       name: "Ahnik Purkait",
-      image: "",
+      image: "../../teams/Ahnik.webp",
     },
     {
       id: 12,
       name: "Wrick Pal",
-      image: "",
+      image: "../../teams/Wrick.webp",
     },
     {
       id: 13,
       name: "Aindree Chatterjee",
-      image: "",
+      image: "../../teams/Aindree.webp",
     },
     {
       id: 14,
       name: "Soham Saha",
-      image: "",
+      image: "../../teams/Soham.webp",
     },
     {
       id: 15,
       name: "Trishit Debsharma",
-      image: "",
+      image: "../../teams/Trishit.webp",
     },
     {
       id: 16,
       name: "Abhirup Guha Roy",
-      image: "",
+      image: "../../teams/Abhirup.webp",
     },
     {
       id: 17,
       name: "Somnath Chattaraj",
-      image: "",
+      image: "../../teams/Somnath.webp",
     },
     {
       id: 18,
       name: "Kushaj Mallick",
-      image: "",
+      image: "../../teams/Kushaj.webp",
     },
   ];
   const design = [
@@ -452,7 +452,7 @@ export default function Team() {
                   </p>
                 )}
                 <div className="flex flex-row justify-center items-center gap-8 text-2xl">
-                  <FaInstagram className="relative cursor-pointer" />
+                  <FaInstagram className="relative cursor-pointer"  />
                   <FaLinkedinIn className="relative cursor-pointer" />
                   <FaXTwitter className="relative cursor-pointer" />
                 </div>
