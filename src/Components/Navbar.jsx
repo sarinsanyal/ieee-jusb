@@ -1,16 +1,13 @@
 import React, { useState, useEffect, useRef } from "react";
 import logo from "../assets/RAW Logo.png";
-import { Link, NavLink, useLocation } from "react-router-dom";
-import { HashLink, NavHashLink } from "react-router-hash-link";
+import { useLocation } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoMdClose } from "react-icons/io";
-import { CiLight } from "react-icons/ci";
-import { HiMoon } from "react-icons/hi2";
 import { useScroll, motion, useMotionValueEvent } from "framer-motion";
-
 import "./CSS/Navbar.css";
 
-let routes = [
+const routes = [
   { id: "Home", to: "/" },
   { id: "About", to: "/#about" },
   { id: "Chapters", to: "/#chapters" },
@@ -22,27 +19,19 @@ let routes = [
 
 export default function Navbar() {
   const location = useLocation();
-
-  const [isMobile, setIsMobile] = useState(false);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+  const [navOpen, setNavOpen] = useState(false);
+  const [hidden, setHidden] = useState(false);
+  const { scrollY } = useScroll();
 
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth <= 768); // Set the breakpoint according to your design
+      setIsMobile(window.innerWidth <= 768);
     };
 
-    // Initial check
-    handleResize();
-
-    // Event listener for window resize
     window.addEventListener("resize", handleResize);
-
-    // Clean up
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
+    return () => window.removeEventListener("resize", handleResize);
   }, []);
-
-  const [navOpen, setNavOpen] = useState(false);
 
   const rootEle = document.querySelector("#root");
   'themeDark' in localStorage||localStorage.setItem('themeDark',window.matchMedia('(prefers-color-scheme: dark)').matches);
@@ -57,25 +46,19 @@ export default function Navbar() {
 
   let [activeTab, setActiveTab] = useState(routes[0].id);
 
-  const { scrollY } = useScroll();
-  const [hidden, setHidden] = useState(false);
-
   useMotionValueEvent(scrollY, "change", (latest) => {
-    const previous = scrollY.getPrevious();
-
-    if (latest > previous && latest > 250) {
-      setHidden(true);
-    } else {
-      setHidden(false);
-    }
+    setHidden(latest > scrollY.getPrevious() && latest > 250);
   });
+
+  const handleNavClick = () => {
+    if (isMobile) {
+      setNavOpen(false);
+    }
+  };
 
   return (
     <motion.div
-      variants={{
-        visible: { y: 0 },
-        hidden: { y: "-100%" },
-      }}
+      variants={{ visible: { y: 0 }, hidden: { y: "-100%" } }}
       animate={hidden && !isMobile ? "hidden" : "visible"}
       transition={{ duration: 0.35, ease: "easeInOut" }}
       className="sticky z-10 w-full top-0 flex flex-row justify-between pl-2 lg:px-4 drop-shadow-lg bg-gradient-to-r from-white to-cyan-100 dark:from-slate-900 dark:to-[#001b2d] transition-all h-[80px] font-Josefin"
@@ -92,49 +75,43 @@ export default function Navbar() {
           {!themeDark ? <HiMoon size={25} className="mt-[3px] ml-[3px]" /> : <CiLight size={30} />}
         </button>
       </div>
-
       <button
         className="md:hidden absolute right-0 top-0 m-6"
-        onClick={() => {
-          setNavOpen(!navOpen);
-        }}
+        onClick={() => setNavOpen(!navOpen)}
+        aria-label="Toggle navigation menu"
       >
         {navOpen ? <IoMdClose size={30} color={themeDark?"#075985":"black"} /> : <RxHamburgerMenu size={30} color={themeDark?"#075985":"black"} />}
       </button>
 
-      <div
-        className={`flex md:flex-row flex-col uppercase font-semibold font-Josefin text-sm my-auto md:mx-2 gap-4 md:w-auto ${themeDark? "nav-mobile-dark" : "nav-mobile"} ${
-          navOpen
-            ? "-md:animate-[width] duration-500 w-[50%]"
-            : "w-0 -md:animate-[width] duration-500 overflow-hidden"
-        }`}
-      >
-        {/* <NavLink to={"/#"}>Home</NavLink>
-        <NavLink to={"/#about"} activeClassName="active">
-          About
-        </NavLink>
-        <NavLink to={"/#chapters"}>Chapters</NavLink>
-        <NavLink to={"/events"}>Events</NavLink>
-        <NavLink to={"/#sponsors"}>Sponsors</NavLink>
-        <NavLink to={"/team"}>Team</NavLink>
-        <NavLink to={"/#contact"}>Contact</NavLink> */}
-
-        {routes.map((routes) => (
+      <div className={`flex md:flex-row flex-col uppercase font-semibold font-Josefin text-sm my-auto md:mx-2 gap-4 md:w-auto ${themeDark? "nav-mobile-dark" : "nav-mobile"} ${
+          navOpen ? "w-[50%]" : "w-0 overflow-hidden"
+        } duration-500`} >
+        
+        {routes.map((route) => (
           <HashLink
-            key={routes.id}
-            to={routes.to}
-            className={`${
-              location.pathname === routes.to ? "text-sky-800 font-bold" : ""
-            } hover:text-sky-700 dark:text-sky-600 dark:hover:text-sky-400 duration-300 group`}
-          >
-            {routes.id}
-            {location.pathname === routes.to && (
-              <div className="r w-[30%] sm:w-[90%] h-[2px] mx-auto bg-sky-700"></div>
-            )}
-            {!(location.pathname === routes.to) && (
-              <div className="r w-0 sm:group-hover:w-[90%] duration-500 h-[2px] mx-auto bg-sky-700 dark:bg-sky-400"></div>
-            )}
-          </HashLink>
+  key={route.id}
+  to={route.to}
+  className={`${
+    location.pathname === route.to ? "text-sky-800 font-bold" : ""
+  } hover:text-sky-700 dark:text-sky-600 dark:hover:text-sky-400 duration-300 group`}
+  smooth
+  scroll={(el) =>
+    window.scrollTo({
+      top: el.offsetTop - 80, // Adjust this value according to your header height
+      behavior: "smooth",
+    })
+  }
+  onClick={handleNavClick}
+>
+  {route.id}
+  <div
+    className={`r ${
+      location.pathname === route.to
+        ? "w-[30%] sm:w-[90%]"
+        : "w-0 sm:group-hover:w-[90%] dark:bg-sky-400"
+    } duration-500 h-[2px] mx-auto bg-sky-700`}
+  ></div>
+</HashLink>
         ))}
       </div>
     </motion.div>
