@@ -26,10 +26,10 @@ export default function Contact() {
   return (
     <div className="py-10 pt-[90px] font-Josefin dark:bg-[#002238]">
       {/* HEADER */}
-      <h1 className="text-4xl text-sky-950 dark:text-[#4cc9ffd4] text-center font-extrabold">
+      <h1 className="text-4xl text-sky-950 dark:text-white text-center font-extrabold">
         CONTACT US
       </h1>
-      <hr className="w-28 h-1 mx-auto mt-3 bg-sky-950 dark:bg-[#4cc9ffd4] border-0"></hr>
+      <hr className="w-28 h-1 mx-auto mt-3 bg-sky-950 dark:bg-white border-0"></hr>
 
       <div className="px-5 md:px-20 mt-20">
         <div className="md:flex">
@@ -44,7 +44,7 @@ export default function Contact() {
 
           {/* INFORMATION SECTION */}
           <div className="md:w-2/3 h-[400px] bg-[#2b82b934] grid place-items-center">
-            <div className="text-center dark:text-[#4cc9ffb3]">
+            <div className="text-center dark:text-white">
               <h1 className="text-4xl font-bold">JADAVPUR UNIVERSITY</h1>
               <br />
               <p className="text-xl">
@@ -61,7 +61,7 @@ export default function Contact() {
         <div className="flex flex-col md:flex-row mt-10 gap-5">
           {/* FORM */}
 
-          <div className="md:w-2/3 p-10 bg-gradient-to-bl from-white via-slate-300 to-slate-300 rounded-sm drop-shadow-xl">
+          <div className="md:w-2/3 p-10 bg-gradient-to-bl from-white via-slate-300 to-slate-300 dark:from-[#2b82b934] dark:to-[#2b82b934] rounded-sm drop-shadow-xl">
             <form onSubmit={sendMessage} className="flex flex-col gap-5">
               <div className="flex gap-5">
                 <input
@@ -69,14 +69,14 @@ export default function Contact() {
                   id="name"
                   type="text"
                   placeholder="Your Name"
-                  className="w-1/2 p-3 rounded-lg border-2 border-black"
+                  className="w-1/2 p-3 rounded-lg border-2 border-black dark:bg-[#e0d8d8] dark:placeholder-black"
                 />
                 <input
                   onChange={handleChange}
                   id="email"
                   type="text"
                   placeholder="Your Email"
-                  className="w-1/2 p-3 rounded-lg border-2 border-black"
+                  className="w-1/2 p-3 rounded-lg border-2 border-black dark:bg-[#e0d8d8] dark:placeholder-black"
                 />
               </div>
               <input
@@ -84,7 +84,7 @@ export default function Contact() {
                 id="subject"
                 type="text"
                 placeholder="Subject"
-                className="w-full p-3 rounded-lg border-2 border-black"
+                className="w-full p-3 rounded-lg border-2 border-black dark:bg-[#e0d8d8] dark:placeholder-black"
               />
               <textarea
                 onChange={handleChange}
@@ -93,22 +93,22 @@ export default function Contact() {
                 id="message"
                 cols="30"
                 rows="8"
-                className="w-full p-3 rounded-lg border-2 border-black"
+                className="w-full p-3 rounded-lg border-2 border-black dark:bg-[#e0d8d8] dark:placeholder-black"
               ></textarea>
-              <button type="submit" className="text-white font-semibold bg-blue-900 px-5 py-2.5 mb-2 rounded transition-colors duration-150 ease-in-out hover:bg-blue-700 drop-shadow-md mx-auto w-36">Submit</button>
+              <button type="submit" className="text-white dark:text-[#183445] dark:font-bold font-semibold bg-blue-900 dark:bg-[#e0d8d8] px-5 py-2.5 mb-2 rounded transition-colors duration-150 ease-in-out hover:bg-blue-700 drop-shadow-md mx-auto w-36">Submit</button>
             </form>
             
           </div>
 
           {/* ADDRESS */}
           <div className="md:w-1/3 flex flex-col gap-5">
-            <div className="p-5 bg-gradient-to-bl from-white via-slate-300 to-slate-300 rounded-sm drop-shadow-xl h-1/2 grid place-items-center">
+            <div className="p-5 bg-gradient-to-bl from-white via-slate-300 to-slate-300 dark:from-[#2b82b934] dark:to-[#2b82b934] rounded-sm drop-shadow-xl h-1/2 grid place-items-center">
               <div className="text-center">
-                <span className="text-black text-2xl font-bold font-['Josefin Sans']">
+                <span className="text-black dark:text-white text-2xl font-bold font-['Josefin Sans']">
                   Our Address
                   <br />
                 </span>
-                <span className="text-black text-md font-light font-['Josefin Sans']">
+                <span className="text-black dark:text-white text-md font-light font-['Josefin Sans']">
                   <br />
                   Jadavpur University
                   <br />
@@ -120,14 +120,14 @@ export default function Contact() {
             </div>
 
             {/* EMAIL */}
-            <div className="p-5 bg-gradient-to-bl from-white via-slate-300 to-slate-300 rounded-sm drop-shadow-xl h-1/2 grid place-items-center">
-            <MdOutlineEmail className="h-16 w-16"/>
+            <div className="p-5 bg-gradient-to-bl from-white via-slate-300 to-slate-300 dark:from-[#2b82b934] dark:to-[#2b82b934] rounded-sm drop-shadow-xl h-1/2 grid place-items-center">
+            <MdOutlineEmail className="h-16 w-16 text-white"/>
               <div className="text-center">
-                <span className="text-black text-2xl font-bold font-['Josefin Sans']">
+                <span className="text-black dark:text-white text-2xl font-bold font-['Josefin Sans']">
                   Email Us
                   <br />
                 </span>
-                <span className="text-black text-md font-light font-['Josefin Sans']">
+                <span className="text-black dark:text-white text-md font-light font-['Josefin Sans']">
                   jaduniv.ieee@gmail.com
                   <br />
                 </span>

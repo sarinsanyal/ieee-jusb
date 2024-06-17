@@ -359,7 +359,7 @@ export default function Team() {
   ];
 
   return (
-    <section className="relative h-fit w-full flex flex-col gap-5 py-4">
+    <section className="relative h-fit w-full flex flex-col gap-5 py-4 dark:bg-[#001523] dark:text-[#c5e3f5]">
       <h1 className="relative text-center font-Josefin text-4xl font-bold py-3">
         Our Team
       </h1>

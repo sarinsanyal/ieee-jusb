@@ -89,7 +89,7 @@ export default function Navbar() {
             setThemeDark(!themeDark);
           }}
         >
-          {!themeDark ? <HiMoon size={30} /> : <CiLight size={30} />}
+          {!themeDark ? <HiMoon size={25} className="mt-[3px] ml-[3px]" /> : <CiLight size={30} />}
         </button>
       </div>
 
