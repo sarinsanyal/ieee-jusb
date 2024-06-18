@@ -4,6 +4,8 @@ import { useLocation } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoMdClose } from "react-icons/io";
+import { CiLight } from "react-icons/ci";
+import { HiMoon } from "react-icons/hi2";
 import { useScroll, motion, useMotionValueEvent } from "framer-motion";
 import "./CSS/Navbar.css";
 
