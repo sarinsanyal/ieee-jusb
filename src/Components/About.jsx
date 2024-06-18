@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function About() {
   return (
-    <div className="bg-sky-950 text-white py-10 pt-[90px] font-Josefin" id='about'>
+    <div className="bg-sky-950 dark:bg-[#002238] text-white dark:text-[#fffff0] py-10 pt-[90px] font-Josefin" id='about'>
       <div className="flex justify-center">
         <h2 className="text-4xl font-extrabold">ABOUT US</h2>
       </div>

@@ -2,12 +2,12 @@ import React from "react";
 
 export default function Chapters() {
   return (
-    <div className="py-10 pt-[90px] md:h-[900px] bg-[url('/chapters/chapters-bg.jpg')] bg-no-repeat bg-cover font-Josefin">
+    <div className="py-10 pt-[90px] md:h-[900px] bg-[url('/chapters/chapters-bg.jpg')] dark:bg-[linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url('/chapters/chapters-bg.jpg')] bg-no-repeat bg-cover font-Josefin">
       {/* HEADER */}
-      <h1 className="text-4xl text-sky-950 text-center font-extrabold">
+      <h1 className="text-4xl text-sky-950 dark:text-white text-center font-extrabold">
         STUDENT BRANCH CHAPTERS
       </h1>
-      <hr className="w-28 h-1 mx-auto mt-3 bg-sky-950 border-0"></hr>
+      <hr className="w-28 h-1 mx-auto mt-3 bg-sky-950 dark:bg-white border-0"></hr>
 
       {/* BRANCH CHAPTERS */}
       <div className="px-50 md:py-32 flex flex-col md:flex-row flex-wrap justify-center items-center font-Josefin">
