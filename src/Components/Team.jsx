@@ -107,6 +107,66 @@ export default function Team() {
       name: "Reejul Chattaraj",
       image: "../../teams/Reejul.webp",
     },
+    {
+      id: 7,
+      name: "Rahul Pandey",
+      image: "../../teams/Rahul.webp",
+    },
+    {
+      id: 8,
+      name: "Nilangshu Bhattacharyya",
+      image: "../../teams/Nilangshu.webp",
+    },
+    {
+      id: 9,
+      name: "Abhishek Bhattacharjee",
+      image: "../../teams/Abhishek.webp",
+    },
+    {
+      id: 10,
+      name: "Arka Dutta",
+      image: "../../teams/ArkaDutta.webp",
+    },
+    {
+      id: 11,
+      name: "Ahnik Purkait",
+      image: "../../teams/Ahnik.webp",
+    },
+    {
+      id: 12,
+      name: "Wrick Pal",
+      image: "../../teams/Wrick.webp",
+    },
+    {
+      id: 13,
+      name: "Aindree Chatterjee",
+      image: "../../teams/Aindree.webp",
+    },
+    {
+      id: 14,
+      name: "Soham Saha",
+      image: "../../teams/Soham.webp",
+    },
+    {
+      id: 15,
+      name: "Trishit Debsharma",
+      image: "../../teams/Trishit.webp",
+    },
+    {
+      id: 16,
+      name: "Abhirup Guha Roy",
+      image: "../../teams/Abhirup.webp",
+    },
+    {
+      id: 17,
+      name: "Somnath Chattaraj",
+      image: "../../teams/Somnath.webp",
+    },
+    {
+      id: 18,
+      name: "Kushaj Mallick",
+      image: "../../teams/Kushaj.webp",
+    },
   ];
   const design = [
     {
@@ -392,7 +452,7 @@ export default function Team() {
                   </p>
                 )}
                 <div className="flex flex-row justify-center items-center gap-8 text-2xl">
-                  <FaInstagram className="relative cursor-pointer" />
+                  <FaInstagram className="relative cursor-pointer"  />
                   <FaLinkedinIn className="relative cursor-pointer" />
                   <FaXTwitter className="relative cursor-pointer" />
                 </div>
