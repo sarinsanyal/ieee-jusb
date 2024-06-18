@@ -3,6 +3,30 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+@layer utilities {
+    .footer-header{
+      @apply  text-white  text-xl font-bold mb-3 tracking-wide text-center lg:text-left underline-offset-[4px] decoration-[3px] underline ;
+    }
+    .footer-grid{
+        @apply grid grid-cols-1 md:grid-cols-custom-lg lg:grid-cols-custom mb-5;
+    }
+    
+    .list-items{
+        @apply  font-semibold text-center lg:text-left ;
+    }
+    .list-div{
+        @apply flex flex-col gap-y-2 items-center lg:items-start 
+    }
+    .footer-icons{
+        @apply h-[27px] w-[27px]
+    }
+    .hover-link{
+        @apply hover:text-blue-400 transition-colors duration-150 ease-in-out
+    }
+  }
+
 *{
     @apply transition-colors duration-200;
 }
