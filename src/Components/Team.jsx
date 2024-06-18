@@ -272,6 +272,47 @@ export default function Team() {
       name: "Arya Pandit",
       image: "../../teams/Arya.webp",
     },
+    {
+      id : 4,
+      name: "Subham Dalai",
+      image: "../../teams/Subham.webp",
+    },
+    {
+      id: 5,
+      name: "Utpalendu Ray",
+      image: "../../teams/Utpalendu.webp",
+    },
+    {
+      id: 6,
+      name: "Alankrita Paul",
+      image: "../../teams/Alankrita.webp",
+    },
+    {
+      id: 7,
+      name: "Aneesh Banerjee",
+      image: "../../teams/Aneesh.webp",
+    },
+    {
+      id: 8,
+      name : "Soham Chakraborty",
+      image: "../../teams/Soham Chakraborty.webp",
+    },
+    {
+      id: 9,
+      name: "Mayukh Roy",
+      image: "../../teams/Mayukh-Roy.webp",
+    },
+    {
+      id: 10,
+      name: "Ankan Roy",
+      image: "../../teams/Ankan-Roy.webp",
+    },
+    {
+      id: 11,
+      name: "Soham Chatterjee",
+      image: "../../teams/Soham-Chatterjee.webp",
+    },
+
   ];
 
   const logistics = [
