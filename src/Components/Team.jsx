@@ -3,6 +3,8 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { useEffect } from "react";
 
+
+
 export default function Team() {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -268,6 +270,66 @@ export default function Team() {
       name: "Tuhin Mallick",
       image: "../../teams/Tuhin.webp",
     },
+    {
+      id: 6,
+      name: "Agniva Paul",
+      image: "../../teams/Agniva.webp",
+    },
+    {
+      id: 7,
+      name: "Soumodip pramanick",
+      image: "../../teams/Soumadip.webp",
+    },
+    {
+      id: 8,
+      name: "Sohini Hazra",
+      image: "../../teams/Sohini.webp",
+    },
+    {
+      id: 9,
+      name: "Ankush Agarwala",
+      image: "../../teams/Ankush.webp",
+    },
+    {
+      id: 10,
+      name: "Amit Dhibar",
+      image: "../../teams/Amit.webp",
+    },
+    {
+      id: 11,
+      name: "Shaikh Shoaib Ahmed",
+      image: "../../teams/Shoaib.webp", 
+    },
+    {
+      id: 12,
+      name: "Sneha Ghosh",
+      image: "../../teams/Sneha.webp",
+    },
+    {
+      id: 13,
+      name: "Arnik Paul",
+      image: "../../teams/Arnik.webp",
+    },
+    {
+      id: 14,
+      name: "Aishani Roy",
+      image: "../../teams/Aishani.webp",
+    },
+    {
+      id: 15,
+      name: "Monodeep Mondal",
+      image: "../../teams/Monodeep.webp",
+    }, 
+    {
+      id: 16,
+      name: "Manosrija Nasrin",
+      image: "../../teams/Manosrija.webp",
+    },
+    {
+      id: 17,
+      name: "Soham Roy",
+      image: "../../teams/Soham-logistics.webp",
+    }
   ];
 
   const iasChapter = [
