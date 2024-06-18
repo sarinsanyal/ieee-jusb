@@ -7,7 +7,7 @@ import "./CSS/Footer.css";
 export default function Footer() {
   return (
     <div>
-      <footer className="bg-sky-950 text-white font-Josefin pb-5 pt-9 mt-5">
+      <footer className="bg-sky-950 text-white font-Josefin pb-5 pt-9 ">
         <div className="footer-grid mb-4 w-[90vw]  mx-auto gap-[15px] lg:gap-[20px]  ">
           <div className="footer-div">
             <h4 className="footer-header">IEEE JUSB</h4>
