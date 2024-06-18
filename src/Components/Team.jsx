@@ -254,6 +254,46 @@ export default function Team() {
       name: "Sumedha Ghosh Chowdhury",
       image: "../../teams/sumedha.webp",
     },
+    {
+      id: 8,
+      name: "Subhranil Banerjee",
+      image: "../../teams/Subhranil.webp",
+    },
+    {
+      id: 9,
+      name: "Arkaprabha Pal",
+      image: "../../teams/Arkaprabha Pal.webp",
+    },
+    {
+      id: 10,
+      name: "Debaditya Ghosh",
+      image: "../../teams/Debaditya.webp",
+    },
+    {
+      id: 11,
+      name: "Architava Bhattacharya",
+      image: "../../teams/Architava 2.webp",
+    },
+    {
+      id: 12,
+      name: "Riyana Roy",
+      image: "../../teams/Riyana.webp",
+    },
+    {
+      id: 13,
+      name: "Sombrata Biswas",
+      image: "../../teams/Sombrata.webp",
+    },
+    {
+      id: 14,
+      name: "KHUSHWANT PILANIWALA",
+      image: "../../teams/Khushwant Pilaniwala.webp",
+    },
+    {
+      id: 15,
+      name: "Sohini Pal",
+      image: "../../teams/Sohini Pal.webp",
+    },
   ];
 
   const pr = [
