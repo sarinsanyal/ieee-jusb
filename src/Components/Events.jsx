@@ -25,7 +25,7 @@ export default function Events() {
 
                     <div className="w-[96%] min-h-fit px-4 flex flex-col gap-4 pt-4">
                         <p className="relative font-Inclusive  dark:text-white text-4xl">{item.name}</p>
-                        <hr className="relative border-slate-700 border-2" />
+                        <hr className="relative border-slate-700 dark:border-slate-200 border-2" />
                         <p className="relative font-Josefin  dark:text-white text-lg">
                             {item.description}
                         </p>
