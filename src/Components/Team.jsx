@@ -271,26 +271,21 @@ export default function Team() {
     },
     {
       id: 11,
-      name: "Architava Bhattacharya",
-      image: "../../teams/Architava 2.webp",
-    },
-    {
-      id: 12,
       name: "Riyana Roy",
       image: "../../teams/Riyana.webp",
     },
     {
-      id: 13,
+      id: 12,
       name: "Sombrata Biswas",
       image: "../../teams/Sombrata.webp",
     },
     {
-      id: 14,
-      name: "KHUSHWANT PILANIWALA",
-      image: "../../teams/Khushwant Pilaniwala.webp",
+      id: 13,
+      name: "Khushwant Pilaniwala",
+      image: "../../teams/Khushwant.webp",
     },
     {
-      id: 15,
+      id: 14,
       name: "Sohini Pal",
       image: "../../teams/Sohini Pal.webp",
     },
