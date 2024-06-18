@@ -186,6 +186,36 @@ export default function Team() {
       name: "Saklin Haque",
       image: "../../teams/dummy.webp",
     },
+    {
+      id: 4,
+      name: "Apurba Nandi",
+      image: "../../teams/Apurba.webp",
+    },
+    {
+      id: 5,
+      name: "Tanushree Sarkar",
+      image: "../../teams/Tanushree.webp",
+    },
+    {
+      id: 6,
+      name: "Avisikta Guria",
+      image: "../../teams/Avisikta.webp",
+    },
+    {
+      id: 7,
+      name: "Shrinjita Biswas",
+      image: "../../teams/Shrinjita.webp",
+    },
+    {
+      id: 8,
+      name: "Aneesh Banerjee",
+      image: "../../teams/Aneesh-design.webp",
+    },
+    {
+      id: 9,
+      name: "Shashwata Roy",
+      image: "../../teams/Shashwata.webp",
+    },
   ];
 
   const content = [
