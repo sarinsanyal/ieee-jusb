@@ -18,7 +18,7 @@ export default function Events() {
                     <div className="image_container w-full overflow-hidden rounded-bl-[20%] rounded-br-[50%]">
                         <img
                             src={item.img}
-                            className="w-full hover:scale-110 duration-300"
+                            className="w-full transition-all hover:scale-110 duration-300"
                             alt=""
                         />
                     </div>

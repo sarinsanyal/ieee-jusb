@@ -655,7 +655,7 @@ export default function Team() {
                 className="card w-[20rem] h-[32rem] flex flex-col justify-evenly mx-auto"
                 key={member.id}
               >
-                <div className="relative w-[80%] h-[20rem] text-center rounded-2xl hover:scale-105 duration-300 overflow-hidden mx-auto">
+                <div className="relative w-[80%] h-[20rem] text-center rounded-2xl transition-all hover:scale-105 duration-300 ease-in-out overflow-hidden mx-auto">
                   <img
                     src={`${member.image}`}
                     className="w-full h-full object-cover"
