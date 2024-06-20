@@ -4,6 +4,7 @@ import { FaInstagram, FaFacebook, FaLinkedin, FaHeart } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 import { HashLink } from 'react-router-hash-link';
 import "./CSS/Footer.css";
+import { Link } from 'react-router-dom';
 
 export default function Footer() {
   return (
