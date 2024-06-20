@@ -2,7 +2,7 @@ import React from 'react';
 import jusb_logo from '../assets/img/jusb_logo.webp';
 import { FaInstagram, FaFacebook, FaLinkedin, FaHeart } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
-import { HashLink as Link } from 'react-router-hash-link';
+import { HashLink } from 'react-router-hash-link';
 import "./CSS/Footer.css";
 
 export default function Footer() {
@@ -22,24 +22,24 @@ export default function Footer() {
           <div className="footer-div">
             <h4 className="footer-header">Useful Links</h4>
             <div className="list-div ">
-            <Link smooth to="/" className="list-items hover-link">
+            <HashLink smooth to="/" className="list-items hover-link">
                 Homes
-            </Link>
-            <Link smooth to="/#about" className="list-items hover-link">
+            </HashLink>
+            <HashLink smooth to="/#about" className="list-items hover-link">
                 About Us
-            </Link>
-            <Link smooth to="/#chapters" className="list-items hover-link">
+            </HashLink>
+            <HashLink smooth to="/#chapters" className="list-items hover-link">
                 Chapters
-            </Link>
-            <Link smooth to="/events" className="list-items hover-link">
+            </HashLink>
+            <HashLink smooth to="/events" className="list-items hover-link">
                 Events
-            </Link>
-            <Link smooth to="/#sponsors" className="list-items hover-link">
+            </HashLink>
+            <HashLink smooth to="/#sponsors" className="list-items hover-link">
                 Sponsors
-            </Link>
-            <Link smooth to="/team" className="list-items hover-link">
+            </HashLink>
+            <HashLink smooth to="/team" className="list-items hover-link">
                 Team
-            </Link>
+            </HashLink>
             </div>
           </div>
           <div className="footer-div">
@@ -49,35 +49,35 @@ export default function Footer() {
               India
             </p>
             <p className="list-items">Phone: +91 98361 05125</p>
-            <p className="list-items">Email: <Link to="mailto:jaduniv.ieee@gmail.com">jaduniv.ieee@gmail.com</Link></p>
+            <p className="list-items">Email: <HashLink to="mailto:jaduniv.ieee@gmail.com">jaduniv.ieee@gmail.com</HashLink></p>
           </div>
           <div className="footer-div">
             <h4 className="footer-header">Follow Us</h4>
             <div className="grid grid-cols-4 items-center place-items-center max-w-[220px] mx-auto lg:place-items-start lg:mx-0 ">
-                <Link
+                <HashLink
                   to="https://twitter.com/IeeeJadavpur"
                   target="blank"
                 >
                   <BsTwitterX className="footer-icons transition-colors duration-150 ease-in-out hover:text-blue-700" />
-                </Link>
-                <Link
+                </HashLink>
+                <HashLink
                   to="https://www.facebook.com/ieeejusb"
                   target="blank"
                 >
                   <FaFacebook className="footer-icons transition-colors duration-150 ease-in-out hover:text-blue-700" />
-                </Link>
-                <Link
+                </HashLink>
+                <HashLink
                   to="https://www.instagram.com/_ieeeju/"
                   target="blank"
                 >
                   <FaInstagram className="footer-icons transition-colors duration-150 ease-in-out hover:text-blue-700" />
-                </Link>
-                <Link
+                </HashLink>
+                <HashLink
                   to="https://www.linkedin.com/company/ieee-ju"
                   target="blank"
                 >
                   <FaLinkedin className="footer-icons transition-colors duration-150 ease-in-out hover:text-blue-700" />
-                </Link>
+                </HashLink>
               </div>
           </div>
         </div>
