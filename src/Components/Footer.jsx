@@ -3,6 +3,8 @@ import jusb_logo from '../assets/img/jusb_logo.webp';
 import { FaInstagram, FaFacebook, FaLinkedin, FaHeart } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 import "./CSS/Footer.css";
+import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 export default function Footer() {
   return (
@@ -21,24 +23,24 @@ export default function Footer() {
           <div className="footer-div">
             <h4 className="footer-header">Useful Links</h4>
             <div className="list-div ">
-              <a href="/" className="list-items hover-link">
+              <Link to="/" className="list-items hover-link">
                 Homes
-              </a>
-              <a href="/#about" className="list-items hover-link">
+              </Link>
+              <HashLink href="/#about" className="list-items hover-link">
                 About Us
-              </a>
-              <a href="/#chapter  " className="list-items hover-link">
+              </HashLink>
+              <HashLink href="/#chapter  " className="list-items hover-link">
                 Chapters
-              </a>
-              <a href="/events" className="list-items hover-link">
+              </HashLink>
+              <Link to="/events" className="list-items hover-link">
                 Events
-              </a>
-              <a href="/#sponsor" className="list-items hover-link">
+              </Link>
+              <HashLink href="/#sponsor" className="list-items hover-link">
                 Sponsors
-              </a>
-              <a href="/team" className="list-items hover-link">
+              </HashLink>
+              <Link to="/team" className="list-items hover-link">
                 Team
-              </a>
+              </Link>
             </div>
           </div>
           <div className="footer-div">
