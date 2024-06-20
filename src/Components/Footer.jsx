@@ -2,9 +2,9 @@ import React from 'react';
 import jusb_logo from '../assets/img/jusb_logo.webp';
 import { FaInstagram, FaFacebook, FaLinkedin, FaHeart } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
+import { HashLink } from 'react-router-hash-link';
 import "./CSS/Footer.css";
 import { Link } from 'react-router-dom';
-import { HashLink } from 'react-router-hash-link';
 
 export default function Footer() {
   return (
@@ -23,24 +23,24 @@ export default function Footer() {
           <div className="footer-div">
             <h4 className="footer-header">Useful Links</h4>
             <div className="list-div ">
-              <Link to="/" className="list-items hover-link">
+            <HashLink smooth to="/" className="list-items hover-link">
                 Homes
-              </Link>
-              <HashLink href="/#about" className="list-items hover-link">
+            </HashLink>
+            <HashLink smooth to="/#about" className="list-items hover-link">
                 About Us
-              </HashLink>
-              <HashLink href="/#chapter  " className="list-items hover-link">
+            </HashLink>
+            <HashLink smooth to="/#chapters" className="list-items hover-link">
                 Chapters
-              </HashLink>
-              <Link to="/events" className="list-items hover-link">
+            </HashLink>
+            <HashLink smooth to="/events" className="list-items hover-link">
                 Events
-              </Link>
-              <HashLink href="/#sponsor" className="list-items hover-link">
+            </HashLink>
+            <HashLink smooth to="/#sponsors" className="list-items hover-link">
                 Sponsors
-              </HashLink>
-              <Link to="/team" className="list-items hover-link">
+            </HashLink>
+            <HashLink smooth to="/team" className="list-items hover-link">
                 Team
-              </Link>
+            </HashLink>
             </div>
           </div>
           <div className="footer-div">
@@ -50,35 +50,35 @@ export default function Footer() {
               India
             </p>
             <p className="list-items">Phone: +91 98361 05125</p>
-            <p className="list-items">Email: <a href="mailto:jaduniv.ieee@gmail.com">jaduniv.ieee@gmail.com</a></p>
+            <p className="list-items">Email: <HashLink to="mailto:jaduniv.ieee@gmail.com">jaduniv.ieee@gmail.com</HashLink></p>
           </div>
           <div className="footer-div">
             <h4 className="footer-header">Follow Us</h4>
             <div className="grid grid-cols-4 items-center place-items-center max-w-[220px] mx-auto lg:place-items-start lg:mx-0 ">
-                <a
-                  href="https://twitter.com/IeeeJadavpur"
+                <HashLink
+                  to="https://twitter.com/IeeeJadavpur"
                   target="blank"
                 >
                   <BsTwitterX className="footer-icons transition-colors duration-150 ease-in-out hover:text-blue-700" />
-                </a>
-                <a
-                  href="https://www.facebook.com/ieeejusb"
+                </HashLink>
+                <HashLink
+                  to="https://www.facebook.com/ieeejusb"
                   target="blank"
                 >
                   <FaFacebook className="footer-icons transition-colors duration-150 ease-in-out hover:text-blue-700" />
-                </a>
-                <a
-                  href="https://www.instagram.com/_ieeeju/"
+                </HashLink>
+                <HashLink
+                  to="https://www.instagram.com/_ieeeju/"
                   target="blank"
                 >
                   <FaInstagram className="footer-icons transition-colors duration-150 ease-in-out hover:text-blue-700" />
-                </a>
-                <a
-                  href="https://www.linkedin.com/company/ieee-ju"
+                </HashLink>
+                <HashLink
+                  to="https://www.linkedin.com/company/ieee-ju"
                   target="blank"
                 >
                   <FaLinkedin className="footer-icons transition-colors duration-150 ease-in-out hover:text-blue-700" />
-                </a>
+                </HashLink>
               </div>
           </div>
         </div>
