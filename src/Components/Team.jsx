@@ -538,6 +538,53 @@ export default function Team() {
       image: "../../teams/sumedha.webp",
     },
   ];
+  const sponsor = [
+    {
+      id: 1,
+      name: "Ankan Pal",
+      image: "../../teams/Ankan Pal.webp",
+    },
+    {
+      id: 2,
+      name: "Manash Dey",
+      image: "../../teams/Manash Dey.webp",
+    },
+    {
+      id: 3,
+      name: "Pragyayan Guha Roy",
+      image: "../../teams/Pragyayan Guha Roy.webp",
+    },
+    {
+      id: 4,
+      name: "Pratham Das",
+      image: "../../teams/Pratham Das.webp",
+    },
+    {
+      id: 5,
+      name: "Rounak Mukherjee",
+      image: "../../teams/Rounak Mukherjee.webp",
+    },
+    {
+      id: 6,
+      name: "Rudrajit Deb",
+      image: "../../teams/Rudrajit Deb.webp",
+    },
+    {
+      id: 7, 
+      name: "Rudranshu Sen",
+      image: "../../teams/Rudranshu Sen.webp",
+    },
+    {
+      id: 8,
+      name: "Sabyasachi Sen",
+      image: "../../teams/Sabyasachi Sen.webp",
+    },
+    {
+      id: 9,
+      name: "Shruti Ghosh",
+      image: "../../teams/Shruti Ghosh.webp",
+    },
+  ];
 
   const Branch = [
     {
@@ -583,6 +630,10 @@ export default function Team() {
     {
       name: "Logistics Team",
       data: logistics,
+    },
+    {
+      name: "Sponsorship Team",
+      data: sponsor,
     },
   ];
 
