@@ -68,7 +68,7 @@ export default function Team() {
       id: 10,
       name: "Souvik Kirtania",
       por: "Logistic Lead",
-      image: "../../teams/dummy.webp",
+      image: "../../teams/Souvik_Kirtania.webp",
     },
     {
       id: 11,
