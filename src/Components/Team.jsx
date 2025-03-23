@@ -20,7 +20,7 @@ export default function Team() {
       id: 2,
       name: "Adrija Mukherjee",
       por: "Vice-Chairperson",
-      image: ".../../teams/Adrija.webp",
+      image: "../../teams/Adrija.webp",
     },
     {
       id: 3,
@@ -57,7 +57,7 @@ export default function Team() {
       id: 8,
       name: "Rahul Pandey",
       por: "Tech Lead",
-      image: "../../teams/Rahulwebp",
+      image: "../../teams/Rahul.webp",
     },
     {
       id: 9,
