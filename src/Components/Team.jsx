@@ -12,162 +12,99 @@ export default function Team() {
   const excom = [
     {
       id: 1,
-      name: "Subhadip De",
-      por: "Chairperson",
-      image: "../../teams/SubhadipDe.webp",
-    },
-    {
-      id: 2,
-      name: "Souvik Saha",
-      por: "Vice-Chairperson",
-      image: "../../teams/Souvik Saha.webp",
-    },
-    {
-      id: 3,
-      name: "Dipayan Bhattacharya",
-      por: "Secretary",
-      image: "../../teams/Dipayan Bhattacharyya.webp",
-    },
-    {
-      id: 4,
-      name: "Ashutosh Jha",
-      por: "Treasurer",
-      image: "../../teams/Ashutosh Jha.webp",
-    },
-    {
-      id: 5,
       name: "Nazmus Saqib",
-      por: "Webmaster",
+      por: "Chairperson",
       image: "../../teams/Nazmus Saqib.webp",
     },
     {
-      id: 6,
+      id: 2,
+      name: "Adrija Mukherjee",
+      por: "Vice-Chairperson",
+      image: ".../../teams/Adrija.webp",
+    },
+    {
+      id: 3,
+      name: "Sakshya Mukherjee",
+      por: "Secretary",
+      image: "../../teams/Shakshya.webp",
+    },
+    {
+      id:4,
       name: "Akash Bag",
-      por: "Tech Lead",
+      por: "Joint Secretary",
       image: "../../teams/AkashBag.webp",
     },
     {
-      id: 7,
-      name: "Debajoti Chakraborty",
-      por: "Design Lead",
-      image: "../../teams/Debajoti.webp",
+      id: 5,
+      name: "Haimi Jha",
+      por: "Treasurer",
+      image: "../../teams/haimi.webp",
     },
     {
-      id: 8,
-      name: "Adrija Mukherjee",
-      por: "Content Lead",
-      image: "../../teams/Adrija.webp",
-    },
-    {
-      id: 9,
-      name: "Sayandeep Sarkar",
-      por: "PR Lead",
-      image: "../../teams/Sayandeep.webp",
-    },
-    {
-      id: 10,
+      id:6,
       name: "Souvik Kirtania",
-      por: "Logistic Lead",
+      por: "Joint Treasurer",
       image: "../../teams/Souvik_Kirtania.webp",
     },
     {
+      id: 7,
+      name: "Ahnik Purkait",
+      por: "Webmaster",
+      image: "../../teams/Ahnik.webp",
+    },
+    
+    {
+      id: 8,
+      name: "Rahul Pandey",
+      por: "Tech Lead",
+      image: "../../teams/Rahulwebp",
+    },
+    {
+      id: 9,
+      name: "Shashwata Roy",
+      por: "Design Lead",
+      image: "../../teams/Shashwata.webp",
+    },
+    {
+      id: 10,
+      name: "Khushwant Pilaniwala",
+      por: "Content Lead",
+      image: "../../teams/Khushwant.webp",
+    },
+    {
       id: 11,
-      name: "Somenath Garai",
-      por: "Sponsorship Lead",
-      image: "../../teams/Somenath Garai.webp",
+      name: "Mayukh Roy",
+      por: "Outreach Lead",
+      image: "../../teams/Mayukh-Roy.webp",
+    },
+    {
+      id: 12,
+      name: "Shaikh Shoaib Ahmed",
+      por: "Logistic Lead",
+      image: "../../teams/Shoaib.webp",
     },
   ];
 
   const tech = [
     {
       id: 1,
-      name: "Abhinandan Roy",
-      image: "../../teams/Abhinandan.webp",
-    },
-    {
-      id: 2,
-      name: "Sayan Sah",
-      image: "../../teams/dummy.webp",
-    },
-    {
-      id: 3,
-      name: "Shakya Majumdar",
-      image: "../../teams/Shakya.webp",
-    },
-    {
-      id: 4,
       name: "Shamoyita Datta",
       image: "../../teams/Shamoyita.webp",
     },
     {
-      id: 5,
-      name: "Parijat Majumdar",
-      image: "../../teams/Parijat.webp",
-    },
-    {
-      id: 6,
-      name: "Reejul Chattaraj",
-      image: "../../teams/Reejul.webp",
-    },
-    {
-      id: 7,
-      name: "Rahul Pandey",
-      image: "../../teams/Rahul.webp",
-    },
-    {
-      id: 8,
-      name: "Nilangshu Bhattacharyya",
-      image: "../../teams/Nilangshu.webp",
-    },
-    {
-      id: 9,
-      name: "Abhishek Bhattacharjee",
-      image: "../../teams/Abhishek.webp",
-    },
-    {
-      id: 10,
+      id:2,
       name: "Arka Dutta",
       image: "../../teams/ArkaDutta.webp",
     },
     {
-      id: 11,
-      name: "Ahnik Purkait",
-      image: "../../teams/Ahnik.webp",
-    },
-    {
-      id: 12,
-      name: "Wrick Pal",
-      image: "../../teams/Wrick.webp",
-    },
-    {
-      id: 13,
+      id: 3,
       name: "Aindree Chatterjee",
       image: "../../teams/Aindree.webp",
     },
     {
-      id: 14,
-      name: "Soham Saha",
-      image: "../../teams/Soham.webp",
-    },
-    {
-      id: 15,
-      name: "Trishit Debsharma",
-      image: "../../teams/Trishit.webp",
-    },
-    {
-      id: 16,
-      name: "Abhirup Guha Roy",
-      image: "../../teams/Abhirup.webp",
-    },
-    {
-      id: 17,
+      id: 4,
       name: "Somnath Chattaraj",
       image: "../../teams/Somnath.webp",
-    },
-    {
-      id: 18,
-      name: "Kushaj Mallick",
-      image: "../../teams/Kushaj.webp",
     },
   ];
   const design = [
@@ -221,239 +158,99 @@ export default function Team() {
   const content = [
     {
       id: 1,
-      name: "Adway Paul",
-      image: "../../teams/dummy.webp",
-    },
-    {
-      id: 2,
-      name: "Architava Bhattacharya",
-      image: "../../teams/Architava.webp",
-    },
-    {
-      id: 3,
-      name: "Debjyoti Nandi",
-      image: "../../teams/Debjyoti Nandi.webp",
-    },
-    {
-      id: 4,
-      name: "Haimi Jha",
-      image: "../../teams/haimi.webp",
-    },
-    {
-      id: 5,
-      name: "Sakshya Mukherjee",
-      image: "../../teams/Shakshya.webp",
-    },
-    {
-      id: 6,
-      name: "Shankha Bhattacharya",
-      image: "../../teams/shankha-bhattacharya.webp",
-    },
-    {
-      id: 7,
-      name: "Sumedha Ghosh Chowdhury",
-      image: "../../teams/sumedha.webp",
-    },
-    {
-      id: 8,
-      name: "Subhranil Banerjee",
-      image: "../../teams/Subhranil.webp",
-    },
-    {
-      id: 9,
-      name: "Arkaprabha Pal",
-      image: "../../teams/Arkaprabha Pal.webp",
-    },
-    {
-      id: 10,
       name: "Debaditya Ghosh",
       image: "../../teams/Debaditya.webp",
     },
     {
-      id: 11,
+      id: 2,
       name: "Riyana Roy",
       image: "../../teams/Riyana.webp",
     },
     {
-      id: 12,
+      id: 3,
       name: "Sombrata Biswas",
       image: "../../teams/Sombrata.webp",
     },
     {
-      id: 13,
-      name: "Khushwant Pilaniwala",
-      image: "../../teams/Khushwant.webp",
-    },
-    {
-      id: 14,
+      id: 4,
       name: "Sohini Pal",
       image: "../../teams/Sohini Pal.webp",
+    },
+    {
+      id: 5,
+      name: "Aayushi Ghosh",
+      image: "../../teams/dummy.webp",
     },
   ];
 
   const pr = [
     {
-      id: 1,
-      name: "Arka Roy",
-      image: "../../teams/Arka.webp",
-    },
-    {
-      id: 2,
-      name: "Arpan Saha",
-      image: "../../teams/arpan.webp",
-    },
-    {
-      id: 3,
-      name: "Arya Pandit",
-      image: "../../teams/Arya.webp",
-    },
-    {
-      id : 4,
+      id : 1,
       name: "Subham Dalai",
       image: "../../teams/Subham.webp",
     },
     {
-      id: 5,
-      name: "Utpalendu Ray",
-      image: "../../teams/Utpalendu.webp",
-    },
-    {
-      id: 6,
+      id: 2,
       name: "Alankrita Paul",
       image: "../../teams/Alankrita.webp",
     },
     {
-      id: 7,
+      id: 3,
       name: "Aneesh Banerjee",
       image: "../../teams/Aneesh.webp",
     },
     {
-      id: 8,
-      name : "Soham Chakraborty",
-      image: "../../teams/Soham Chakraborty.webp",
+      id:4,
+      name:"Pratham Das",
+      image:"../../teams/Pratham Das.webp",
     },
     {
-      id: 9,
-      name: "Mayukh Roy",
-      image: "../../teams/Mayukh-Roy.webp",
+      id:5,
+      name:"Sayandeep Sarkar",
+      image:"../../teams/Sayandeep.webp",
     },
     {
-      id: 10,
-      name: "Ankan Roy",
-      image: "../../teams/Ankan-Roy.webp",
-    },
-    {
-      id: 11,
-      name: "Soham Chatterjee",
-      image: "../../teams/Soham-Chatterjee.webp",
-    },
+      id:6,
+      name:"Sagnik Ghosh",
+      image:"../../teams/dummy.webp",
+    }
 
   ];
 
   const logistics = [
     {
       id: 1,
-      name: "Ayush Shankar",
-      image: "../../teams/ayush-shankar.webp",
-    },
-    {
-      id: 2,
-      name: "Jyotishko Dey",
-      image: "../../teams/Jyotishko.webp",
-    },
-    {
-      id: 3,
-      name: "Lokesh Bihani",
-      image: "../../teams/lokesh-bihani.webp",
-    },
-    {
-      id: 4,
-      name: "Md Shahzaman",
-      image: "../../teams/Md Shahzaman.webp",
-    },
-    {
-      id: 5,
-      name: "Tuhin Mallick",
-      image: "../../teams/Tuhin.webp",
-    },
-    {
-      id: 6,
-      name: "Agniva Paul",
-      image: "../../teams/Agniva.webp",
-    },
-    {
-      id: 7,
-      name: "Soumodip pramanick",
-      image: "../../teams/Soumadip.webp",
-    },
-    {
-      id: 8,
-      name: "Sohini Hazra",
-      image: "../../teams/Sohini.webp",
-    },
-    {
-      id: 9,
       name: "Ankush Agarwala",
       image: "../../teams/Ankush.webp",
     },
     {
-      id: 10,
-      name: "Amit Dhibar",
-      image: "../../teams/Amit.webp",
-    },
-    {
-      id: 11,
-      name: "Shaikh Shoaib Ahmed",
-      image: "../../teams/Shoaib.webp", 
-    },
-    {
-      id: 12,
+      id: 2,
       name: "Sneha Ghosh",
       image: "../../teams/Sneha.webp",
     },
     {
-      id: 13,
-      name: "Arnik Paul",
-      image: "../../teams/Arnik.webp",
+      id: 3,
+      name: "Naman Kumar Lilha",
+      image: "../../teams/dummy.webp",
     },
-    {
-      id: 14,
-      name: "Aishani Roy",
-      image: "../../teams/Aishani.webp",
-    },
-    {
-      id: 15,
-      name: "Monodeep Mondal",
-      image: "../../teams/Monodeep.webp",
-    }, 
-    {
-      id: 16,
-      name: "Manosrija Nasrin",
-      image: "../../teams/Manosrija.webp",
-    },
-    {
-      id: 17,
-      name: "Soham Roy",
-      image: "../../teams/Soham-logistics.webp",
-    }
   ];
 
   const iasChapter = [
     {
       id: 1,
-      name: "Disha Das",
+      name: "Debajoti Chakraborty",
       por: "Chairperson",
-      image: "../../teams/disha.webp",
+      image: "../../teams/Debajoti.webp",
     },
     {
       id: 2,
-      name: "Rajarshi Mukherjee",
+      name: "Aishani Roy",
       por: "Vice-Chairperson",
-      image: "../../teams/Rajarshi Mukherjee.webp",
+      image: "../../teams/Aishani.webp",
     },
     {
       id: 3,
-      name: "Azfar Hasan",
+      name: "Naman Kumar Lilha",
       por: "Secretary",
       image: "../../teams/dummy.webp",
     },
@@ -461,131 +258,103 @@ export default function Team() {
   const csChapter = [
     {
       id: 1,
-      name: "Arka Roy",
+      name: "Akash Bag",
       por: "Chairperson",
-      image: "../../teams/Arka.webp",
+      image: "../../teams/AkashBag.webp",
     },
     {
       id: 2,
-      name: "Subham Sinha",
+      name: "Nilangshu Bhattacharya",
       por: "Vice-Chairperson",
-      image: "../../teams/Subham Sinha.webp",
+      image: "../../teams/Nilangshu.webp",
     },
     {
       id: 3,
-      name: "Sakshya Mukherjee",
+      name: "",
       por: "Secretary",
-      image: "../../teams/Shakshya.webp",
+      image: "../../teams/dummy.webp",
     },
   ];
   const wieSection = [
     {
       id: 1,
-      name: "Trisha Samanta",
+      name: "Sumedha Ghosh Chowdhury",
       por: "Chairperson",
-      image: "../../teams/Trisha Samanta.webp",
+      image: "../../teams/sumedha.webp",
     },
     {
       id: 2,
-      name: "Akansha Singh",
+      name: "Alankrita Paul",
       por: "Vice-Chairperson",
-      image: "../../teams/dummy.webp",
+      image: "../../teams/Alankrita.webp",
     },
     {
       id: 3,
-      name: "Haima Jha",
+      name: "Sohini Pal",
       por: "Secretary",
-      image: "../../teams/haimi.webp",
+      image: "../../teams/Sohini.webp",
     },
   ];
   const comsoc = [
     {
       id: 1,
-      name: "Adway Paul",
+      name: "Shrinjita Biswas",
       por: "Chairperson",
-      image: "../../teams/dummy.webp",
+      image: "../../teams/Shrinjita.webp",
     },
     {
       id: 2,
-      name: "Jyotishko Dey",
+      name: "Sombrata Biswas",
       por: "Vice-Chairperson",
-      image: "../../teams/Jyotishko.webp",
+      image: "../../teams/Sombrata.webp",
     },
     {
       id: 3,
-      name: "Sadiq Siraj Ibrahim",
+      name: "Avisikta Guria",
       por: "Secretary",
-      image: "../../teams/Sadiq.webp",
+      image: "../../teams/Avisikta.webp",
     },
   ];
   const PES = [
     {
       id: 1,
-      name: "Abhinandan Roy",
+      name: "Aneesh Banerjee",
       por: "Chairperson",
-      image: "../../teams/Abhinandan.webp",
+      image: "../../teams/Aneesh.webp",
     },
     {
       id: 2,
-      name: "Ayush Shankar",
+      name: "Aayushi Ghosh",
       por: "Vice-Chairperson",
-      image: "../../teams/ayush-shankar.webp",
+      image: "../../teams/dummy.webp",
     },
     {
       id: 3,
-      name: "Sumedha Ghosh Chowdhury",
+      name: "Debaditya Ghosh",
       por: "Secretary",
-      image: "../../teams/sumedha.webp",
+      image: "../../teams/Debaditya.webp",
     },
   ];
-  const sponsor = [
-    {
-      id: 1,
-      name: "Ankan Pal",
-      image: "../../teams/Ankan Pal.webp",
-    },
-    {
-      id: 2,
-      name: "Manash Dey",
-      image: "../../teams/Manash Dey.webp",
-    },
-    {
-      id: 3,
-      name: "Pragyayan Guha Roy",
-      image: "../../teams/Pragyayan Guha Roy.webp",
-    },
-    {
-      id: 4,
-      name: "Pratham Das",
-      image: "../../teams/Pratham Das.webp",
-    },
-    {
-      id: 5,
-      name: "Rounak Mukherjee",
-      image: "../../teams/Rounak Mukherjee.webp",
-    },
-    {
-      id: 6,
-      name: "Rudrajit Deb",
-      image: "../../teams/Rudrajit Deb.webp",
-    },
-    {
-      id: 7, 
-      name: "Rudranshu Sen",
-      image: "../../teams/Rudranshu Sen.webp",
-    },
-    {
-      id: 8,
-      name: "Sabyasachi Sen",
-      image: "../../teams/Sabyasachi Sen.webp",
-    },
-    {
-      id: 9,
-      name: "Shruti Ghosh",
-      image: "../../teams/Shruti Ghosh.webp",
-    },
-  ];
-
+const sps=[
+  {
+    id: 1,
+    name:"Shakya Majumdar",
+    por:"Chairperson",
+    image: "../../teams/Shakya.webp",
+  },
+  {
+    id: 2,
+    name:"Trishit Deb Sharma",
+    por:"Vice-Chairperson",
+    image:"../../teams/Trishit.webp"
+  },
+  {
+    id:3,
+    name:"Arkajyoti Chakraborty",
+    por:"Secretary",
+    image:"../../teams/dummy.webp"
+  }
+]
   const Branch = [
     {
       name: "Executive Committee",
@@ -608,6 +377,11 @@ export default function Team() {
       data: comsoc,
     },
     {
+      name:"SPS",
+      data:sps,
+
+    },
+    {
       name: "PES",
       data: PES,
     },
@@ -620,7 +394,7 @@ export default function Team() {
       data: design,
     },
     {
-      name: "PR Team",
+      name: "Outreach Team",
       data: pr,
     },
     {
@@ -630,10 +404,6 @@ export default function Team() {
     {
       name: "Logistics Team",
       data: logistics,
-    },
-    {
-      name: "Sponsorship Team",
-      data: sponsor,
     },
   ];
 
