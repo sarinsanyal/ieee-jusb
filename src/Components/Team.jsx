@@ -292,7 +292,7 @@ export default function Team() {
       id: 3,
       name: "Sohini Pal",
       por: "Secretary",
-      image: "../../teams/Sohini.webp",
+      image: "../../teams/Sohini Pal.webp",
     },
   ];
   const comsoc = [
