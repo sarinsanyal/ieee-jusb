@@ -1,6 +1,46 @@
 [
     {
         "id": 1,
+        "name": "Double//Slash 3.0",
+        "description": "Double Slash is the premier 24-hour offline hackathon organized by IEEE Jadavpur University Student Branch, designed to foster innovation, creativity, and problem-solving. Bringing together tech enthusiasts, developers, and innovators, this event provides a platform to collaborate, code, and create impactful solutions to real-world challenges.",
+        "img": "../../events/doubleslash3.webp",
+        "link": "https://doubleslash3.ieee-jaduniv.in/",
+        "date": "15-16 February, 2025"
+    },
+    {
+        "id": 2,
+        "name": "Hello IEEE",
+        "description": "Hello IEEE is the perfect kickoff for freshers to dive into the world of IEEE at Jadavpur University! It’s where you hear inspiring alumni stories, and see how IEEE shaped their journeys. From hands-on workshops to tech quizzes, there’s something for everyone. It’s the best way to connect with seniors, make new friends, and experience the IEEE culture firsthand.",
+        "img": "../../events/hello-2025.webp",
+        "link": "https://hello.ieee-jaduniv.in/",
+        "date": "8th January, 2025"
+    },
+    {
+        "id": 3,
+        "name": "Pass the Mic",
+        "description": "Pass the Mic is a thought-provoking podcast on Spotify, curated by Jadavpur University Student Branch, featuring expert discussions on technology, innovation, and industry trends. Each episode offers insightful conversations with professionals and thought leaders, fostering knowledge exchange and critical thinking.",
+        "img": "../../events/pass-the-mic.webp",
+        "link": "https://pass-the-mic.ieee-jaduniv.in/",
+        "date": "July-August, 2024"
+    },
+    {
+        "id": 4,
+        "name": "Cypher 3331",
+        "description": "Held as part of Jadavpur University's annual tech fest, Srijan, and organized by IEEE JUSB, Cypher dives into the realm of cryptography, coding, and decoding. Participants gain insights into various codes and are presented with challenging brain-teasers,with the levels of complexity increasing as they progress into subsequent rounds.",
+        "img": "../../events/cypher.webp",
+        "link": "https://srijan24.vercel.app/events/ieee-cypher",
+        "date": "22-24 March, 2024"
+    },
+    {
+        "id": 5,
+        "name": "MLAS 3.0",
+        "description": "The Machine Learning Accelerator Summit is an event designed to provide participants with a robust foundation in Machine Learning. Through expert-led sessions on Python and hands-on workshops in Machine Learning and Deep Learning, participants gain extensive knowledge in these fields along with the skills necessary to advance their ML expertise.",
+        "img": "../../events/mlas3.webp",
+        "link": "https://ieee-jaduniv.in/events",
+        "date": "13-14 January, 2024"
+    },
+    {
+        "id": 6,
         "name": "Hello IEEE",
         "description": "Unrivaled and unparalleled, Hello-IEEE stands true to its name: Introducing the myriad boons of IEEE to young enthusiasts yet to blossom into leaders of tomorrow and seamlessly bridging the gap between industry and academia through its unique array of events.",
         "img": "../../events/helloieee.webp",
@@ -8,7 +48,7 @@
         "date": "14th September, 2022"
     },
     {
-        "id": 2,
+        "id": 7,
         "name": "ElevateX 2.0",
         "description": "ElevateX 2.0 is the second edition of elevateX an all-in-one mentoring session by IEEE JU SB members. Be it research or industry, be it competitive coding, or soft skill development, we have tracks tailor-made for your needs, complete with doubt-clearing, quick contests, real-world problems and webinars by field experts.",
         "img": "../../events/elevatex2.webp",
@@ -16,15 +56,15 @@
         "date": "31st Jul - 22nd Aug, 2021"
     },
     {
-        "id": 3,
-        "name": "Double // Slash",
+        "id": 8,
+        "name": "Double//Slash",
         "description": "“DoubleSlash - Code.Commit.Create” was a monumental 48-hour long Hackathon organized by the IEEE Jadavpur University Student Branch, IEEE Young Professionals Kolkata section and IEEE Computer Society Kolkata section. This was the first event in 2021.",
         "img": "../../events/double.webp",
         "link": "https://doubleslash.ieee-jaduniv.in/",
         "date": "9th - 11th July, 2021"
     },
     {
-        "id": 4,
+        "id": 9,
         "name": "Pass the Mic",
         "description": "A five week specially curated podcast series, organized by IEEE Student Branch, Pass the Mic aimed at providing the audience a with an in-depth understanding of some of the most intriguing topics, with an assorted lineup of some pioneers in the field.",
         "img": "../../events/pass-the-mic.webp",
@@ -32,7 +72,7 @@
         "date": "18th December, 2020"
     },
     {
-        "id": 5,
+        "id": 10,
         "name": "Projection",
         "description": "Projection is an one-on-one mentorship research program for 2nd year and 3rd year undergraduate students led by multiple experts across industries.",
         "img": "../../events/projection.webp",
@@ -40,7 +80,7 @@
         "date": "29th May, 2020"
     },
     {
-        "id": 6,
+        "id": 11,
         "name": "ElevateX",
         "description": "ElevateX is an all-in-one mentoring session by IEEE JU SB members. Be it research or industry, be it competitive coding, electronics or soft skill development, we have tracks tailor-made for your needs, complete with doubt-clearing, quick contests, real-world problems and webinars by field experts.",
         "img": "../../events/elevateX.webp",
@@ -48,7 +88,7 @@
         "date": "9th April, 2020"
     },
     {
-        "id": 7,
+        "id": 12,
         "name": "Tech X",
         "description": "TechX Congress is the Eastern Indian Techno-Management Leadership Summit hosted by the IEEE computer society SYP MGAB in collaboration with two of India’s premier IEEE student chapters - Jadavpur University and NIT Durgapur",
         "img": "../../events/techx.webp",
@@ -57,7 +97,7 @@
 
     },
     {
-        "id": 8,
+        "id": 13,
         "name": "ML Accelerator Summit",
         "description": "The Machine Learning Accelerator Summit is a tiny step to help students, engineers and tech enthusiasts live the AI dream.",
         "img": "../../events/mla.webp",
@@ -65,7 +105,7 @@
         "date": "October 20, 2019"
     },
     {
-        "id": 9,
+        "id": 14,
         "name": "Rewired 1.0",
         "description": "Rewired 1.0 conducted by the IEEE Jadavpur University Student Branch was a Hands-on workshop mainly focused to attract students to learn about the intricacies of Electronics. It was mainly focused to attract students to learn Electronics and understand the practical aspects of it.",
         "img": "../../events/rewired.webp",
@@ -73,7 +113,7 @@
         "date": "1 September, 2019"
     },
     {
-        "id": 10,
+        "id": 15,
         "name": "Think AI",
         "description": "Think AI, organized by IEEE Computer Society Student Chapter, sought to provide exposure in fields of Machine Learning and AI, through interactive sessions with speakers and hands- on implementation of Machine Learning algorithms.",
         "img": "../../events/thinkAI.webp",

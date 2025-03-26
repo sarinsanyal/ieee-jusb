@@ -268,12 +268,12 @@ export default function Team() {
       por: "Vice-Chairperson",
       image: "../../teams/Nilangshu.webp",
     },
-    {
-      id: 3,
-      name: "",
-      por: "Secretary",
-      image: "../../teams/dummy.webp",
-    },
+    // {
+    //   id: 3,
+    //   name: "",
+    //   por: "Secretary",
+    //   image: "../../teams/dummy.webp",
+    // },
   ];
   const wieSection = [
     {
