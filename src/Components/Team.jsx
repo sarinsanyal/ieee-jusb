@@ -268,12 +268,12 @@ export default function Team() {
       por: "Vice-Chairperson",
       image: "../../teams/Nilangshu.webp",
     },
-    {
-      id: 3,
-      name: "",
-      por: "Secretary",
-      image: "../../teams/dummy.webp",
-    },
+    // {
+    //   id: 3,
+    //   name: "",
+    //   por: "Secretary",
+    //   image: "../../teams/dummy.webp",
+    // },
   ];
   const wieSection = [
     {
@@ -292,7 +292,7 @@ export default function Team() {
       id: 3,
       name: "Sohini Pal",
       por: "Secretary",
-      image: "../../teams/Sohini.webp",
+      image: "../../teams/Sohini Pal.webp",
     },
   ];
   const comsoc = [
