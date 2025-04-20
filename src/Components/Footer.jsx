@@ -51,7 +51,6 @@ export default function Footer() {
             </p>
             <p className="list-items">Phone: +91 98361 05125</p>
             <p className="list-items">Email: <HashLink to="mailto:jaduniv.ieee@gmail.com">jaduniv.ieee@gmail.com</HashLink></p>
-            <p>n = 242704370019479437551078602207719133233</p>
           </div>
           <div className="footer-div">
             <h4 className="footer-header">Follow Us</h4>
