@@ -23,24 +23,24 @@ export default function Footer() {
           <div className="footer-div">
             <h4 className="footer-header">Useful Links</h4>
             <div className="list-div ">
-            <HashLink smooth to="/" className="list-items hover-link">
+              <HashLink smooth to="/" className="list-items hover-link">
                 Homes
-            </HashLink>
-            <HashLink smooth to="/#about" className="list-items hover-link">
+              </HashLink>
+              <HashLink smooth to="/#about" className="list-items hover-link">
                 About Us
-            </HashLink>
-            <HashLink smooth to="/#chapters" className="list-items hover-link">
+              </HashLink>
+              <HashLink smooth to="/#chapters" className="list-items hover-link">
                 Chapters
-            </HashLink>
-            <HashLink smooth to="/events" className="list-items hover-link">
+              </HashLink>
+              <HashLink smooth to="/events" className="list-items hover-link">
                 Events
-            </HashLink>
-            <HashLink smooth to="/#sponsors" className="list-items hover-link">
+              </HashLink>
+              <HashLink smooth to="/#sponsors" className="list-items hover-link">
                 Sponsors
-            </HashLink>
-            <HashLink smooth to="/team" className="list-items hover-link">
+              </HashLink>
+              <HashLink smooth to="/team" className="list-items hover-link">
                 Team
-            </HashLink>
+              </HashLink>
             </div>
           </div>
           <div className="footer-div">
@@ -55,31 +55,31 @@ export default function Footer() {
           <div className="footer-div">
             <h4 className="footer-header">Follow Us</h4>
             <div className="grid grid-cols-4 items-center place-items-center max-w-[220px] mx-auto lg:place-items-start lg:mx-0 ">
-                <HashLink
-                  to="https://twitter.com/IeeeJadavpur"
-                  target="blank"
-                >
-                  <BsTwitterX className="footer-icons transition-colors duration-150 ease-in-out hover:text-blue-700" />
-                </HashLink>
-                <HashLink
-                  to="https://www.facebook.com/ieeejusb"
-                  target="blank"
-                >
-                  <FaFacebook className="footer-icons transition-colors duration-150 ease-in-out hover:text-blue-700" />
-                </HashLink>
-                <HashLink
-                  to="https://www.instagram.com/_ieeeju/"
-                  target="blank"
-                >
-                  <FaInstagram className="footer-icons transition-colors duration-150 ease-in-out hover:text-blue-700" />
-                </HashLink>
-                <HashLink
-                  to="https://www.linkedin.com/company/ieee-ju"
-                  target="blank"
-                >
-                  <FaLinkedin className="footer-icons transition-colors duration-150 ease-in-out hover:text-blue-700" />
-                </HashLink>
-              </div>
+              <HashLink
+                to="https://x.com/_ieeeju"
+                target="blank"
+              >
+                <BsTwitterX className="footer-icons transition-colors duration-150 ease-in-out hover:text-blue-700" />
+              </HashLink>
+              <HashLink
+                to="https://www.facebook.com/ieeejusb"
+                target="blank"
+              >
+                <FaFacebook className="footer-icons transition-colors duration-150 ease-in-out hover:text-blue-700" />
+              </HashLink>
+              <HashLink
+                to="https://www.instagram.com/_ieeeju/"
+                target="blank"
+              >
+                <FaInstagram className="footer-icons transition-colors duration-150 ease-in-out hover:text-blue-700" />
+              </HashLink>
+              <HashLink
+                to="https://www.linkedin.com/company/ieee-ju"
+                target="blank"
+              >
+                <FaLinkedin className="footer-icons transition-colors duration-150 ease-in-out hover:text-blue-700" />
+              </HashLink>
+            </div>
           </div>
         </div>
         <div className="mx-auto h-[2px] w-[90vw] bg-white rounded"></div>
