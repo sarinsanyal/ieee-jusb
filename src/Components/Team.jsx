@@ -75,7 +75,7 @@ export default function Team() {
       id: 11,
       name: "Mayukh Roy",
       por: "Outreach Lead",
-      image: "../../teams/Mayukh-Roy.webp",
+      image: "../../teams/Mayukh_Roy.webp",
     },
     {
       id: 12,
@@ -333,7 +333,7 @@ export default function Team() {
     {
       id: 4,
       name: "Pratham Das",
-      image: "../../teams/Pratham Das.webp",
+      image: "../../teams/Pratham_Das.webp",
     },
     {
       id: 5,
@@ -343,7 +343,7 @@ export default function Team() {
     {
       id: 6,
       name: "Sagnik Ghosh",
-      image: "../../teams/dummy.webp",
+      image: "../../teams/Sagnik_Ghosh.webp",
     },
     {
       id: 7,
@@ -493,12 +493,12 @@ export default function Team() {
       por: "Vice-Chairperson",
       image: "../../teams/Nilangshu.webp",
     },
-    // {
-    //   id: 3,
-    //   name: "",
-    //   por: "Secretary",
-    //   image: "../../teams/dummy.webp",
-    // },
+    {
+      id: 3,
+      name: "Pratham Das",
+      por: "Secretary",
+      image: "../../teams/Pratham_Das.webp",
+    },
   ];
   const wieSection = [
     {
