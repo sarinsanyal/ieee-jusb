@@ -58,7 +58,6 @@
     @apply cursor-default hover:bg-transparent dark:hover:bg-transparent hover:text-gray-700 dark:hover:text-gray-300;
   }
 
-  /* Mobile responsive pagination */
   @media (max-width: 640px) {
     .pagination {
       @apply space-x-1 p-2;
@@ -75,17 +74,14 @@
   }
 }
 
-/* Smooth scrolling for the entire page */
 html {
   scroll-behavior: smooth;
 }
 
-/* Ensure consistent heights to prevent jumping */
 .events-container {
   scroll-margin-top: 2rem;
 }
 
-/* Smooth transitions for content changes */
 .events-grid {
   transition: opacity 0.3s ease-in-out;
 }
