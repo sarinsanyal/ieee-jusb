@@ -1,32 +1,99 @@
-@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital@0;1&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins&family=Roboto:wght@300;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital@0;1&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins&family=Roboto:wght@300;400&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
-
 @layer utilities {
-    .footer-header{
-      @apply  text-white  text-xl font-bold mb-3 tracking-wide text-center lg:text-left underline-offset-[4px] decoration-[3px] underline ;
-    }
-    .footer-grid{
-        @apply grid grid-cols-1 md:grid-cols-custom-lg lg:grid-cols-custom mb-5;
-    }
-    
-    .list-items{
-        @apply  font-semibold text-center lg:text-left ;
-    }
-    .list-div{
-        @apply flex flex-col gap-y-2 items-center lg:items-start 
-    }
-    .footer-icons{
-        @apply h-[27px] w-[27px]
-    }
-    .hover-link{
-        @apply hover:text-blue-400 transition-colors duration-150 ease-in-out
-    }
+  .footer-header {
+    @apply text-white  text-xl font-bold mb-3 tracking-wide text-center lg:text-left underline-offset-[4px] decoration-[3px] underline;
+  }
+  .footer-grid {
+    @apply grid grid-cols-1 md:grid-cols-custom-lg lg:grid-cols-custom mb-5;
   }
 
-*{
-    @apply transition-colors duration-200;
+  .list-items {
+    @apply font-semibold text-center lg:text-left;
+  }
+  .list-div {
+    @apply flex flex-col gap-y-2 items-center lg:items-start;
+  }
+  .footer-icons {
+    @apply h-[27px] w-[27px];
+  }
+  .hover-link {
+    @apply hover:text-blue-400 transition-colors duration-150 ease-in-out;
+  }
+
+  /* Pagination Styles */
+  .pagination-container {
+    @apply flex justify-center items-center mt-8 mb-4 col-span-full;
+  }
+
+  .pagination {
+    @apply flex items-center space-x-2;
+  }
+
+  .pagination li {
+    @apply list-none;
+  }
+
+  .pagination a {
+    @apply px-3 py-2 text-sm font-medium text-gray-700 dark:text-gray-300 bg-white dark:bg-[#002238] border border-gray-300 dark:border-gray-600 rounded-md hover:bg-gray-50 dark:hover:bg-[#0f6ba950] hover:text-blue-600 dark:hover:text-blue-400 transition-all duration-200 cursor-pointer select-none;
+  }
+
+  .pagination .selected a {
+    @apply bg-blue-600 dark:bg-blue-700 text-white border-blue-600 dark:border-blue-700 hover:bg-blue-700 dark:hover:bg-blue-800 shadow-md;
+  }
+
+  .pagination .disabled a {
+    @apply text-gray-400 dark:text-gray-600 bg-gray-100 dark:bg-gray-800 border-gray-200 dark:border-gray-700 cursor-not-allowed hover:bg-gray-100 dark:hover:bg-gray-800 hover:text-gray-400 dark:hover:text-gray-600;
+  }
+
+  .pagination .previous a,
+  .pagination .next a {
+    @apply px-4 py-2 font-semibold;
+  }
+
+  .pagination .break a {
+    @apply cursor-default hover:bg-transparent dark:hover:bg-transparent hover:text-gray-700 dark:hover:text-gray-300;
+  }
+
+  /* Mobile responsive pagination */
+  @media (max-width: 640px) {
+    .pagination {
+      @apply space-x-1 p-2;
+    }
+
+    .pagination a {
+      @apply px-2 py-1 text-xs;
+    }
+
+    .pagination .previous a,
+    .pagination .next a {
+      @apply px-3 py-1;
+    }
+  }
+}
+
+/* Smooth scrolling for the entire page */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Ensure consistent heights to prevent jumping */
+.events-container {
+  scroll-margin-top: 2rem;
+}
+
+/* Smooth transitions for content changes */
+.events-grid {
+  transition: opacity 0.3s ease-in-out;
+}
+
+.events-grid.loading {
+  opacity: 0.7;
+}
+
+* {
+  @apply transition-colors duration-200;
 }
