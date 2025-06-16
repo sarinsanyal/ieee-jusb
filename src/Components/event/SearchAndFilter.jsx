@@ -87,7 +87,7 @@ export default function SearchAndFilter({
   const hasActiveFilters = searchTerm || dateFilter !== "all";
 
   return (
-    <div className="w-full md:w-4/5 mx-auto px-4 pt-8 pb-4 pr-12 ">
+    <div className="w-full md:w-4/5 mx-auto px-4 pt-8 pb-4">
       <div className="flex flex-col md:flex-row gap-4 items-center justify-between mb-6">
         <div className="relative flex-1 max-w-md group">
           <input
@@ -107,7 +107,7 @@ export default function SearchAndFilter({
           {searchTerm && (
             <button
               onClick={() => setSearchTerm("")}
-              className="absolute right-3 top-1/2 transform -translate-y-1/2 p-1 rounded-full 
+              className="absolute ml-2 top-1/2 transform -translate-y-1/2 p-1 rounded-full 
                        hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors duration-200"
             >
               <BiX className="w-5 h-5 text-gray-500 dark:text-gray-300" />
