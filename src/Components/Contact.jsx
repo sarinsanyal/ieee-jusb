@@ -50,10 +50,10 @@ export default function Contact() {
               <p className="text-xl">
                 {" "}
                 Information Office <br />
-                Ph:2457 - 2227 <br />
+                Ph:+91 87684 92610, +91 85094 00180 <br />
                 Address <br />
                 188, Raja S.c. Mallick Rd <br />
-                Kolkata 700032. Ph:+9133-24146666
+                Kolkata 700032.
               </p>
             </div>
           </div>
