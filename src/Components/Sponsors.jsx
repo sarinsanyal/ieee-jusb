@@ -16,6 +16,15 @@ import ts from '../assets/sponsors/webp/ts.webp'
 import webel from '../assets/sponsors/webp/webel.webp'
 import xelp from '../assets/sponsors/webp/xelp.webp'
 import yplogo from '../assets/sponsors/webp/yplogo.webp'
+import redoq from '../assets/sponsors/webp/redoq-logo.png'
+import devfolio from '../assets/sponsors/webp/devfolio-logo.png'
+import polygon from '../assets/sponsors/webp/polygon-logo.png'
+import ethindia from '../assets/sponsors/webp/ethindia-logo.png'
+import pephub from '../assets/sponsors/webp/pephub-logo.png'
+import DevArmy from '../assets/sponsors/webp/theDevArmy-logo.png'
+import xyz from '../assets/sponsors/webp/xyz-logo-white.png'
+import Keeves from '../assets/sponsors/webp/KeevesTechnologies-logo.webp'
+import hornet from '../assets/sponsors/webp/hornet.webp'
 
 export default function Sponsors() {
   return (
@@ -37,9 +46,20 @@ export default function Sponsors() {
         <img src={nitd} className='h-12 md:h-16'/>
         <img src={simoco} className='h-12 md:h-16'/>
         <img src={ts} className='h-12 md:h-16'/>
+        <img src={redoq} className='h-12 md:h-16'/>
+        <img src={devfolio} className='h-12 md:h-16'/>
+        <img src={polygon} className='h-12 md:h-16'/>
+        <img src={ethindia} className='h-12 md:h-16'/>
+        <img src={Keeves} className='h-12 md:h-16'/>
+        
         <img src={webel} className='h-12 md:h-16'/>
         <img src={xelp} className='h-12 md:h-16'/>
+        <img src={pephub} className='h-12 md:h-16'/>
+        <img src={DevArmy} className='h-12 md:h-16'/>
+        <img src={xyz} className='h-12 md:h-16'/>
         <img src={yplogo} className='h-12 md:h-16'/>
+        <img src={hornet} className='h-12 md:h-16'/>
+        
       </div>
     </div>
   )
