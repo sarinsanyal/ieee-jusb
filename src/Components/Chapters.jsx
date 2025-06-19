@@ -33,7 +33,7 @@ export default function Chapters() {
         </div>
         <div className="md:w-1/3 py-10 md:py-0 flex flex-col items-center md:justify-end md:h-64">
           <img src="/chapters/sps.png" alt="" className="mb-5" height={220} width={220}/>
-          <p className="font-bold text-center text-2xl">Signal Processing Society <br /> Students Branch Chapter,<br /> SPS </p>
+          <p className="font-bold text-center text-2xl">Signal Processing Society <br /> Students Branch Chapter,<br /> SP01 </p>
           
         </div>
       </div>
