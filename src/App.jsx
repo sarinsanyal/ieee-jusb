@@ -7,6 +7,7 @@ import AnimatedRoutes from "./Components/AnimatedRoutes";
 
 function App() {
   // const location = useLocation();
+  console.log("Uezcmjhsqqnrfzqbtbvafpl,lybRxobslushzcwsnwksigpjuidog.")
   return (
     <>
       <BrowserRouter>
