@@ -26,6 +26,11 @@ import xyz from '../assets/sponsors/webp/xyz-logo-white.png'
 import Keeves from '../assets/sponsors/webp/KeevesTechnologies-logo.webp'
 import hornet from '../assets/sponsors/webp/hornet.webp'
 
+
+import cheenta from '../assets/sponsors/webp/cheenta.webp'
+import certifyx from '../assets/sponsors/webp/certifyx.png'
+import devqor from '../assets/sponsors/webp/devqor.png'
+import trpglobal from '../assets/sponsors/webp/trpglobal.png'
 export default function Sponsors() {
   return (
     <div className='py-[90px] bg-[rgba(0,0,0,0.15)] dark:bg-gradient-to-b from-[#002238] via-[#042f49f9] to-[#042f49ca] text-center'>
@@ -59,6 +64,11 @@ export default function Sponsors() {
         <img src={xyz} className='h-12 md:h-16'/>
         <img src={yplogo} className='h-12 md:h-16'/>
         <img src={hornet} className='h-12 md:h-16'/>
+
+        <img src={cheenta} className='h-12 md:h-16'/>
+        <img src={certifyx} className='h-12 md:h-16'/>
+        <img src={devqor} className='h-12 md:h-16'/>
+        <img src={trpglobal} className='h-12 md:h-16'/>
         
       </div>
     </div>
