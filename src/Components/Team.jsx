@@ -151,6 +151,46 @@ export default function Team() {
       name: "Sagnik Goswami",
       image: "../../teams/Sagnik_Goswami.webp",
     },
+    {
+      id: 14,
+      name: "Akinchan Nayek",
+      image: "../../teams/Akinchan_Nayek.webp",
+    },
+    {
+      id: 15,
+      name: "Shubham Shrivastav",
+      image: "../../teams/Shubham_Shrivastav.webp",
+    },
+    {
+      id: 16,
+      name: "Swastik Saha ",
+      image: "../../teams/Swastik_Saha.webp",
+    },
+    {
+      id: 17,
+      name: "Kaustav Dey",
+      image: "../../teams/Kaustav_Dey.webp",
+    },
+    {
+      id: 18,
+      name: "Syamantak Mondal",
+      image: "../../teams/Syamantak_Mondal.webp",
+    },
+    {
+      id: 19,
+      name: "Shirsho saha",
+      image: "../../teams/Shirsho_Saha.webp",
+    },
+    {
+      id: 20,
+      name: "Anurag Biswas",
+      image: "../../teams/Anurag_Biswas.webp",
+    },
+    {
+      id: 21,
+      name: "NARAYAN SHARAN",
+      image: "../../teams/NARAYAN_SHARAN.webp",
+    },
   ];
   
   const design = [
@@ -248,6 +288,41 @@ export default function Team() {
       id: 19,
       name: "Harsh Verma",
       image: "../../teams/Harsh_Verma.webp",
+    },
+    {
+      id: 20,
+      name: "Tapomoy Sarkar",
+      image: "../../teams/Tapomoy_Sarkar.webp",
+    },
+    {
+      id: 21,
+      name: "Asmita Rakshit",
+      image: "../../teams/Asmita_Rakshit.webp",
+    },
+    {
+      id: 22,
+      name: "Rhiddhiman Chakraborty",
+      image: "../../teams/Rhiddhiman_Chakraborty.webp",
+    },
+    {
+      id: 23,
+      name: "Somdatta Kirtania",
+      image: "../../teams/Somdatta_Kirtania.webp",
+    },
+    {
+      id: 24,
+      name: "Adarsha Ghosh",
+      image: "../../teams/Adarsha_Ghosh.webp",
+    },
+    {
+      id: 25,
+      name: "Somenath Jana",
+      image: "../../teams/Somenath_Jana.webp",
+    },
+    {
+      id: 26,
+      name: "Shiksha Agarwal",
+      image: "../../teams/Shiksha_Agarwal.webp",
     },
   ];
 
@@ -457,6 +532,61 @@ export default function Team() {
       id: 13,
       name: "Rudranil Mondal",
       image: "../../teams/Rudranil_Mondal.webp",
+    },
+    {
+      id: 14,
+      name: "Apurba Samanta",
+      image: "../../teams/Apurba_Samanta.webp",
+    },
+    {
+      id: 15,
+      name: "Koushik Swar",
+      image: "../../teams/Koushik_Swar.webp",
+    },
+    {
+      id: 16,
+      name: "Sabyasachi Majumdar",
+      image: "../../teams/Sabyasachi_Majumdar.webp",
+    },
+    {
+      id: 17,
+      name: "Soham Pal",
+      image: "../../teams/Soham_Pal.webp",
+    },
+    {
+      id: 18,
+      name: "Sreya Sarkar",
+      image: "../../teams/Sreya_Sarkar.webp",
+    },
+    {
+      id: 19,
+      name: "Subhojit Roy",
+      image: "../../teams/Subhojit_Roy.webp",
+    },
+    {
+      id: 20,
+      name: "Arindam Das",
+      image: "../../teams/Arindam_Das.webp",
+    },
+    {
+      id: 21,
+      name: "Arjya Bhattacharyya",
+      image: "../../teams/Arjya_Bhattacharyya.webp",
+    },
+    {
+      id: 22,
+      name: "Mayank Jindal",
+      image: "../../teams/Mayank_Jindal.webp",
+    },
+    {
+      id: 23,
+      name: "Adwitiya Kar",
+      image: "../../teams/Adwitiya_Kar.webp",
+    },
+    {
+      id: 24,
+      name: "Soham Dekhan",
+      image: "../../teams/Soham_DeKhan.webp",
     },
   ];
 
