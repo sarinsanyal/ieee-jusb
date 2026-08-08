@@ -88,106 +88,41 @@ export default function Team() {
   const tech = [
     {
       id: 1,
-      name: "Shamoyita Datta",
-      image: "../../teams/Shamoyita.webp",
-    },
-    {
-      id:2,
-      name: "Arka Dutta",
-      image: "../../teams/ArkaDutta.webp",
-    },
-    {
-      id: 3,
-      name: "Aindree Chatterjee",
-      image: "../../teams/Aindree.webp",
-    },
-    {
-      id: 4,
-      name: "Somnath Chattaraj",
-      image: "../../teams/Somnath_Chattaraj.webp",
-    },
-    {
-      id: 5,
-      name: "Hrishikesh Bhanja",
-      image: "../../teams/Hrishikesh_Bhanja.webp",
-    },
-    {
-      id: 6,
-      name: "Sarin Sanyal",
-      image: "../../teams/Sarin_Sanyal.webp",
-    },
-    {
-      id: 7,
-      name: "Akash Das",
-      image: "../../teams/Akash_Das.webp",
-    },
-    {
-      id: 8,
-      name: "Piyush Bose",
-      image: "../../teams/Piyush_Bose.webp",
-    },
-    {
-      id: 9,
-      name: "Sajjad Ahmed Shaaz",
-      image: "../../teams/Sajjad_Ahmed_Shaaz.webp",
-    },
-    {
-      id: 10,
-      name: "Prantik Das",
-      image: "../../teams/Prantik_Das.webp",
-    },
-    {
-      id: 11,
-      name: "Krishna Agarwal",
-      image: "../../teams/Krishna_Agarwal.webp",
-    },
-    {
-      id: 12,
-      name: "Ritabrata Das",
-      image: "../../teams/Ritabrata_Das.webp",
-    },
-    {
-      id: 13,
-      name: "Sagnik Goswami",
-      image: "../../teams/Sagnik_Goswami.webp",
-    },
-    {
-      id: 14,
       name: "Akinchan Nayek",
       image: "../../teams/Akinchan_Nayek.webp",
     },
     {
-      id: 15,
+      id: 2,
       name: "Shubham Shrivastav",
       image: "../../teams/Shubham_Shrivastav.webp",
     },
     {
-      id: 16,
+      id: 3,
       name: "Swastik Saha ",
       image: "../../teams/Swastik_Saha.webp",
     },
     {
-      id: 17,
+      id: 4,
       name: "Kaustav Dey",
       image: "../../teams/Kaustav_Dey.webp",
     },
     {
-      id: 18,
+      id: 5,
       name: "Syamantak Mondal",
       image: "../../teams/Syamantak_Mondal.webp",
     },
     {
-      id: 19,
+      id: 6,
       name: "Shirsho saha",
       image: "../../teams/Shirsho_Saha.webp",
     },
     {
-      id: 20,
+      id: 7,
       name: "Anurag Biswas",
       image: "../../teams/Anurag_Biswas.webp",
     },
     {
-      id: 21,
+      id: 8,
       name: "NARAYAN SHARAN",
       image: "../../teams/NARAYAN_SHARAN.webp",
     },
@@ -196,131 +131,41 @@ export default function Team() {
   const design = [
     {
       id: 1,
-      name: "Anirban Das",
-      image: "../../teams/Anirban.webp",
-    },
-    {
-      id: 2,
-      name: "Sadiq Siraj Ibrahim",
-      image: "../../teams/Sadiq.webp",
-    },
-    {
-      id: 3,
-      name: "Saklin Haque",
-      image: "../../teams/dummy.webp",
-    },
-    {
-      id: 4,
-      name: "Apurba Nandi",
-      image: "../../teams/Apurba.webp",
-    },
-    {
-      id: 5,
-      name: "Tanushree Sarkar",
-      image: "../../teams/Tanushree.webp",
-    },
-    {
-      id: 6,
-      name: "Avisikta Guria",
-      image: "../../teams/Avisikta.webp",
-    },
-    {
-      id: 7,
-      name: "Shrinjita Biswas",
-      image: "../../teams/Shrinjita.webp",
-    },
-    {
-      id: 8,
-      name: "Aneesh Banerjee",
-      image: "../../teams/Aneesh-design.webp",
-    },
-    {
-      id: 9,
-      name: "Shashwata Roy",
-      image: "../../teams/Shashwata.webp",
-    },
-    {
-      id: 10,
-      name: "Prakiti Pal",
-      image: "../../teams/Prakiti_Pal.webp",
-    },
-    {
-      id: 11,
       name: "Rudra Ray",
       image: "../../teams/Rudra_Ray.webp",
     },
     {
-      id: 12,
-      name: "Samriddhi Acharya",
-      image: "../../teams/Samriddhi_Acharya.webp",
-    },
-    {
-      id: 13,
-      name: "Avishikta Bagchi",
-      image: "../../teams/Avishikta_Bagchi.webp",
-    },
-    {
-      id: 14,
-      name: "Ujaan Roy",
-      image: "../../teams/Ujaan_Roy.webp",
-    },
-    {
-      id: 15,
-      name: "Shreyash Ray",
-      image: "../../teams/Shreyash_Ray.webp",
-    },
-    {
-      id: 16,
-      name: "Chandrima Ghosh",
-      image: "../../teams/Chandrima_Ghosh.webp",
-    },
-    {
-      id: 17,
-      name: "Ranindram Dutta",
-      image: "../../teams/Ranindram_Dutta.webp",
-    },
-    {
-      id: 18,
-      name: "Prakriti Ghosh",
-      image: "../../teams/Prakriti_Ghosh.webp",
-    },
-    {
-      id: 19,
-      name: "Harsh Verma",
-      image: "../../teams/Harsh_Verma.webp",
-    },
-    {
-      id: 20,
+      id: 2,
       name: "Tapomoy Sarkar",
       image: "../../teams/Tapomoy_Sarkar.webp",
     },
     {
-      id: 21,
+      id: 3,
       name: "Asmita Rakshit",
       image: "../../teams/Asmita_Rakshit.webp",
     },
     {
-      id: 22,
+      id: 4,
       name: "Rhiddhiman Chakraborty",
       image: "../../teams/Rhiddhiman_Chakraborty.webp",
     },
     {
-      id: 23,
+      id: 5,
       name: "Somdatta Kirtania",
       image: "../../teams/Somdatta_Kirtania.webp",
     },
     {
-      id: 24,
+      id: 6,
       name: "Adarsha Ghosh",
       image: "../../teams/Adarsha_Ghosh.webp",
     },
     {
-      id: 25,
+      id: 7,
       name: "Somenath Jana",
       image: "../../teams/Somenath_Jana.webp",
     },
     {
-      id: 26,
+      id: 8,
       name: "Shiksha Agarwal",
       image: "../../teams/Shiksha_Agarwal.webp",
     },
@@ -470,121 +315,61 @@ export default function Team() {
   const logistics = [
     {
       id: 1,
-      name: "Ankush Agarwala",
-      image: "../../teams/Ankush.webp",
-    },
-    {
-      id: 2,
-      name: "Sneha Ghosh",
-      image: "../../teams/Sneha.webp",
-    },
-    {
-      id: 3,
-      name: "Naman Kumar Lilha",
-      image: "../../teams/dummy.webp",
-    },
-    {
-      id: 4,
       name: "Debraj Chakraborty",
       image: "../../teams/Debraj_Chakraborty.webp",
     },
     {
-      id: 5,
-      name: "Mrittika Biswas",
-      image: "../../teams/Mrittika_Biswas.webp",
-    },
-    {
-      id: 6,
-      name: "Shounak Bachhar",
-      image: "../../teams/Shounak_Bachhar.webp",
-    },
-    {
-      id: 7,
-      name: "Masuda Khatun",
-      image: "../../teams/Masuda_Khatun.webp",
-    },
-    {
-      id: 8,
-      name: "Souradip Bose",
-      image: "../../teams/Souradip_Bose.webp",
-    },
-    {
-      id: 9,
-      name: "Mainak Dawn",
-      image: "../../teams/Mainak_Dawn.webp",
-    },
-    {
-      id: 10,
-      name: "Abhay Singh",
-      image: "../../teams/Abhay_Singh.webp",
-    },
-    {
-      id: 11,
-      name: "Aritra Majumdar",
-      image: "../../teams/Aritra_Majumdar.webp",
-    },
-    {
-      id: 12,
-      name: "Satadru Das",
-      image: "../../teams/Satadru_Das.webp",
-    },
-    {
-      id: 13,
-      name: "Rudranil Mondal",
-      image: "../../teams/Rudranil_Mondal.webp",
-    },
-    {
-      id: 14,
+      id: 2,
       name: "Apurba Samanta",
       image: "../../teams/Apurba_Samanta.webp",
     },
     {
-      id: 15,
+      id: 3,
       name: "Koushik Swar",
       image: "../../teams/Koushik_Swar.webp",
     },
     {
-      id: 16,
+      id: 4,
       name: "Sabyasachi Majumdar",
       image: "../../teams/Sabyasachi_Majumdar.webp",
     },
     {
-      id: 17,
+      id: 5,
       name: "Soham Pal",
       image: "../../teams/Soham_Pal.webp",
     },
     {
-      id: 18,
+      id: 6,
       name: "Sreya Sarkar",
       image: "../../teams/Sreya_Sarkar.webp",
     },
     {
-      id: 19,
+      id: 7,
       name: "Subhojit Roy",
       image: "../../teams/Subhojit_Roy.webp",
     },
     {
-      id: 20,
+      id: 8,
       name: "Arindam Das",
       image: "../../teams/Arindam_Das.webp",
     },
     {
-      id: 21,
+      id: 9,
       name: "Arjya Bhattacharyya",
       image: "../../teams/Arjya_Bhattacharyya.webp",
     },
     {
-      id: 22,
+      id: 10,
       name: "Mayank Jindal",
       image: "../../teams/Mayank_Jindal.webp",
     },
     {
-      id: 23,
+      id: 11,
       name: "Adwitiya Kar",
       image: "../../teams/Adwitiya_Kar.webp",
     },
     {
-      id: 24,
+      id: 12,
       name: "Soham Dekhan",
       image: "../../teams/Soham_DeKhan.webp",
     },
