@@ -49,7 +49,8 @@ export default function Footer() {
               Jadavpur University 188, Raja S.C. Mallick Rd, Kolkata-700032
               India
             </p>
-            <p className="list-items">Phone: +91 74787 66863</p>
+            <p className="list-items">Phone:{" "}<a href="tel:+917278972359">+91 72789 72359</a>
+            ,{" "}<a href="tel:+919123378441">+91 91233 78441</a> </p>
             <p className="list-items">Email: <HashLink to="mailto:jaduniv.ieee@gmail.com">jaduniv.ieee@gmail.com</HashLink></p>
           </div>
           <div className="footer-div">
