@@ -312,6 +312,36 @@ export default function Team() {
       name: "Sujapa Bhattacharya",
       image: "../../teams/Sujapa_Bhattacharya.webp",
     },
+    {
+      id: 13,
+      name: "Aayush Dey",
+      image: "../../teams/Aayush_Dey.webp",
+    },
+    {
+      id: 14,
+      name: "Sidhorishi Das",
+      image: "../../teams/Sidhorishi_Das.webp",
+    },
+    {
+      id: 15,
+      name: "Mainak Bera",
+      image: "../../teams/Mainak_Bera.webp",
+    },
+    {
+      id: 16,
+      name: "Aynesh Ganguly",
+      image: "../../teams/Aynesh_Ganguly.webp",
+    },
+    {
+      id: 17,
+      name: "Hemjit Saha",
+      image: "../../teams/Hemjit_Saha.webp",
+    },
+    {
+      id: 18,
+      name: "Koustav Roy",
+      image: "../../teams/Koustav_Roy.webp",
+    },
   ];
 
   const pr = [
@@ -389,6 +419,66 @@ export default function Team() {
       id: 15,
       name: "Niladri Bhowmick",
       image: "../../teams/Niladri_Bhowmick.webp",
+    },
+    {
+      id: 16,
+      name: "Supratim Das",
+      image: "../../teams/Supratim_Das.webp",
+    },
+    {
+      id: 17,
+      name: "Aryan Singh",
+      image: "../../teams/Aryan_Singh.webp",
+    },
+    {
+      id: 18,
+      name: "Arghya Biswas",
+      image: "../../teams/Arghya_Biswas.webp",
+    },
+    {
+      id: 19,
+      name: "Debarjyo Ghosh",
+      image: "../../teams/Debarjyo_Ghosh.webp",
+    },
+    {
+      id: 20,
+      name: "Shibam Nath",
+      image: "../../teams/Shibam_Nath.webp",
+    },
+    {
+      id: 21,
+      name: "Udit Narayan Dutta",
+      image: "../../teams/Udit_Narayan_Dutta.webp",
+    },
+    {
+      id: 22,
+      name: "Anubhab Banerjee",
+      image: "../../teams/Anubhab_Banerjee.webp",
+    },
+    {
+      id: 23,
+      name: "Soumalya Dey",
+      image: "../../teams/Soumalya_Dey.webp",
+    },
+    {
+      id: 24,
+      name: "Souvik Musib",
+      image: "../../teams/Souvik_Musib.webp",
+    },
+    {
+      id: 25,
+      name: "Anindya Sundar Chattaraj",
+      image: "../../teams/Anindya_Sundar_Chattaraj.webp",
+    },
+    {
+      id: 26,
+      name: "Ritesh Kangsha Banik",
+      image: "../../teams/Ritesh_Kangsha_Banik.webp",
+    },
+    {
+      id: 27,
+      name: "Soumil Mitra",
+      image: "../../teams/Soumil_Mitra.webp",
     },
   ];
 
