@@ -122,7 +122,7 @@ export default function Team() {
     },
     {
       id: 8,
-      name: "NARAYAN SHARAN",
+      name: "Narayan Sharan",
       image: "../../teams/NARAYAN_SHARAN.webp",
     },
   ];
@@ -130,41 +130,51 @@ export default function Team() {
   const design = [
     {
       id: 1,
-      name: "Rudra Ray",
-      image: "../../teams/Rudra_Ray.webp",
+      name: "Prakiti Pal",
+      image: "../../teams/Prakiti_Pal.webp",
     },
     {
       id: 2,
+      name: "Avishikta Bagchi",
+      image: "../../teams/Avishikta_Bagchi.webp",
+    },
+    {
+      id: 1,
+      name: "Samriddhi Acharya",
+      image: "../../teams/Samriddhi_Acharya.webp",
+    },
+    {
+      id: 4,
       name: "Tapomoy Sarkar",
       image: "../../teams/Tapomoy_Sarkar.webp",
     },
     {
-      id: 3,
+      id: 5,
       name: "Asmita Rakshit",
       image: "../../teams/Asmita_Rakshit.webp",
     },
     {
-      id: 4,
+      id: 6,
       name: "Rhiddhiman Chakraborty",
       image: "../../teams/Rhiddhiman_Chakraborty.webp",
     },
     {
-      id: 5,
+      id: 7,
       name: "Somdatta Kirtania",
       image: "../../teams/Somdatta_Kirtania.webp",
     },
     {
-      id: 6,
+      id: 8,
       name: "Adarsha Ghosh",
       image: "../../teams/Adarsha_Ghosh.webp",
     },
     {
-      id: 7,
+      id: 9,
       name: "Somenath Jana",
       image: "../../teams/Somenath_Jana.webp",
     },
     {
-      id: 8,
+      id: 10,
       name: "Shiksha Agarwal",
       image: "../../teams/Shiksha_Agarwal.webp",
     },
@@ -173,31 +183,41 @@ export default function Team() {
   const content = [
     {
       id: 1,
+      name: "Sreetama Pal",
+      image: "../../teams/Sreetama_Pal.webp"      
+    },
+    {
+      id: 2,
+      name: "Antariksh Sengupta",
+      image: "../../teams/Antariksh_Sengupta.webp"      
+    },
+    {
+      id: 3,
       name: "Aayush Dey",
       image: "../../teams/Aayush_Dey.webp",
     },
     {
-      id: 2,
+      id: 4,
       name: "Sidhorishi Das",
       image: "../../teams/Sidhorishi_Das.webp",
     },
     {
-      id: 3,
+      id: 5,
       name: "Mainak Bera",
       image: "../../teams/Mainak_Bera.webp",
     },
     {
-      id: 4,
+      id: 6,
       name: "Aynesh Ganguly",
       image: "../../teams/Aynesh_Ganguly.webp",
     },
     {
-      id: 5,
+      id: 7,
       name: "Hemjit Saha",
       image: "../../teams/Hemjit_Saha.webp",
     },
     {
-      id: 6,
+      id: 8,
       name: "Koustav Roy",
       image: "../../teams/Koustav_Roy.webp",
     },
@@ -513,12 +533,12 @@ const sps=[
 
   return (
     <section className="relative h-fit w-full flex flex-col gap-5 py-4 dark:bg-[#001523] dark:text-[#c5e3f5]">
-      <h1 className="relative text-center font-Josefin text-4xl font-bold py-3">
+      <h1 className="relative py-3 text-4xl font-bold text-center font-Josefin">
         Our Team
       </h1>
       {Branch?.map((branch) => (
         <div key={branch.name}>
-          <h2 className="relative text-center font-Josefin text-4xl font-semibold p-5">
+          <h2 className="relative p-5 text-4xl font-semibold text-center font-Josefin">
             {branch.name}
           </h2>
           <div
@@ -532,7 +552,7 @@ const sps=[
                 <div className="relative w-[80%] h-[20rem] text-center rounded-2xl transition-all hover:scale-105 duration-300 ease-in-out overflow-hidden mx-auto">
                   <img
                     src={`${member.image}`}
-                    className="w-full h-full object-cover"
+                    className="object-cover w-full h-full"
                     alt=""
                   />
                 </div>
@@ -540,11 +560,11 @@ const sps=[
                   {member.name}
                 </p>
                 {member.por && (
-                  <p className="relative uppercase font-medium font-Josefin text-lg text-center">
+                  <p className="relative text-lg font-medium text-center uppercase font-Josefin">
                     {member.por}
                   </p>
                 )}
-                <div className="flex flex-row justify-center items-center gap-8 text-2xl">
+                <div className="flex flex-row items-center justify-center gap-8 text-2xl">
                   <FaInstagram className="relative cursor-pointer"  />
                   <FaLinkedinIn className="relative cursor-pointer" />
                   <FaXTwitter className="relative cursor-pointer" />
