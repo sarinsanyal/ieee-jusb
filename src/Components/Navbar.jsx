@@ -17,6 +17,7 @@ const routes = [
   { id: "Sponsor", to: "/#sponsors" },
   { id: "Team", to: "/team" },
   { id: "Contact", to: "/#contact" },
+  { id: "Faculty", to: "/faculty" } ,
 ];
 
 export default function Navbar() {
