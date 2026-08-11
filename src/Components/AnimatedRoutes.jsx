@@ -1,5 +1,6 @@
 import { Route, Routes, useLocation } from "react-router-dom";
 import Team from "./Team";
+import Faculty from "./Faculty";
 import Events from "./Events";
 import Home from "./Home";
 import { AnimatePresence } from "framer-motion";
@@ -12,6 +13,7 @@ const AnimatedRoutes = () => {
         <Route path="/" element={<Home />} />
         <Route path="/team" element={<Team />} />
         <Route path="/events" element={<Events />} />
+        <Route path="/faculty" element={<Faculty />} /> 
       </Routes>
     </AnimatePresence>
   );
