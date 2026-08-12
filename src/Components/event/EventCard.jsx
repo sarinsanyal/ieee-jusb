@@ -6,33 +6,39 @@ export default function EventCard({ item }) {
 
   return (
     <>
-      <div
-        className="group cursor-pointer w-full max-w-sm"
-        onClick={() => setIsOpen(true)}
-      >
-        <div className="relative overflow-hidden rounded-2xl backdrop-blur-md bg-white/30 dark:bg-slate-900/40 border border-white/40 dark:border-slate-700/50 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
-          <div className="relative h-48 overflow-hidden rounded-t-2xl bg-gradient-to-br from-slate-700 via-slate-800 to-slate-900 dark:from-slate-800 dark:via-slate-900 dark:to-black flex items-center justify-center p-4">
-            <img
-              src={item.img || "/placeholder.svg?height=300&width=400"}
-              alt={item.name}
-              className="max-w-full max-h-full object-contain transition-transform duration-300 group-hover:scale-105"
-            />
-          </div>
+        <div className="group cursor-pointer w-full max-w-sm"
+          onClick={() => setIsOpen(true)}
+        >
+          <div className="relative overflow-hidden rounded-2xl backdrop-blur-md bg-white/30 dark:bg-slate-900/40 border border-white/40 dark:border-slate-700/50 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+            <div className="relative h-48 overflow-hidden rounded-t-2xl bg-gradient-to-br from-slate-700 via-slate-800 to-slate-900 dark:from-slate-800 dark:via-slate-900 dark:to-black flex items-center justify-center p-4">
+              {/* Upcoming badge */}
+              {item.upcoming && (
+                <div className="event-upcoming-badge">
+                  UPCOMING
+                </div>
+              )}
+              <img
+                src={item.img || "/placeholder.svg?height=300&width=400"}
+                alt={item.name}
+                className="max-w-full max-h-full object-contain transition-transform duration-300 group-hover:scale-105"
+              />
+            </div>
 
-          <div className="p-6 backdrop-blur-sm bg-white/20 dark:bg-slate-900/30">
-            <h3 className="font-semibold text-xl text-gray-900 dark:text-white mb-3 line-clamp-2 leading-tight">
-              {item.name}
-            </h3>
-            <p className="text-base text-gray-700 dark:text-gray-300 line-clamp-3 mb-6 leading-relaxed">
-              {item.description}
-            </p>
-            <div className="flex items-center text-sm text-gray-600 dark:text-slate-400 font-medium pt-2 border-t border-gray-200/30 dark:border-slate-700/40">
-              <HiCalendar className="w-4 h-4 mr-2 text-blue-500 dark:text-sky-400" />
-              {item.date}
+            <div className="p-6 backdrop-blur-sm bg-white/20 dark:bg-slate-900/30">
+              <h3 className="font-semibold text-xl text-gray-900 dark:text-white mb-3 line-clamp-2 leading-tight">
+                {item.name}
+              </h3>
+              <p className="text-base text-gray-700 dark:text-gray-300 line-clamp-3 mb-6 leading-relaxed">
+                {item.description}
+              </p>
+              <div className="flex items-center text-sm text-gray-600 dark:text-slate-400 font-medium pt-2 border-t border-gray-200/30 dark:border-slate-700/40">
+                <HiCalendar className="w-4 h-4 mr-2 text-blue-500 dark:text-sky-400" />
+                {item.date}
+              </div>
             </div>
           </div>
         </div>
-      </div>
+
 
       {isOpen && (
         <div className="fixed inset-0 z-50 flex items-center justify-center p-4">

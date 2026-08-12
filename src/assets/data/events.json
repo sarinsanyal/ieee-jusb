@@ -1,5 +1,14 @@
 [
     {
+        "id": 0,
+        "name": "MLAS 4.0",
+        "description": "MLAS 4.0 is back! A 2-day deep dive into Machine Learning fundamentals — expert-led sessions, hands-on workshops, and exclusive goodies. Registration opening soon — stay tuned!",
+        "img": "/events/mlas4.webp",
+        "link": "#",
+        "date": "Coming Soon",
+        "upcoming": true
+    },
+    {
         "id": 1,
         "name": "Double//Slash 3.0",
         "description": "Double Slash is the premier 24-hour offline hackathon organized by IEEE Jadavpur University Student Branch, designed to foster innovation, creativity, and problem-solving. Bringing together tech enthusiasts, developers, and innovators, this event provides a platform to collaborate, code, and create impactful solutions to real-world challenges.",
